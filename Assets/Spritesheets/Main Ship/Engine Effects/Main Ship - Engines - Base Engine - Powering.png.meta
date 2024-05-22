@@ -122,12 +122,12 @@ TextureImporter:
       name: Main Ship - Engines - Base Engine - Powering_0
       rect:
         serializedVersion: 2
-        x: 13
-        y: 11
-        width: 7
-        height: 7
+        x: 12
+        y: 6
+        width: 24
+        height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -140,36 +140,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Main Ship - Engines - Base Engine - Powering_1
-      rect:
-        serializedVersion: 2
-        x: 28
-        y: 11
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 171a892882507c7d0800000000000000
-      internalID: -2898342163641753231
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Main Ship - Engines - Base Engine - Powering_2
       rect:
         serializedVersion: 2
-        x: 61
-        y: 8
-        width: 7
-        height: 9
+        x: 60
+        y: 6
+        width: 24
+        height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -182,36 +161,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Main Ship - Engines - Base Engine - Powering_3
-      rect:
-        serializedVersion: 2
-        x: 76
-        y: 8
-        width: 7
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e026c4bb1020b59e0800000000000000
-      internalID: -1631708233531104754
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Main Ship - Engines - Base Engine - Powering_4
       rect:
         serializedVersion: 2
-        x: 109
-        y: 7
-        width: 7
-        height: 10
+        x: 108
+        y: 6
+        width: 24
+        height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -224,36 +182,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Main Ship - Engines - Base Engine - Powering_5
-      rect:
-        serializedVersion: 2
-        x: 124
-        y: 7
-        width: 7
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c928af1898124de60800000000000000
-      internalID: 7986044913709646492
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Main Ship - Engines - Base Engine - Powering_6
       rect:
         serializedVersion: 2
-        x: 157
-        y: 10
-        width: 7
-        height: 7
+        x: 156
+        y: 6
+        width: 24
+        height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -265,38 +202,25 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Main Ship - Engines - Base Engine - Powering_7
-      rect:
-        serializedVersion: 2
-        x: 172
-        y: 10
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 50426fe90223df180800000000000000
-      internalID: -9080046158021778427
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: f721f52910c87b5fea814bb18d5bed3b
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Main Ship - Engines - Base Engine - Powering_0: -6312141839824158945
+      Main Ship - Engines - Base Engine - Powering_1: -2898342163641753231
+      Main Ship - Engines - Base Engine - Powering_2: -6725825898144586467
+      Main Ship - Engines - Base Engine - Powering_3: -1631708233531104754
+      Main Ship - Engines - Base Engine - Powering_4: 2575770746470772467
+      Main Ship - Engines - Base Engine - Powering_5: 7986044913709646492
+      Main Ship - Engines - Base Engine - Powering_6: 4157562548873233528
+      Main Ship - Engines - Base Engine - Powering_7: -9080046158021778427
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

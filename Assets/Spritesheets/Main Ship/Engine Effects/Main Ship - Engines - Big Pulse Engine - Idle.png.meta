@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Main Ship - Engines - Big Pulse Engine - Idle_0: -6621712554409876604
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

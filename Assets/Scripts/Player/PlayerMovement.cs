@@ -10,8 +10,8 @@ public class PlayerMovement : MonoBehaviour
 	[SerializeField] private float fMaxTilt = 30.0f;
 	[SerializeField] private float fMultTilt = 2.0f;
 	[SerializeField] private Vector2 screenOffset;
-	private float _aspect = 0.0f;
-	private float _ortho = 0.0f;
+	private float _aspect;
+	private float _ortho;
 	private Vector2 _min;
 	private Vector2 _max;
 	#endregion
@@ -21,9 +21,10 @@ public class PlayerMovement : MonoBehaviour
 	#endregion
 	
 	#region Methods
-
 	private void Start()
 	{
+		moveSpeed.Init();
+		
 		if (reference)
 		{
 			_aspect = reference.aspect;
@@ -54,14 +55,14 @@ public class PlayerMovement : MonoBehaviour
 	private void MoveLR(float _axis)
 	{
 		float _fTargetAngle = _axis * fMaxTilt;
-		float _fcurrentAngle = Mathf.MoveTowardsAngle(transform.rotation.eulerAngles.y, _fTargetAngle, moveSpeed.Value * fMultTilt * Time.deltaTime);
+		float _fcurrentAngle = Mathf.MoveTowardsAngle(transform.rotation.eulerAngles.y, _fTargetAngle, moveSpeed.Current * fMultTilt * Time.deltaTime);
 		transform.rotation = Quaternion.Euler(0.0f, _fcurrentAngle, 0.0f);
-		transform.position += Vector3.right * (moveSpeed.Value * _axis * Time.deltaTime);
+		transform.position += Vector3.right * (moveSpeed.Current * _axis * Time.deltaTime);
 	}
 
 	private void MoveUD(float _axis)
 	{
-		transform.position += Vector3.up * (moveSpeed.Value * _axis * Time.deltaTime);
+		transform.position += Vector3.up * (moveSpeed.Current * _axis * Time.deltaTime);
 	}
     #endregion
 }

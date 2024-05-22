@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Main Ship - Engines - Supercharged Engine_0: 9181730529275908707
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
