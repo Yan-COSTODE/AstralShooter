@@ -9,8 +9,8 @@ public class Player : SingletonTemplate<Player>
 	[SerializeField] private PlayerStats stats;
 	[SerializeField] private PlayerPickUp pickUp;
 	[SerializeField] private PlayerArmory armory;
-	private bool bDead;
-	private ulong iScore;
+	private bool bDead = false;
+	private ulong iScore = 0;
 	#endregion
 	
 	#region Properties
@@ -40,6 +40,8 @@ public class Player : SingletonTemplate<Player>
 			TakeDamage(20);
 		if (Input.GetKey(KeyCode.Space))
 			armory.Shoot();
+		if (Input.GetKeyDown(KeyCode.Q))
+			stats.ActivateSuperShield();
 	}
 
 	public void AddScore(ulong _score)

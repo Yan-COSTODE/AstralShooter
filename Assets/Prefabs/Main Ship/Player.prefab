@@ -26,7 +26,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 971255336028844954}
@@ -58,7 +58,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -0.105, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 477472553642220799}
   m_Father: {fileID: 971255336028844954}
@@ -323,9 +323,6 @@ MonoBehaviour:
   iMaxWeaponLevel: 5
   iMaxShieldLevel: 5
   iMaxEngineLevel: 5
-  WeaponLevel: 0
-  ShieldLevel: 0
-  EngineLevel: 0
 --- !u!114 &7075195842011483130
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -340,7 +337,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   weaponSocket: {fileID: 814385534144782414}
   engineSocket: {fileID: 7581591604990183467}
-  weapon: {fileID: 11400000, guid: 943056203189bc208ba3f44cb5360b3c, type: 2}
+  weapon: {fileID: 0}
 --- !u!1001 &1141481052742442740
 PrefabInstance:
   m_ObjectHideFlags: 0

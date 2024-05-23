@@ -8,7 +8,7 @@ public class Stat
 	#region Fields & Properties
 	#region Fields
 	[SerializeField] private float fMax;
-	private float fCurrent;
+	private float fCurrent = 0.0f;
 	private List<float> fFlatModifier = new();
 	private List<float> fMultModifier = new();
 	#endregion
@@ -23,6 +23,8 @@ public class Stat
 	public void Init()
 	{
 		fCurrent = fMax;
+		fFlatModifier.Clear();
+		fMultModifier.Clear();
 	}
 
 	public void ChangeMax(float _max)
@@ -83,7 +85,7 @@ public class Stat
     		float _fFinal = 1;
     
     		for (int _i = 0; _i < fMultModifier.Count; _i++)
-			    _fFinal += fMultModifier[_i];
+			    _fFinal *= fMultModifier[_i];
     
     		return _fFinal;
 	}

@@ -10,8 +10,8 @@ public class AsteroidSpawner : MonoBehaviour
 	[SerializeField] private FloatRange delay;
 	[SerializeField] private Transform topLeft;
 	[SerializeField] private Transform botRight;
-	private float fDelay;
-	private float fSpawnDelay;
+	private float fDelay = 0.0f;
+	private float fSpawnDelay = 0.0f;
 	#endregion
 	
 	#region Properties

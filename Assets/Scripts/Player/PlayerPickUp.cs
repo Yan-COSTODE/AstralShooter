@@ -7,16 +7,16 @@ public class PlayerPickUp : MonoBehaviour
 	[SerializeField] private int iMaxWeaponLevel = 5;
 	[SerializeField] private int iMaxShieldLevel = 5;
 	[SerializeField] private int iMaxEngineLevel = 5;
-	private Player player;
-	private int weaponLevel;
-	private int shieldLevel;
-	private int engineLevel;
+	private Player player = null;
+	private int weaponLevel = 0;
+	private int shieldLevel = 0;
+	private int engineLevel = 0;
 	#endregion
 	
 	#region Properties
-	public int WeaponLevel;
-	public int ShieldLevel;
-	public int EngineLevel;
+	public int WeaponLevel => weaponLevel;
+	public int ShieldLevel => shieldLevel;
+	public int EngineLevel => engineLevel;
 	#endregion
 	#endregion
 	
@@ -47,8 +47,8 @@ public class PlayerPickUp : MonoBehaviour
 		
 		if (!player.Armory.Weapon || player.Armory.Weapon.Id != _weapon.Id)
 		{
-			player.Armory.ChangeWeapon(_weapon);
 			weaponLevel = 0;
+			player.Armory.ChangeWeapon(_weapon);
 		}
 		else if (player.Armory.Weapon.Id == _weapon.Id)
 		{
@@ -62,7 +62,7 @@ public class PlayerPickUp : MonoBehaviour
 		if (shieldLevel < iMaxShieldLevel)
 			shieldLevel++;
 		
-		player.Shield.AddMult(0.5f);
+		player.Shield.AddMult(1.2f);
 	}
 
 	private void PickUpSuperShield() => player.Stats.AddSuperShield();

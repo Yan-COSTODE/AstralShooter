@@ -10,11 +10,9 @@ public class PlayerMovement : MonoBehaviour
 	[SerializeField] private float fMaxTilt = 30.0f;
 	[SerializeField] private float fMultTilt = 2.0f;
 	[SerializeField] private Vector2 screenOffset;
-	private float _aspect;
-	private float _ortho;
-	private Vector2 _min;
-	private Vector2 _max;
-	private Player player;
+	private Vector2 min = Vector2.zero;
+	private Vector2 max = Vector2.zero;
+	private Player player = null;
 	#endregion
 	
 	#region Properties
@@ -24,18 +22,8 @@ public class PlayerMovement : MonoBehaviour
 	#region Methods
 	private void Start()
 	{
+		Init();
 		moveSpeed.Init();
-		
-		if (reference)
-		{
-			_aspect = reference.aspect;
-			_ortho = reference.orthographicSize;
-		}
-
-		_min.y = -_ortho;
-		_min.x = _min.y * _aspect;
-		_max.y = _ortho;
-		_max.x = _max.y * _aspect;
 	}
 	
 	private void Update()
@@ -50,11 +38,28 @@ public class PlayerMovement : MonoBehaviour
 	
 	public void Register(Player _player) => player = _player;
 
+	private void Init()
+	{
+		float _ortho = 0;
+		float _aspect = 0;
+		
+		if (reference)
+		{
+			_aspect = reference.aspect;
+			_ortho = reference.orthographicSize;
+		}
+
+		min.y = - _ortho;
+		min.x = min.y * _aspect;
+		max.y = _ortho;
+		max.x = max.y * _aspect;
+	}
+	
 	private void ClampMovement()
 	{
 		Vector2 _clamped;
-		_clamped.x = Mathf.Clamp(transform.position.x, _min.x + screenOffset.x, _max.x - screenOffset.x);
-		_clamped.y = Mathf.Clamp(transform.position.y, _min.y + screenOffset.y, _max.y - screenOffset.y);
+		_clamped.x = Mathf.Clamp(transform.position.x, min.x + screenOffset.x, max.x - screenOffset.x);
+		_clamped.y = Mathf.Clamp(transform.position.y, min.y + screenOffset.y, max.y - screenOffset.y);
 		transform.position = new Vector3(_clamped.x, _clamped.y, transform.position.z);
 	}
 

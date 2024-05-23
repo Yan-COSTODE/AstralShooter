@@ -1,4 +1,3 @@
-using System.Collections;
 using TMPro;
 using UnityEngine;
 
@@ -8,8 +7,9 @@ public class FloatingDamage : MonoBehaviour
 	#region Fields
 	[SerializeField] private TMP_Text text;
 	[SerializeField] private float fLifeTime = 5.0f;
-	private Coroutine destroy;
-	private float damage;
+	[SerializeField] private float fFadeTimer = 0.5f;
+	private float damage = 0.0f;
+	private float fCurrentLifeTime = 0.0f;
 	#endregion
 	
 	#region Properties
@@ -17,27 +17,36 @@ public class FloatingDamage : MonoBehaviour
 	#endregion
 	
 	#region Methods
+	private void Update()
+	{
+		SetFade();
+		
+		if (fCurrentLifeTime >= fLifeTime)
+			Destroy(gameObject);
+	}
+
 	public void Set(float _damage, Color _color, Vector3 _position)
 	{
 		transform.position = _position;
 		damage += _damage;
-		text.text = damage.ToString("F0");
+		text.text = damage.ToString("F1");
 		text.color = _color;
-		ResetLifetime(fLifeTime);
+		fCurrentLifeTime = 0.0f;
 	}
 
-	private void ResetLifetime(float _time)
+	private void SetFade()
 	{
-		if (destroy != null)
-			StopCoroutine(destroy);
-
-		destroy = StartCoroutine(DestroyAfter(_time));
-	}
-	
-	private IEnumerator DestroyAfter(float _time)
-	{
-		yield return new WaitForSeconds(_time);
-		Destroy(gameObject);
+		fCurrentLifeTime += Time.deltaTime;
+		Color _color = text.color;
+		
+		if (fCurrentLifeTime <= fFadeTimer)
+			_color.a = fCurrentLifeTime / fFadeTimer;
+		else if (fCurrentLifeTime >= (fLifeTime - fFadeTimer))
+			_color.a = (fLifeTime - fCurrentLifeTime) / fFadeTimer;
+		else
+			_color.a = 1;
+		
+		text.color = _color;
 	}
     #endregion
 }

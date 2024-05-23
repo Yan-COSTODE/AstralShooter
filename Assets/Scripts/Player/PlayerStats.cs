@@ -14,11 +14,11 @@ public class PlayerStats : MonoBehaviour
 	[SerializeField] private float fRegenHealth = 1.0f;
 	[SerializeField] private float fRegenShield = 10.0f;
 	[SerializeField] private float fRegenDelay = 3.0f;
-	private float fLastDamage;
-	private int iSuperShieldCharge;
-	private float fSuperShieldTimer;
-	private bool bSuperShield;
-	private Player player;
+	private float fLastDamage = 0.0f;
+	private int iSuperShieldCharge = 0;
+	private float fSuperShieldTimer = 0.0f;
+	private bool bSuperShield = false;
+	private Player player = null;
 	#endregion
 	
 	#region Properties
@@ -47,6 +47,10 @@ public class PlayerStats : MonoBehaviour
     public void TakeDamage(float _damage)
     {
 	    fLastDamage = 0;
+
+	    if (bSuperShield)
+		    return;
+	    
 	    if (Shield.Current > 0)
 	    {
 		    UIManager.Instance.SpawnFloatingDamage(_damage, Color.cyan, transform.position);
@@ -91,7 +95,11 @@ public class PlayerStats : MonoBehaviour
 
     public void AddSuperShield()
     {
+	    if (iSuperShieldCharge >= 7)
+		    return;
+	    
 	    iSuperShieldCharge++;
+	    UIManager.Instance.HUD.SetNumberofCharge(iSuperShieldCharge);
     }
     
     public void ActivateSuperShield()
@@ -100,6 +108,7 @@ public class PlayerStats : MonoBehaviour
 		    return;
 
 	    iSuperShieldCharge--;
+	    UIManager.Instance.HUD.SetNumberofCharge(iSuperShieldCharge);
 	    bSuperShield = true;
     }
     #endregion

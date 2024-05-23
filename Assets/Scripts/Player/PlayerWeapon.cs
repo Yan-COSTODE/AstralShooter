@@ -14,11 +14,10 @@ public class PlayerWeapon : ScriptableObject
     [SerializeField] private Stat salveInitialDelay;
     [SerializeField] private PlayerWeaponComp visual;
     [SerializeField] private Projectiles projectile;
-    private List<Transform> sockets;
+    private List<Transform> sockets = new();
     private float fAnimationSpeed = 1.0f;
-    private int iLevel;
-    private bool bSalve;
-    private float fSalveTimer;
+    private int iLevel = 0;
+    private bool bSalve = false;
 	#endregion
 	
 	#region Properties
@@ -40,6 +39,9 @@ public class PlayerWeapon : ScriptableObject
     {
 	    PlayerWeaponComp _instance = Instantiate(visual, _parent);
         sockets = _instance.Sockets;
+        iLevel = 0;
+        fAnimationSpeed = 1.0f;
+        bSalve = false;
         reload.Init();
         damage.Init();
         salveDelay.Init();
@@ -73,28 +75,28 @@ public class PlayerWeapon : ScriptableObject
 	    if (iLevel == _level)
 		    return;
 
-	    int _diff = _level - iLevel;
+	    int _diff = iLevel - _level;
+	    iLevel = _level;
 	    if (_diff > 0)
 	    {
 		    for (int _i = 0; _i < _diff; _i++)
 		    {
-			    damage.AddMult(0.5f);
-			    reload.AddMult(-0.1f);
-			    salveDelay.AddMult(-0.1f);
-			    salveInitialDelay.AddMult(-0.1f);
+			    damage.AddMult(1.5f);
+			    reload.AddMult(0.8f);
+			    salveDelay.AddMult(0.8f);
+			    salveInitialDelay.AddMult(0.8f);
 		    }
 	    }
 	    else
 	    {
 		    for (int _i = 0; _i < -_diff; _i++)
 		    {
-			    damage.RemoveMult(0.5f);
-			    reload.RemoveMult(-0.1f);
-			    salveDelay.RemoveMult(-0.1f);
-			    salveInitialDelay.RemoveMult(-0.1f);
+			    damage.RemoveMult(1.5f);
+			    reload.RemoveMult(0.8f);
+			    salveDelay.RemoveMult(0.8f);
+			    salveInitialDelay.RemoveMult(0.8f);
 		    }
 	    }
-
 	    fAnimationSpeed = 1 * salveDelay.CalculateMult();
     }
     #endregion

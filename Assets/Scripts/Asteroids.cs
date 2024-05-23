@@ -9,9 +9,9 @@ public class Asteroids : MonoBehaviour
 	[SerializeField] private FloatRange rotateSpeed;
 	[SerializeField] private float fHealth = 10.0f;
 	[SerializeField] private ulong iScore = 100;
-	private float fFlySpeed;
-	private float fRotSpeed;
-	private FloatingDamage floatingDamage;
+	private float fFlySpeed = 0.0f;
+	private float fRotSpeed = 0.0f;
+	private FloatingDamage floatingDamage= null;
 	#endregion
 
 	#region Properties

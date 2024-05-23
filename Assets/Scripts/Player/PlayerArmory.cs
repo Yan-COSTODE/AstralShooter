@@ -9,7 +9,7 @@ public class PlayerArmory : MonoBehaviour
 	[SerializeField] private Transform engineSocket;
 	[Header("Objects")]
 	[SerializeField] private PlayerWeapon weapon;
-	private Player player;
+	private Player player = null;
 	#endregion
 	
 	#region Properties

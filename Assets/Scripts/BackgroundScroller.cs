@@ -6,7 +6,7 @@ public class BackgroundScroller : MonoBehaviour
 	#region Fields
 	[SerializeField] private float fScrollSpeed = 1.0f;
 	[SerializeField] private float fTileSize = 10.0f;
-	private Vector3 startPosition;
+	private Vector3 startPosition = Vector3.zero;
 	#endregion
 	
 	#region Properties

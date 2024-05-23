@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -10,6 +11,8 @@ public class HUD : MonoBehaviour
 	[SerializeField] private Image healthBar;
 	[SerializeField] private Image shieldBar;
 	[SerializeField] private TMP_Text healthText;
+	[SerializeField] private TMP_Text scoreText;
+	[SerializeField] private List<GameObject> charge = new();
 	#endregion
 	
 	#region Properties
@@ -20,6 +23,7 @@ public class HUD : MonoBehaviour
 	private void Start()
 	{
 		player = Player.Instance;
+		SetNumberofCharge(0);
 	}
 
 	private void FixedUpdate()
@@ -28,8 +32,17 @@ public class HUD : MonoBehaviour
 			return;
 		
 		UpdateHealthBar(player.Health, player.Shield);
+		UpdateScore(player.Score);
 	}
 
+	private void UpdateScore(ulong _score)
+	{
+		if (!scoreText)
+			return;
+
+		scoreText.text = _score.ToString();
+	}
+	
 	private void UpdateHealthBar(Stat _health, Stat _shield)
 	{
 		if (!healthBar || !shieldBar || !healthText)
@@ -38,6 +51,12 @@ public class HUD : MonoBehaviour
 		healthBar.fillAmount = Mathf.Clamp01(_health.Current / _health.Max);
 		shieldBar.fillAmount = Mathf.Clamp01(_shield.Current / _shield.Max);
 		healthText.text = $"{_health.Current:F0}<color=#42A5DA>+{_shield.Current:F0}</color>";
+	}
+
+	public void SetNumberofCharge(int _charge)
+	{
+		for (int _i = 0; _i < charge.Count; _i++)
+			charge[_i].SetActive(_i < _charge);
 	}
     #endregion
 }

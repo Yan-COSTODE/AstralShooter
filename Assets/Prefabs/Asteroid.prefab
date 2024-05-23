@@ -177,9 +177,10 @@ MonoBehaviour:
     - loot: {fileID: 0}
       weight: 100
   moveSpeed:
-    fMin: 0.1
+    fMin: 1
     fMax: 5
   rotateSpeed:
     fMin: 10
     fMax: 50
   fHealth: 5
+  iScore: 100
