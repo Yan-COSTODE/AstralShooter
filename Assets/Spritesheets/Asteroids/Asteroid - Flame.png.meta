@@ -107,10 +107,10 @@ TextureImporter:
       name: Asteroid - Flame_0
       rect:
         serializedVersion: 2
-        x: 32
-        y: 30
-        width: 65
-        height: 36
+        x: 0
+        y: 0
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,10 +128,10 @@ TextureImporter:
       name: Asteroid - Flame_1
       rect:
         serializedVersion: 2
-        x: 128
-        y: 30
-        width: 60
-        height: 36
+        x: 96
+        y: 0
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -149,10 +149,10 @@ TextureImporter:
       name: Asteroid - Flame_2
       rect:
         serializedVersion: 2
-        x: 224
-        y: 30
-        width: 56
-        height: 36
+        x: 192
+        y: 0
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -169,7 +169,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 73db0611c7939d0f69ca52c3f2588481
     internalID: 0
     vertices: []
     indices: 

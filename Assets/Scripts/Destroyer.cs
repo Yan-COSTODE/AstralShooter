@@ -15,7 +15,10 @@ public class Destroyer : MonoBehaviour
 	{
 		if (_other.GetComponent<Projectiles>() != null)
 			Destroy(_other.gameObject);
+		else if (_other.GetComponent<Loot>() != null)
+			Destroy(_other.gameObject);
+		else if (_other.GetComponent<Asteroids>() != null)
+			Destroy(_other.gameObject);
 	}
-
 	#endregion
 }

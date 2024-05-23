@@ -15,7 +15,7 @@ public class Stat
 	
 	#region Properties
 	public float Current => (fCurrent + CalculateFlat()) * CalculateMult();
-	public float Max => fMax;
+	public float Max => (fMax + CalculateFlat()) * CalculateMult();
 	#endregion
 	#endregion
 	
@@ -47,8 +47,28 @@ public class Stat
 	public void AddCurrent(float _add) => ChangeCurrent(fCurrent + _add);
 	
 	public void RemoveCurrent(float _remove) => ChangeCurrent(fCurrent - _remove);
+
+	public void AddFlat(float _flat)
+	{
+		fFlatModifier.Add(_flat);
+	}
+
+	public void RemoveFlat(float _flat)
+	{
+		fFlatModifier.Remove(_flat);
+	}
 	
-	private float CalculateFlat()
+	public void AddMult(float _mult)
+	{
+		fMultModifier.Add(_mult);
+	}
+
+	public void RemoveMult(float _mult)
+	{
+		fMultModifier.Remove(_mult);
+	}
+	
+	public float CalculateFlat()
 	{
 		float _fFinal = 0;
 
@@ -58,7 +78,7 @@ public class Stat
 		return _fFinal;
 	}
 	
-	private float CalculateMult()
+	public float CalculateMult()
 	{
     		float _fFinal = 1;
     

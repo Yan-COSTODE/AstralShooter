@@ -26,8 +26,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 971255336028844954}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -159,8 +159,12 @@ GameObject:
   m_Component:
   - component: {fileID: 8152027857688482700}
   - component: {fileID: 5211966246151240164}
+  - component: {fileID: 8084444444931785129}
   - component: {fileID: 467361268971933167}
   - component: {fileID: 4434499701717236319}
+  - component: {fileID: 6560331654845383960}
+  - component: {fileID: 8873881955609937902}
+  - component: {fileID: 7075195842011483130}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -220,6 +224,33 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: -0.07}
   m_Radius: 0.5
+--- !u!50 &8084444444931785129
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6089733695686686599}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!114 &467361268971933167
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -233,17 +264,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movement: {fileID: 4434499701717236319}
-  weaponSocket: {fileID: 814385534144782414}
-  engineSocket: {fileID: 7581591604990183467}
-  weapon: {fileID: 11400000, guid: 943056203189bc208ba3f44cb5360b3c, type: 2}
-  health:
-    fMax: 100
-  shield:
-    fMax: 50
-  bCanRegenHealth: 0
-  regenHealth: 1
-  regenShield: 5
-  regenDelay: 5
+  stats: {fileID: 6560331654845383960}
+  pickUp: {fileID: 8873881955609937902}
+  armory: {fileID: 7075195842011483130}
 --- !u!114 &4434499701717236319
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -262,6 +285,62 @@ MonoBehaviour:
   fMaxTilt: 40
   fMultTilt: 30
   screenOffset: {x: 0.55, y: 0.5}
+--- !u!114 &6560331654845383960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6089733695686686599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e1c0b49f3dbcd1aab746c8ba902aeb5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health:
+    fMax: 100
+  shield:
+    fMax: 50
+  luck:
+    fMax: 1
+  fSuperShieldDuration: 5
+  bCanRegenHealth: 0
+  fRegenHealth: 1
+  fRegenShield: 10
+  fRegenDelay: 3
+--- !u!114 &8873881955609937902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6089733695686686599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a30c49fa88b5692095168319ad297e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  iMaxWeaponLevel: 5
+  iMaxShieldLevel: 5
+  iMaxEngineLevel: 5
+  WeaponLevel: 0
+  ShieldLevel: 0
+  EngineLevel: 0
+--- !u!114 &7075195842011483130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6089733695686686599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15b071ed54ca11c758af8dd7b63dc184, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weaponSocket: {fileID: 814385534144782414}
+  engineSocket: {fileID: 7581591604990183467}
+  weapon: {fileID: 11400000, guid: 943056203189bc208ba3f44cb5360b3c, type: 2}
 --- !u!1001 &1141481052742442740
 PrefabInstance:
   m_ObjectHideFlags: 0

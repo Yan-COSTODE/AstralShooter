@@ -14,6 +14,7 @@ public class PlayerMovement : MonoBehaviour
 	private float _ortho;
 	private Vector2 _min;
 	private Vector2 _max;
+	private Player player;
 	#endregion
 	
 	#region Properties
@@ -39,10 +40,15 @@ public class PlayerMovement : MonoBehaviour
 	
 	private void Update()
 	{
+		if (player.Dead)
+			return;
+		
 		MoveLR(Input.GetAxis("Horizontal"));
 		MoveUD(Input.GetAxis("Vertical"));
 		ClampMovement();
 	}
+	
+	public void Register(Player _player) => player = _player;
 
 	private void ClampMovement()
 	{

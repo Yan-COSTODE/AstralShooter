@@ -1,4 +1,3 @@
-using System;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -20,7 +19,7 @@ public class HUD : MonoBehaviour
 	#region Methods
 	private void Start()
 	{
-		player = UIManager.Instance.Player;
+		player = Player.Instance;
 	}
 
 	private void FixedUpdate()

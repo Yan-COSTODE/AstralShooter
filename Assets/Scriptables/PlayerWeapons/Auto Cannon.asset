@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e0d5459dfedee2338c5c1ce6fea3922, type: 3}
+  m_Name: Auto Cannon
+  m_EditorClassIdentifier: 
+  id: Auto Cannon
+  damage:
+    fMax: 2
+  reload:
+    fMax: 0.2
+  salveDelay:
+    fMax: 0.1
+  salveInitialDelay:
+    fMax: 0
+  visual: {fileID: 5182157090637775615, guid: b4c25339808165de8a1a46fa67ed4708, type: 3}
+  projectile: {fileID: 6959022292437617969, guid: 877369c86b036acbe8bb2244133331cf, type: 3}

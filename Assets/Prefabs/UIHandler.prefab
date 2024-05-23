@@ -46,8 +46,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87e44e7350fd853f83139e1a2a28178, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
   hud: {fileID: 475555172219964749}
+  floatingDamage: {fileID: 4822030162289746559, guid: d19ca0068726974a99941f9013109653, type: 3}
 --- !u!1 &4235392583987736498
 GameObject:
   m_ObjectHideFlags: 0

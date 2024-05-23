@@ -1,70 +1,60 @@
 using UnityEngine;
 
-public class Player : MonoBehaviour
+public class Player : SingletonTemplate<Player>
 {
 	#region Fields & Properties
 	#region Fields
 	[Header("Component")]
 	[SerializeField] private PlayerMovement movement;
-	[SerializeField] private Transform weaponSocket;
-	[SerializeField] private Transform engineSocket;
-    [Header("Stats")]
-	[SerializeField] private PlayerWeapon weapon;
-    [SerializeField] private Stat health;
-    [SerializeField] private Stat shield;
-    [Header("Regen")] 
-    [SerializeField] private bool bCanRegenHealth;
-    [SerializeField] private float regenHealth = 5.0f;
-    [SerializeField] private float regenShield = 1.0f;
-    [SerializeField] private float regenDelay = 5.0f;
-    private float lastDamage;
+	[SerializeField] private PlayerStats stats;
+	[SerializeField] private PlayerPickUp pickUp;
+	[SerializeField] private PlayerArmory armory;
+	private bool bDead;
+	private ulong iScore;
 	#endregion
 	
 	#region Properties
-	public Stat Health => health;
-	public Stat Shield => shield;
+	public Stat Health => stats.Health;
+	public Stat Shield => stats.Shield;
+	public Stat Luck => stats.Luck;
+	public PlayerArmory Armory => armory;
+	public PlayerStats Stats => stats;
+	public PlayerPickUp PickUp => pickUp;
+	public bool Dead => bDead;
+	public ulong Score => iScore;
 	#endregion
 	#endregion
 	
 	#region Methods
-
 	private void Start()
 	{
-		health.Init();
-		shield.Init();
-		weapon.Setup(weaponSocket);
+		stats.Register(this);
+		pickUp.Register(this);
+		armory.Register(this);
+		movement.Register(this);
 	}
-
+	
 	private void Update()
 	{
-		Regen();
-		weapon.Reload();
-		
 		if (Input.GetKeyDown(KeyCode.E))
 			TakeDamage(20);
 		if (Input.GetKey(KeyCode.Space))
-			weapon.Shoot();
+			armory.Shoot();
 	}
 
-	public void TakeDamage(float _damage)
+	public void AddScore(ulong _score)
 	{
-		lastDamage = 0;
-		if (shield.Current > 0)
-			shield.RemoveCurrent(_damage);
-		else
-			health.RemoveCurrent(_damage);
+		iScore += _score;
 	}
 
-	public void Regen()
+	public void TakeDamage(float _damage) => stats.TakeDamage(_damage);
+
+	public void PickUpLoot(Loot _loot) => pickUp.PickUp(_loot);
+
+	public void Die()
 	{
-		lastDamage += Time.deltaTime;
-		if (lastDamage < regenDelay)
-			return;
-		
-		shield.AddCurrent(regenShield * Time.deltaTime);
-		
-		if (bCanRegenHealth)
-			health.AddCurrent(regenHealth * Time.deltaTime);
+		bDead = true;
+		GetComponent<Collider2D>().enabled = false;
 	}
 	#endregion
 }
