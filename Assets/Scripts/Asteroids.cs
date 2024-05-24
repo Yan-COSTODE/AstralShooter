@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class Asteroids : MonoBehaviour
@@ -32,12 +33,14 @@ public class Asteroids : MonoBehaviour
 		transform.eulerAngles += Vector3.forward * (fRotSpeed * Time.deltaTime);
 	}
 
-	private void OnTriggerEnter2D(Collider2D _other)
+	private void OnCollisionEnter2D(Collision2D _other)
 	{
-		if (_other.GetComponent<Projectiles>())
-			HitProjectile( _other.GetComponent<Projectiles>());
-		if (_other.GetComponent<Player>())
-			HitPlayer( _other.GetComponent<Player>());
+		GameObject _gO = _other.gameObject;
+		Debug.Log("Collision");
+		if (_gO.GetComponent<Projectiles>())
+			HitProjectile( _gO.GetComponent<Projectiles>());
+		if (_gO.GetComponent<Player>())
+			HitPlayer( _gO.GetComponent<Player>());
 	}
 
 	private void HitProjectile(Projectiles _projectiles)
