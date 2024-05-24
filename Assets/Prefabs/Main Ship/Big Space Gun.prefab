@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6735205482635754640}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Socket 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40,7 +40,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 879291079692644082}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Socket 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -72,7 +72,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7697121734852470809}
   - component: {fileID: 6977281587224111834}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cannon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -156,7 +156,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6526943254850587514}
   - component: {fileID: 1275002984630504022}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Big Space Gun
   m_TagString: Untagged
   m_Icon: {fileID: 0}

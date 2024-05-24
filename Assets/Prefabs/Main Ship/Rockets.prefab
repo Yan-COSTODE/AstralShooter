@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2765204775934100799}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Socket 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40,7 +40,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2964227966242965912}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Socket 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71,7 +71,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8655150611967387620}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Socket 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -102,7 +102,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1795966755817190877}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Socket 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -134,7 +134,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5625985334790986705}
   - component: {fileID: 4456148086527623689}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Rockets
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -191,7 +191,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6406099960696799783}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Socket 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -222,7 +222,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8372012009876489685}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Socket 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -254,7 +254,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9211477874061996011}
   - component: {fileID: 6332680976376630315}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cannon
   m_TagString: Untagged
   m_Icon: {fileID: 0}

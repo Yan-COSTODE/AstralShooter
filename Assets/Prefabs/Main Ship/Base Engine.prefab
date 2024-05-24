@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 682022912820675083}
   - component: {fileID: 4026021879925598418}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Base Engine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -96,7 +96,7 @@ GameObject:
   - component: {fileID: 8134417654698556979}
   - component: {fileID: 5402678241397245628}
   - component: {fileID: 8699009548315496343}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Base Engine Effect
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -24,6 +24,9 @@ public class LootTable
 	
 	public void Roll(Transform _parent, float _luck = 1.0f)
 	{
+		if (loots.Count == 0)
+			return;
+		
 		float _totalWeight = 0.0f;
 		
 		foreach (LootElem _loot in loots)

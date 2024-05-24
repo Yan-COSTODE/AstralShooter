@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 
 public class Asteroids : MonoBehaviour
@@ -36,7 +35,7 @@ public class Asteroids : MonoBehaviour
 	private void OnCollisionEnter2D(Collision2D _other)
 	{
 		GameObject _gO = _other.gameObject;
-		Debug.Log("Collision");
+		
 		if (_gO.GetComponent<Projectiles>())
 			HitProjectile( _gO.GetComponent<Projectiles>());
 		if (_gO.GetComponent<Player>())
@@ -52,7 +51,7 @@ public class Asteroids : MonoBehaviour
 	private void HitPlayer(Player _player)
 	{
 		_player.TakeDamage(fHealth);
-		Destroy(gameObject);
+		Die(false);
 	}
 	
 	private void TakeDamage(float _damage)
@@ -66,10 +65,14 @@ public class Asteroids : MonoBehaviour
 			Die();
 	}
 	
-	private void Die()
+	private void Die(bool _score = true)
 	{
-		lootTable.Roll(transform, Player.Instance.Luck.Current);
-		Player.Instance.AddScore(iScore);
+		if (_score)
+		{
+			lootTable.Roll(transform, Player.Instance.Luck.Current);
+			Player.Instance.AddScore(iScore);
+		}
+		
 		Destroy(gameObject);
 	}
 	#endregion
