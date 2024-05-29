@@ -40,7 +40,7 @@ public class PlayerPickUp : MonoBehaviour
 		}
 	}
 	
-	private void PickUpWeapon(PlayerWeapon _weapon)
+	private void PickUpWeapon(Weapon _weapon)
 	{
 		if (!_weapon)
 			return;
@@ -62,7 +62,7 @@ public class PlayerPickUp : MonoBehaviour
 		if (shieldLevel < iMaxShieldLevel)
 			shieldLevel++;
 		
-		player.Shield.AddMult(1.2f);
+		player.Shield.AddMult(0.2f);
 	}
 
 	private void PickUpSuperShield() => player.Stats.AddSuperShield();

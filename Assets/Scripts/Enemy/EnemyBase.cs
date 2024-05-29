@@ -27,13 +27,15 @@ public class EnemyBase : MonoBehaviour
 	[SerializeField] protected ulong iScore;
 	[SerializeField] protected LootTable lootTable;
 	[Header("Regen")] 
-	[SerializeField] private bool bCanRegenHealth;
-	[SerializeField] private float fRegenHealth = 1.0f;
-	[SerializeField] private float fRegenShield = 2.0f;
-	[SerializeField] private float fRegenDelay = 3.0f;
-	[Header("Weapon")]
+	[SerializeField] protected bool bCanRegenHealth;
+	[SerializeField] protected float fRegenHealth = 1.0f;
+	[SerializeField] protected float fRegenShield = 2.0f;
+	[SerializeField] protected float fRegenDelay = 3.0f;
+	[Header("Weapon")] 
+	[SerializeField] protected Weapon weapon;
 	[SerializeField] protected Projectiles projectiles;
 	[SerializeField] protected List<Transform> sockets;
+	[SerializeField] protected Transform weaponSocket;
 	[Header("Visual")]
 	[SerializeField] protected GameObject shieldVisual;
 	private float fLastDamage = 0.0f;
@@ -59,6 +61,9 @@ public class EnemyBase : MonoBehaviour
 	    shield.Init();
 	    damage.Init();
 	    startPos = transform.position;
+	    
+	    if (weapon)
+		    weapon.Setup(weaponSocket);
     }
 
     private void Update()
@@ -67,6 +72,9 @@ public class EnemyBase : MonoBehaviour
 	    
 	    if (movement)
 		    movement.SetNextPosition(this);
+
+	    if (weapon)
+		    StartCoroutine(weapon.Shoot(0));
     }
 
     private void OnCollisionEnter2D(Collision2D _other)

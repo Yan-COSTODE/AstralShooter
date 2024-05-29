@@ -4,11 +4,14 @@ public class UIManager : SingletonTemplate<UIManager>
 {
 	#region Fields & Properties
 	#region Fields
+	[SerializeField] private bool bGameUI;
+	[SerializeField] private UIMain uiMain;
 	[SerializeField] private HUD hud;
 	[SerializeField] private FloatingDamage floatingDamage;
 	#endregion
 	
 	#region Properties
+	public UIMain UIMain => uiMain;
 	public HUD HUD => hud;
 	#endregion
 	#endregion
@@ -18,6 +21,11 @@ public class UIManager : SingletonTemplate<UIManager>
 	{
 		if (!hud)
 			hud = GetComponentInChildren<HUD>();
+		if (!uiMain)
+			uiMain = GetComponentInChildren<UIMain>();
+		
+		uiMain.gameObject.SetActive(!bGameUI);
+		hud.gameObject.SetActive(bGameUI);
 	}
 
 	public FloatingDamage SpawnFloatingDamage(float _damage,  Color _color, Vector3 _position)

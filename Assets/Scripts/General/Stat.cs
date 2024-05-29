@@ -14,8 +14,8 @@ public class Stat
 	#endregion
 	
 	#region Properties
-	public float Current => (fCurrent + CalculateFlat()) * CalculateMult();
-	public float Max => (fMax + CalculateFlat()) * CalculateMult();
+	public float Current => fCurrent;
+	public float Max => fMax * CalculateMult() + CalculateFlat();
 	#endregion
 	#endregion
 	
@@ -35,7 +35,7 @@ public class Stat
 		fMax = _max;
 		fCurrent *= _change;
 	}
-
+	
 	public void ChangeCurrent(float _current)
 	{
 		_current = Mathf.Clamp(_current, 0, fMax);
@@ -50,24 +50,38 @@ public class Stat
 	
 	public void RemoveCurrent(float _remove) => ChangeCurrent(fCurrent - _remove);
 
+	private void RefreshCurrent(float _oldMax)
+	{
+		float _change = fMax / _oldMax;
+		fCurrent *= _change;
+	}
+	
 	public void AddFlat(float _flat)
 	{
+		float _max = fMax;
 		fFlatModifier.Add(_flat);
+		RefreshCurrent(_max);
 	}
 
 	public void RemoveFlat(float _flat)
 	{
+		float _max = fMax;
 		fFlatModifier.Remove(_flat);
+		RefreshCurrent(_max);
 	}
 	
 	public void AddMult(float _mult)
 	{
+		float _max = fMax;
 		fMultModifier.Add(_mult);
+		RefreshCurrent(_max);
 	}
 
 	public void RemoveMult(float _mult)
 	{
+		float _max = fMax;
 		fMultModifier.Remove(_mult);
+		RefreshCurrent(_max);
 	}
 	
 	public float CalculateFlat()
@@ -85,7 +99,7 @@ public class Stat
     		float _fFinal = 1;
     
     		for (int _i = 0; _i < fMultModifier.Count; _i++)
-			    _fFinal *= fMultModifier[_i];
+			    _fFinal += fMultModifier[_i];
     
     		return _fFinal;
 	}

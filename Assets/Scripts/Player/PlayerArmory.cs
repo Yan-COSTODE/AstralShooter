@@ -8,12 +8,12 @@ public class PlayerArmory : MonoBehaviour
 	[SerializeField] private Transform weaponSocket;
 	[SerializeField] private Transform engineSocket;
 	[Header("Objects")]
-	[SerializeField] private PlayerWeapon weapon;
+	[SerializeField] private Weapon weapon;
 	private Player player = null;
 	#endregion
 	
 	#region Properties
-	public PlayerWeapon Weapon => weapon;
+	public Weapon Weapon => weapon;
 	#endregion
 	#endregion
 	
@@ -42,7 +42,7 @@ public class PlayerArmory : MonoBehaviour
     
     public void Register(Player _player) => player = _player;
 
-    public void ChangeWeapon(PlayerWeapon _weapon)
+    public void ChangeWeapon(Weapon _weapon)
     {
 	    for (int _i = 0; _i < weaponSocket.childCount; _i++)
 		    Destroy(weaponSocket.GetChild(_i).gameObject);

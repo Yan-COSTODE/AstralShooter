@@ -19,9 +19,9 @@ public class Projectiles : MonoBehaviour
 		transform.position += transform.up * (fFlySpeed * Time.deltaTime);
 	}
 
-	public void Setup(PlayerWeapon _playerWeapon)
+	public void Setup(Weapon weapon)
 	{
-		damage = _playerWeapon.Damage;
+		damage = weapon.Damage;
 	}
 
 	public void Touch()

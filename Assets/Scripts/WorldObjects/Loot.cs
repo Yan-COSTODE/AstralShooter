@@ -14,13 +14,13 @@ public class Loot : MonoBehaviour
 	#region Fields & Properties
 	#region Fields
 	[SerializeField] private ELoot category;
-	[SerializeField] private PlayerWeapon weapon;
+	[SerializeField] private Weapon weapon;
 	[SerializeField] private float fFlySpeed = 0.5f;
 	#endregion
 	
 	#region Properties
 	public ELoot Category => category;
-	public PlayerWeapon Weapon => weapon;
+	public Weapon Weapon => weapon;
 	#endregion
 	#endregion
 	

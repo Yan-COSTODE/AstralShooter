@@ -2,8 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "Player Weapon", menuName = "Custom/Player Weapon")]
-public class PlayerWeapon : ScriptableObject
+[CreateAssetMenu(fileName = "Weapon", menuName = "Custom/Weapon")]
+public class Weapon : ScriptableObject
 {
 	#region Fields & Properties
 	#region Fields
@@ -81,20 +81,20 @@ public class PlayerWeapon : ScriptableObject
 	    {
 		    for (int _i = 0; _i < _diff; _i++)
 		    {
-			    damage.AddMult(1.5f);
-			    reload.AddMult(0.8f);
-			    salveDelay.AddMult(0.8f);
-			    salveInitialDelay.AddMult(0.8f);
+			    damage.AddMult(0.5f);
+			    reload.AddMult(-0.2f);
+			    salveDelay.AddMult(-0.2f);
+			    salveInitialDelay.AddMult(-0.2f);
 		    }
 	    }
 	    else
 	    {
 		    for (int _i = 0; _i < -_diff; _i++)
 		    {
-			    damage.RemoveMult(1.5f);
-			    reload.RemoveMult(0.8f);
-			    salveDelay.RemoveMult(0.8f);
-			    salveInitialDelay.RemoveMult(0.8f);
+			    damage.RemoveMult(0.5f);
+			    reload.RemoveMult(-0.2f);
+			    salveDelay.RemoveMult(-0.2f);
+			    salveInitialDelay.RemoveMult(-0.2f);
 		    }
 	    }
 	    fAnimationSpeed = 1 * salveDelay.CalculateMult();

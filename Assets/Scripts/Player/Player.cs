@@ -4,6 +4,7 @@ public class Player : SingletonTemplate<Player>
 {
 	#region Fields & Properties
 	#region Fields
+	[SerializeField] private string username = "Player";
 	[Header("Component")]
 	[SerializeField] private PlayerMovement movement;
 	[SerializeField] private PlayerStats stats;
@@ -57,6 +58,7 @@ public class Player : SingletonTemplate<Player>
 	{
 		bDead = true;
 		GetComponent<Collider2D>().enabled = false;
+		Scoreboard.Instance.AddScore(iScore, username);
 	}
 	#endregion
 }
