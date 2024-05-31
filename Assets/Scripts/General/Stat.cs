@@ -3,6 +3,35 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [Serializable]
+public struct LifeSprite
+{
+	[SerializeField] private List<LifeSpriteEntry> entry;
+
+	public void Init() => entry.Sort((_entry1, _entry2) => _entry2.Percent.CompareTo(_entry1.Percent));
+	
+	public Sprite GetSprite(float _percent)
+	{
+		foreach (LifeSpriteEntry _entry in entry)
+		{
+			if (_percent >= _entry.Percent)
+				return _entry.Image;
+		}
+
+		return null;
+	}
+}
+
+[Serializable]
+public struct LifeSpriteEntry
+{
+	[SerializeField] private float fPercent;
+	[SerializeField] private Sprite image;
+
+	public float Percent => fPercent;
+	public Sprite Image => image;
+}
+
+[Serializable]
 public class Stat
 {
 	#region Fields & Properties
@@ -16,6 +45,7 @@ public class Stat
 	#region Properties
 	public float Current => fCurrent;
 	public float Max => fMax * CalculateMult() + CalculateFlat();
+	public float Percent => Current / Max;
 	#endregion
 	#endregion
 	
@@ -88,8 +118,8 @@ public class Stat
 	{
 		float _fFinal = 0;
 
-		for (int _i = 0; _i < fFlatModifier.Count; _i++)
-			_fFinal += fFlatModifier[_i];
+		foreach (float _t in fFlatModifier)
+			_fFinal += _t;
 
 		return _fFinal;
 	}
@@ -98,10 +128,10 @@ public class Stat
 	{
     		float _fFinal = 1;
     
-    		for (int _i = 0; _i < fMultModifier.Count; _i++)
-			    _fFinal += fMultModifier[_i];
-    
-    		return _fFinal;
+    		foreach (float _t in fMultModifier)
+			    _fFinal += _t;
+
+		    return _fFinal;
 	}
     #endregion
 }

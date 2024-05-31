@@ -19,6 +19,22 @@ public class Projectiles : MonoBehaviour
 		transform.position += transform.up * (fFlySpeed * Time.deltaTime);
 	}
 
+	private void OnCollisionEnter2D(Collision2D _other)
+	{
+		GameObject _gO = _other.gameObject;
+
+		if (_gO.GetComponent<Projectiles>())
+		{
+			_gO.GetComponent<Projectiles>().Touch();
+			Touch();
+		}
+		if (_gO.GetComponent<Player>())
+		{
+			_gO.GetComponent<Player>().TakeDamage(damage.Current);
+			Touch();
+		}
+	}
+	
 	public void Setup(Weapon weapon)
 	{
 		damage = weapon.Damage;

@@ -4,6 +4,8 @@ public class PlayerMovement : MonoBehaviour
 {
 	#region Fields & Properties
 	#region Fields
+	[SerializeField] private Animator animator;
+	[SerializeField] private Transform rotationTransform;
 	[SerializeField] private Camera reference;
 	[Header("Stats")]
 	[SerializeField] private Stat moveSpeed;
@@ -13,6 +15,7 @@ public class PlayerMovement : MonoBehaviour
 	private Vector2 min = Vector2.zero;
 	private Vector2 max = Vector2.zero;
 	private Player player = null;
+	private float fMove = 0.0f;
 	#endregion
 	
 	#region Properties
@@ -30,10 +33,14 @@ public class PlayerMovement : MonoBehaviour
 	{
 		if (player.Dead)
 			return;
-		
+
+		fMove = 0.0f;
 		MoveLR(Input.GetAxis("Horizontal"));
 		MoveUD(Input.GetAxis("Vertical"));
 		ClampMovement();
+		
+		if (animator)
+			animator.SetBool("bMoving", fMove != 0.0f);
 	}
 	
 	public void Register(Player _player) => player = _player;
@@ -63,17 +70,24 @@ public class PlayerMovement : MonoBehaviour
 		transform.position = new Vector3(_clamped.x, _clamped.y, transform.position.z);
 	}
 
-	private void MoveLR(float _axis)
+	private void Rotate(float _axis)
 	{
 		float _fTargetAngle = _axis * fMaxTilt;
-		float _fcurrentAngle = Mathf.MoveTowardsAngle(transform.rotation.eulerAngles.y, _fTargetAngle, moveSpeed.Current * fMultTilt * Time.deltaTime);
-		transform.rotation = Quaternion.Euler(0.0f, _fcurrentAngle, 0.0f);
-		transform.position += Vector3.right * (moveSpeed.Current * _axis * Time.deltaTime);
+		float _fcurrentAngle = Mathf.MoveTowardsAngle(rotationTransform.rotation.eulerAngles.y, _fTargetAngle, moveSpeed.Current * fMultTilt * Time.deltaTime);
+		rotationTransform.rotation = Quaternion.Euler(0.0f, _fcurrentAngle, 0.0f);
 	}
-
+	
+	private void MoveLR(float _axis)
+	{
+		Rotate(_axis);
+		transform.position += Vector3.right * (moveSpeed.Current * _axis * Time.deltaTime);
+		fMove += _axis;
+	}
+	
 	private void MoveUD(float _axis)
 	{
 		transform.position += Vector3.up * (moveSpeed.Current * _axis * Time.deltaTime);
+		fMove += _axis;
 	}
     #endregion
 }

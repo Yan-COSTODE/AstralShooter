@@ -4,6 +4,11 @@ public class PlayerStats : MonoBehaviour
 {
 	#region Fields & Properties
 	#region Fields
+	[Header("Visual")]
+	[SerializeField] private GameObject shieldVisual;
+	[SerializeField] private GameObject superShieldVisual;
+	[SerializeField] private SpriteRenderer visualRenderer;
+	[SerializeField] private LifeSprite lifeSprite;
 	[Header("Stat")] 
 	[SerializeField] private Stat health;
 	[SerializeField] private Stat shield;
@@ -19,6 +24,7 @@ public class PlayerStats : MonoBehaviour
 	private float fSuperShieldTimer = 0.0f;
 	private bool bSuperShield = false;
 	private Player player = null;
+	private FloatingDamage floatingDamage = null;
 	#endregion
 	
 	#region Properties
@@ -31,6 +37,9 @@ public class PlayerStats : MonoBehaviour
 	#region Methods
     private void Start()
     {
+	    shieldVisual.SetActive(false);
+	    superShieldVisual.SetActive(false);
+	    lifeSprite.Init();
 	    health.Init();
 	    shield.Init();
 	    luck.Init();
@@ -40,6 +49,7 @@ public class PlayerStats : MonoBehaviour
     {
 	    Regen();
 	    SuperShieldTimer();
+	    shieldVisual.SetActive(shield.Current > 0);
     }
     
     public void Register(Player _player) => player = _player;
@@ -53,19 +63,32 @@ public class PlayerStats : MonoBehaviour
 	    
 	    if (Shield.Current > 0)
 	    {
-		    UIManager.Instance.SpawnFloatingDamage(_damage, Color.cyan, transform.position);
-		    Shield.RemoveCurrent(_damage);
+		    ShowDamage(_damage, Color.cyan);
+		    shield.RemoveCurrent(_damage);
 	    }
 	    else
 	    {
-		    UIManager.Instance.SpawnFloatingDamage(_damage, Color.green, transform.position);
-		    Health.RemoveCurrent(_damage);
+		    ShowDamage(_damage, Color.green);
+		    health.RemoveCurrent(_damage);
 	    }
-
+	    
+	    Sprite _sprite = lifeSprite.GetSprite(health.Percent);
+	    
+	    if (_sprite)
+		    visualRenderer.sprite = _sprite;
+	    
 	    if (Health.Current <= 0)
 		    player.Die();
     }
 
+    private void ShowDamage(float _damage, Color _color)
+    {
+	    if (!floatingDamage)
+		    floatingDamage = UIManager.Instance.SpawnFloatingDamage(_damage, _color, transform.position);
+	    else
+		    floatingDamage.Set(_damage, _color, transform.position);
+    }
+    
     private void Regen()
     {
 	    fLastDamage += Time.deltaTime;
@@ -73,10 +96,16 @@ public class PlayerStats : MonoBehaviour
 	    if (bSuperShield || fLastDamage < fRegenDelay)
 		    return;
 		
-	    Shield.AddCurrent(fRegenShield * Time.deltaTime);
+	    shield.AddCurrent(fRegenShield * Time.deltaTime);
+
+	    if (!bCanRegenHealth)
+		    return;
+	    
+		health.AddCurrent(fRegenHealth * Time.deltaTime);
+		Sprite _sprite = lifeSprite.GetSprite(health.Percent);
 		
-	    if (bCanRegenHealth)
-		    Health.AddCurrent(fRegenHealth * Time.deltaTime);
+		if (_sprite)
+			visualRenderer.sprite = _sprite;
     }
 
     private void SuperShieldTimer()
@@ -89,6 +118,7 @@ public class PlayerStats : MonoBehaviour
 	    if (fSuperShieldTimer < fSuperShieldDuration)
 		    return;
 	    
+	    superShieldVisual.SetActive(false);
 	    bSuperShield = false;
 	    fSuperShieldTimer = 0.0f;
     }
@@ -107,6 +137,7 @@ public class PlayerStats : MonoBehaviour
 	    if (iSuperShieldCharge <= 0 || bSuperShield)
 		    return;
 
+	    superShieldVisual.SetActive(true);
 	    iSuperShieldCharge--;
 	    UIManager.Instance.HUD.SetNumberofCharge(iSuperShieldCharge);
 	    bSuperShield = true;

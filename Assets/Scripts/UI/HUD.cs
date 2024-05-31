@@ -11,6 +11,7 @@ public class HUD : MonoBehaviour
 	[SerializeField] private Image healthBar;
 	[SerializeField] private Image shieldBar;
 	[SerializeField] private TMP_Text healthText;
+	[SerializeField] private TMP_Text playerText;
 	[SerializeField] private TMP_Text scoreText;
 	[SerializeField] private List<GameObject> charge = new();
 	#endregion
@@ -23,6 +24,10 @@ public class HUD : MonoBehaviour
 	private void Start()
 	{
 		player = Player.Instance;
+		
+		if (player)
+			playerText.text = player.Username;
+		
 		SetNumberofCharge(0);
 	}
 
@@ -48,8 +53,8 @@ public class HUD : MonoBehaviour
 		if (!healthBar || !shieldBar || !healthText)
 			return;
 		
-		healthBar.fillAmount = Mathf.Clamp01(_health.Current / _health.Max);
-		shieldBar.fillAmount = Mathf.Clamp01(_shield.Current / _shield.Max);
+		healthBar.fillAmount = Mathf.Clamp01(_health.Percent);
+		shieldBar.fillAmount = Mathf.Clamp01(_shield.Percent);
 		healthText.text = $"{_health.Current:F0}<color=#42A5DA>+{_shield.Current:F0}</color>";
 	}
 

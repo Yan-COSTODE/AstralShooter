@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4548934512704072098}
   - component: {fileID: 6879960562386176404}
   - component: {fileID: 673163303891217963}
+  - component: {fileID: 2710189699344576069}
   m_Layer: 10
   m_Name: Kla'ed Bullet
   m_TagString: Untagged
@@ -144,4 +145,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1a8cb7a9d45a834faee510d3ca31c2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fFlySpeed: 10
+  fFlySpeed: 8
+--- !u!95 &2710189699344576069
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4620063645429127834}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 98e29f9c9961d0c44b76daf1d9789545, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

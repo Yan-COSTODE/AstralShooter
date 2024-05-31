@@ -37,11 +37,15 @@ public class EnemyBase : MonoBehaviour
 	[SerializeField] protected List<Transform> sockets;
 	[SerializeField] protected Transform weaponSocket;
 	[Header("Visual")]
+	[SerializeField] protected Animator animator;
+	[SerializeField] protected float fDieDelay = 0.5f;
 	[SerializeField] protected GameObject shieldVisual;
+	[SerializeField] protected GameObject engineVisual;
 	private float fLastDamage = 0.0f;
 	private Vector3 startPos;
 	private float fAngle = 0.0f;
 	private FloatingDamage floatingDamage = null;
+	private bool bDead = false;
 	#endregion
 	
 	#region Properties
@@ -68,13 +72,19 @@ public class EnemyBase : MonoBehaviour
 
     private void Update()
     {
+	    if (bDead)
+		    return;
+	    
 	    Regen();
 	    
 	    if (movement)
 		    movement.SetNextPosition(this);
 
 	    if (weapon)
+	    {
 		    StartCoroutine(weapon.Shoot(0));
+		    weapon.Reload();
+	    }
     }
 
     private void OnCollisionEnter2D(Collision2D _other)
@@ -95,7 +105,7 @@ public class EnemyBase : MonoBehaviour
 		    return;
 		
 	    shield.AddCurrent(fRegenShield * Time.deltaTime);
-	    shieldVisual.SetActive(shield.Current >= 0.0f);
+	    shieldVisual.SetActive(shield.Current > 0.0f);
 		
 	    if (bCanRegenHealth)
 		    health.AddCurrent(fRegenHealth * Time.deltaTime);
@@ -125,7 +135,7 @@ public class EnemyBase : MonoBehaviour
 	    if (shield.Current > 0)
 	    {
 		    shield.RemoveCurrent(_damage);
-		    shieldVisual.SetActive(shield.Current >= 0.0f);
+		    shieldVisual.SetActive(shield.Current > 0.0f);
 	    }
 	    else
 		    health.RemoveCurrent(_damage);
@@ -141,8 +151,14 @@ public class EnemyBase : MonoBehaviour
 		    lootTable.Roll(transform, Player.Instance.Luck.Current);
 		    Player.Instance.AddScore(iScore);
 	    }
-		
-	    Destroy(gameObject);
+
+	    GetComponent<Collider2D>().enabled = false;
+	    engineVisual.SetActive(false);
+	    weaponSocket.gameObject.SetActive(false);
+	    shieldVisual.SetActive(false);
+	    bDead = true;
+	    animator.SetTrigger("Die");
+	    Destroy(gameObject, fDieDelay);
     }
     #endregion
 }

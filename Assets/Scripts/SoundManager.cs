@@ -36,7 +36,7 @@ public class SoundManager : SingletonTemplate<SoundManager>
 		Stop();
 	}
 
-	public int Play(ESound _sound, Vector3 _position, float _duration = -1.0f)
+	public int Play(ESound _sound, Vector3 _position, float _duration = -1.0f, bool _ignore = false)
 	{
 		AudioClip _clip = Search(_sound);
 
@@ -48,6 +48,7 @@ public class SoundManager : SingletonTemplate<SoundManager>
 		_gO.transform.position = _position;
 		AudioSource _audioSource = _gO.AddComponent<AudioSource>();
 		_audioSource.clip = _clip;
+		_audioSource.ignoreListenerPause = false;
 		_audioSource.Play();
 		audioSources.Add(_audioSource);
 		

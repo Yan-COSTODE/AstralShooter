@@ -134,10 +134,10 @@ TextureImporter:
       name: Main Ship - Shields - Round Shield_0
       rect:
         serializedVersion: 2
-        x: 6
-        y: 7
-        width: 52
-        height: 52
+        x: 0
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -155,10 +155,10 @@ TextureImporter:
       name: Main Ship - Shields - Round Shield_1
       rect:
         serializedVersion: 2
-        x: 70
-        y: 7
-        width: 52
-        height: 52
+        x: 64
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -176,10 +176,10 @@ TextureImporter:
       name: Main Ship - Shields - Round Shield_2
       rect:
         serializedVersion: 2
-        x: 134
-        y: 7
-        width: 52
-        height: 52
+        x: 128
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -197,10 +197,10 @@ TextureImporter:
       name: Main Ship - Shields - Round Shield_3
       rect:
         serializedVersion: 2
-        x: 198
-        y: 7
-        width: 52
-        height: 52
+        x: 192
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -218,10 +218,10 @@ TextureImporter:
       name: Main Ship - Shields - Round Shield_4
       rect:
         serializedVersion: 2
-        x: 262
-        y: 7
-        width: 52
-        height: 52
+        x: 256
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -239,10 +239,10 @@ TextureImporter:
       name: Main Ship - Shields - Round Shield_5
       rect:
         serializedVersion: 2
-        x: 326
-        y: 7
-        width: 52
-        height: 52
+        x: 320
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -260,10 +260,10 @@ TextureImporter:
       name: Main Ship - Shields - Round Shield_6
       rect:
         serializedVersion: 2
-        x: 390
-        y: 7
-        width: 52
-        height: 52
+        x: 384
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -281,10 +281,10 @@ TextureImporter:
       name: Main Ship - Shields - Round Shield_7
       rect:
         serializedVersion: 2
-        x: 454
-        y: 7
-        width: 52
-        height: 52
+        x: 448
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -302,10 +302,10 @@ TextureImporter:
       name: Main Ship - Shields - Round Shield_8
       rect:
         serializedVersion: 2
-        x: 518
-        y: 7
-        width: 52
-        height: 52
+        x: 512
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -323,10 +323,10 @@ TextureImporter:
       name: Main Ship - Shields - Round Shield_9
       rect:
         serializedVersion: 2
-        x: 582
-        y: 7
-        width: 52
-        height: 52
+        x: 576
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -344,10 +344,10 @@ TextureImporter:
       name: Main Ship - Shields - Round Shield_10
       rect:
         serializedVersion: 2
-        x: 646
-        y: 7
-        width: 52
-        height: 52
+        x: 640
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -365,10 +365,10 @@ TextureImporter:
       name: Main Ship - Shields - Round Shield_11
       rect:
         serializedVersion: 2
-        x: 710
-        y: 7
-        width: 52
-        height: 52
+        x: 704
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -385,7 +385,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: b59b1d1645f329f458c9284ba4a689e7
     internalID: 0
     vertices: []
     indices: 

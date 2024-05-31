@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5806475370431784356}
   - component: {fileID: 122096535265076535}
   - component: {fileID: -4863380581173799828}
+  - component: {fileID: 7120934732302536991}
   m_Layer: 0
   m_Name: LootAutoCannon
   m_TagString: Untagged
@@ -137,3 +138,25 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: -0.01}
   m_Radius: 0.16
+--- !u!95 &7120934732302536991
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2888121603163120137}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e94990006d9532d4d9118df16ee0f2ee, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

@@ -12,9 +12,10 @@ public class Weapon : ScriptableObject
     [SerializeField] private Stat reload;
     [SerializeField] private Stat salveDelay;
     [SerializeField] private Stat salveInitialDelay;
-    [SerializeField] private PlayerWeaponComp visual;
+    [SerializeField] private WeaponComp visual;
     [SerializeField] private Projectiles projectile;
     private List<Transform> sockets = new();
+    private Animator animator = null;
     private float fAnimationSpeed = 1.0f;
     private int iLevel = 0;
     private bool bSalve = false;
@@ -37,8 +38,9 @@ public class Weapon : ScriptableObject
 	
     public void Setup(Transform _parent)
     {
-	    PlayerWeaponComp _instance = Instantiate(visual, _parent);
+	    WeaponComp _instance = Instantiate(visual, _parent);
         sockets = _instance.Sockets;
+        animator = _instance.Animator;
         iLevel = 0;
         fAnimationSpeed = 1.0f;
         bSalve = false;
@@ -60,14 +62,23 @@ public class Weapon : ScriptableObject
 
     private IEnumerator ShootSalve()
     {
+	    if (animator)
+	    {
+		    animator.speed = fAnimationSpeed;
+		    animator.SetBool("bShoot", true);
+	    }
+
 	    yield return new WaitForSeconds(salveInitialDelay.Current);
 	    
 	    for (int _i = 0; _i < sockets.Count; _i++)
 	    {
-		    Projectiles _projectile = Instantiate(projectile, sockets[_i].position, Quaternion.identity);
+		    Projectiles _projectile = Instantiate(projectile, sockets[_i].position, sockets[_i].rotation);
 		    _projectile.Setup(this);
 		    yield return new WaitForSeconds(salveDelay.Current);
 	    }
+
+	    if (animator)
+		    animator.SetBool("bShoot", false);
     }
     
     private void ChangeLevel(int _level)

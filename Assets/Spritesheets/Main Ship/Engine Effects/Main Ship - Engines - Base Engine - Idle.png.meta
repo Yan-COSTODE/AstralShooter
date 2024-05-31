@@ -116,12 +116,12 @@ TextureImporter:
       name: Main Ship - Engines - Base Engine - Idle_0
       rect:
         serializedVersion: 2
-        x: 12
-        y: 8
-        width: 24
-        height: 17
+        x: 0
+        y: 0
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -137,12 +137,12 @@ TextureImporter:
       name: Main Ship - Engines - Base Engine - Idle_2
       rect:
         serializedVersion: 2
-        x: 60
-        y: 8
-        width: 24
-        height: 17
+        x: 96
+        y: 0
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -155,22 +155,22 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Main Ship - Engines - Base Engine - Idle_4
+      name: Main Ship - Engines - Base Engine - Idle_1
       rect:
         serializedVersion: 2
-        x: 108
-        y: 8
-        width: 24
-        height: 17
+        x: 48
+        y: 0
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 24f9390380b75a520800000000000000
-      internalID: 2712709625665527618
+      spriteID: 216475a422da1ef4db21b9cf7cc15b65
+      internalID: -3642214747636528
       vertices: []
       indices: 
       edges: []
@@ -189,9 +189,6 @@ TextureImporter:
       Main Ship - Engines - Base Engine - Idle_0: 2869836826937132121
       Main Ship - Engines - Base Engine - Idle_1: -3642214747636528
       Main Ship - Engines - Base Engine - Idle_2: -5619748045472601254
-      Main Ship - Engines - Base Engine - Idle_3: -4267442292630722726
-      Main Ship - Engines - Base Engine - Idle_4: 2712709625665527618
-      Main Ship - Engines - Base Engine - Idle_5: 551752801442154573
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

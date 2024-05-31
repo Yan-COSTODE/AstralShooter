@@ -8,11 +8,13 @@ public class UIManager : SingletonTemplate<UIManager>
 	[SerializeField] private UIMain uiMain;
 	[SerializeField] private HUD hud;
 	[SerializeField] private FloatingDamage floatingDamage;
+	[SerializeField] private UIPauseMenu uiPauseMenu;
 	#endregion
 	
 	#region Properties
 	public UIMain UIMain => uiMain;
 	public HUD HUD => hud;
+	public UIPauseMenu UIPauseMenu => uiPauseMenu;
 	#endregion
 	#endregion
 
@@ -23,6 +25,8 @@ public class UIManager : SingletonTemplate<UIManager>
 			hud = GetComponentInChildren<HUD>();
 		if (!uiMain)
 			uiMain = GetComponentInChildren<UIMain>();
+		if (!uiPauseMenu)
+			uiPauseMenu = GetComponentInChildren<UIPauseMenu>();
 		
 		uiMain.gameObject.SetActive(!bGameUI);
 		hud.gameObject.SetActive(bGameUI);

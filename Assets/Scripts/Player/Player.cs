@@ -23,12 +23,14 @@ public class Player : SingletonTemplate<Player>
 	public PlayerPickUp PickUp => pickUp;
 	public bool Dead => bDead;
 	public ulong Score => iScore;
+	public string Username => username;
 	#endregion
 	#endregion
 	
 	#region Methods
 	private void Start()
 	{
+		username = PlayerPrefs.GetString("PlayerName", "Player");
 		stats.Register(this);
 		pickUp.Register(this);
 		armory.Register(this);
@@ -43,8 +45,11 @@ public class Player : SingletonTemplate<Player>
 			armory.Shoot();
 		if (Input.GetKeyDown(KeyCode.Q))
 			stats.ActivateSuperShield();
+		if (Input.GetKeyDown(KeyCode.Escape))
+			UIManager.Instance.UIPauseMenu.Open();
+		
 	}
-
+	
 	public void AddScore(ulong _score)
 	{
 		iScore += _score;
@@ -54,11 +59,14 @@ public class Player : SingletonTemplate<Player>
 
 	public void PickUpLoot(Loot _loot) => pickUp.PickUp(_loot);
 
-	public void Die()
+	public void Die(bool _ui = true)
 	{
 		bDead = true;
 		GetComponent<Collider2D>().enabled = false;
 		Scoreboard.Instance.AddScore(iScore, username);
+		
+		if (_ui)
+			UIManager.Instance.UIPauseMenu.Open(false);
 	}
 	#endregion
 }
