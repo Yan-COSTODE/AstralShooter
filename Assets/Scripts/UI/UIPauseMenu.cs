@@ -46,6 +46,7 @@ public class UIPauseMenu : MonoBehaviour
     {
         SoundManager.Instance.Stop();
         Player.Instance.Die(false);
+        UIManager.Instance.SetUI(false);
         SceneManager.LoadScene(sceneName);
     }
     

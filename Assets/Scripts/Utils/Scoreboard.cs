@@ -46,7 +46,7 @@ public class Scoreboard : SingletonTemplate<Scoreboard>
     {
 	    LoadScores();
     }
-
+    
     public void AddScore(ulong _score, string _playerName)
     {
 	    ScoreEntry _newEntry = new ScoreEntry(_score, _playerName);

@@ -65,6 +65,14 @@ public class PlayerPickUp : MonoBehaviour
 		player.Shield.AddMult(0.2f);
 	}
 
+	private void PickUpEngine()
+	{
+		if (engineLevel < iMaxEngineLevel)
+			engineLevel++;
+		
+		player.MoveSpeed.AddMult(0.2f);
+	}
+	
 	private void PickUpSuperShield() => player.Stats.AddSuperShield();
 	#endregion
 }

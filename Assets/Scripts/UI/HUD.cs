@@ -21,16 +21,6 @@ public class HUD : MonoBehaviour
 	#endregion
 	
 	#region Methods
-	private void Start()
-	{
-		player = Player.Instance;
-		
-		if (player)
-			playerText.text = player.Username;
-		
-		SetNumberofCharge(0);
-	}
-
 	private void FixedUpdate()
 	{
 		if (!player)
@@ -39,7 +29,22 @@ public class HUD : MonoBehaviour
 		UpdateHealthBar(player.Health, player.Shield);
 		UpdateScore(player.Score);
 	}
+	
+	public void Init()
+	{
+		SetNumberofCharge(0);
+		GetPlayer();
+	}
 
+	
+	private void GetPlayer()
+	{
+		player = Player.Instance;
+		
+		if (player)
+			playerText.text = player.Username;
+	}
+	
 	private void UpdateScore(ulong _score)
 	{
 		if (!scoreText)

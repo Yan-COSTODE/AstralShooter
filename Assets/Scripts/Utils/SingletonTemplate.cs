@@ -24,6 +24,7 @@ public class SingletonTemplate<T> : MonoBehaviour where T : MonoBehaviour
 
         instance = this as T;
         name += " [MANAGER]";
+        DontDestroyOnLoad(gameObject);
     }
     #endregion
    

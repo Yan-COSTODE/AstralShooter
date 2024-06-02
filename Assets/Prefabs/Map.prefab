@@ -49,7 +49,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fd2532f6c8ce8c4eb2eb4445f877d96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fScrollSpeed: 3
+  fScrollSpeed: 2
   fTileSize: 44.72
 --- !u!1 &4376271795266535759
 GameObject:

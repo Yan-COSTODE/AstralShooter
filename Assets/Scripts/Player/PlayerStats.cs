@@ -31,6 +31,7 @@ public class PlayerStats : MonoBehaviour
 	public Stat Health => health;
 	public Stat Shield => shield;
 	public Stat Luck => luck;
+	public bool SuperShield => bSuperShield;
 	#endregion
 	#endregion
 	

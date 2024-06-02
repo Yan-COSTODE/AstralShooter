@@ -380,6 +380,7 @@ GameObject:
   - component: {fileID: 6560331654845383960}
   - component: {fileID: 8873881955609937902}
   - component: {fileID: 7075195842011483130}
+  - component: {fileID: 9024322317670001406}
   m_Layer: 6
   m_Name: Player
   m_TagString: Untagged
@@ -484,6 +485,7 @@ MonoBehaviour:
   stats: {fileID: 6560331654845383960}
   pickUp: {fileID: 8873881955609937902}
   armory: {fileID: 7075195842011483130}
+  inputs: {fileID: 9024322317670001406}
 --- !u!114 &4434499701717236319
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -570,6 +572,22 @@ MonoBehaviour:
   weaponSocket: {fileID: 814385534144782414}
   engineSocket: {fileID: 7581591604990183467}
   weapon: {fileID: 0}
+--- !u!114 &9024322317670001406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6089733695686686599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8833522449edc04ca50a2c82a1b98ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fSpeed: 10
+  bCanMove: 0
+  bCanShoot: 0
+  bCanSuperShield: 0
 --- !u!1 &8613198576161294215
 GameObject:
   m_ObjectHideFlags: 0

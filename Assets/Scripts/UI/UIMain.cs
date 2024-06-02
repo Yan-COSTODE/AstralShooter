@@ -62,6 +62,7 @@ public class UIMain : MonoBehaviour
 	    PlayerPrefs.SetString("PlayerName", _name);
 	    PlayerPrefs.Save();
 	    SoundManager.Instance.Stop();
+	    UIManager.Instance.SetUI(true);
 	    SceneManager.LoadScene(sceneName);
     }
 

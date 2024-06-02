@@ -19,6 +19,8 @@ public class PlayerMovement : MonoBehaviour
 	#endregion
 	
 	#region Properties
+	public Stat MoveSpeed => moveSpeed;
+	public bool Moving => fMove != 0.0f;
 	#endregion
 	#endregion
 	
@@ -34,17 +36,23 @@ public class PlayerMovement : MonoBehaviour
 		if (player.Dead)
 			return;
 
-		fMove = 0.0f;
-		MoveLR(Input.GetAxis("Horizontal"));
-		MoveUD(Input.GetAxis("Vertical"));
 		ClampMovement();
 		
 		if (animator)
-			animator.SetBool("bMoving", fMove != 0.0f);
+			animator.SetBool("bMoving", Moving);
 	}
-	
+
 	public void Register(Player _player) => player = _player;
 
+	public void UpdateReference()
+	{
+		if (reference)
+			return;
+		
+		reference = Camera.current;
+		Init();
+	}
+	
 	private void Init()
 	{
 		float _ortho = 0;
@@ -61,6 +69,8 @@ public class PlayerMovement : MonoBehaviour
 		max.y = _ortho;
 		max.x = max.y * _aspect;
 	}
+
+	public void ResetMove() => fMove = 0.0f;
 	
 	private void ClampMovement()
 	{
@@ -76,18 +86,23 @@ public class PlayerMovement : MonoBehaviour
 		float _fcurrentAngle = Mathf.MoveTowardsAngle(rotationTransform.rotation.eulerAngles.y, _fTargetAngle, moveSpeed.Current * fMultTilt * Time.deltaTime);
 		rotationTransform.rotation = Quaternion.Euler(0.0f, _fcurrentAngle, 0.0f);
 	}
+
+	public void SetPosition(Vector3 _position)
+	{
+		transform.position = _position;
+	}
 	
-	private void MoveLR(float _axis)
+	public void MoveHorizontal(float _axis)
 	{
 		Rotate(_axis);
 		transform.position += Vector3.right * (moveSpeed.Current * _axis * Time.deltaTime);
-		fMove += _axis;
+		fMove += Mathf.Abs(_axis);
 	}
 	
-	private void MoveUD(float _axis)
+	public void MoveVertical(float _axis)
 	{
 		transform.position += Vector3.up * (moveSpeed.Current * _axis * Time.deltaTime);
-		fMove += _axis;
+		fMove += Mathf.Abs(_axis);
 	}
     #endregion
 }

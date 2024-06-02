@@ -133,5 +133,10 @@ public class Stat
 
 		    return _fFinal;
 	}
+
+	public void MaxOut()
+	{
+		fCurrent = Max;
+	}
     #endregion
 }

@@ -28,8 +28,19 @@ public class UIManager : SingletonTemplate<UIManager>
 		if (!uiPauseMenu)
 			uiPauseMenu = GetComponentInChildren<UIPauseMenu>();
 		
+		SetUI(bGameUI);
+	}
+
+	public void SetUI(bool _bGameUI)
+	{
+		bGameUI = _bGameUI;
 		uiMain.gameObject.SetActive(!bGameUI);
 		hud.gameObject.SetActive(bGameUI);
+		
+		if (bGameUI)
+			hud.Init();
+		else
+			uiMain.BackToMenu();
 	}
 
 	public FloatingDamage SpawnFloatingDamage(float _damage,  Color _color, Vector3 _position)

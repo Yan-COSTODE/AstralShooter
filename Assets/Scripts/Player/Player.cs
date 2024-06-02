@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : SingletonTemplate<Player>
 {
@@ -10,6 +11,7 @@ public class Player : SingletonTemplate<Player>
 	[SerializeField] private PlayerStats stats;
 	[SerializeField] private PlayerPickUp pickUp;
 	[SerializeField] private PlayerArmory armory;
+	[SerializeField] private PlayerInputs inputs;
 	private bool bDead = false;
 	private ulong iScore = 0;
 	#endregion
@@ -18,9 +20,12 @@ public class Player : SingletonTemplate<Player>
 	public Stat Health => stats.Health;
 	public Stat Shield => stats.Shield;
 	public Stat Luck => stats.Luck;
+	public Stat MoveSpeed => movement.MoveSpeed;
 	public PlayerArmory Armory => armory;
 	public PlayerStats Stats => stats;
 	public PlayerPickUp PickUp => pickUp;
+	public PlayerMovement Movement => movement;
+	public PlayerInputs Inputs => inputs;
 	public bool Dead => bDead;
 	public ulong Score => iScore;
 	public string Username => username;
@@ -30,24 +35,25 @@ public class Player : SingletonTemplate<Player>
 	#region Methods
 	private void Start()
 	{
+		SceneManager.activeSceneChanged += SceneChangement;
+		SceneChangement(default, default);
 		username = PlayerPrefs.GetString("PlayerName", "Player");
 		stats.Register(this);
 		pickUp.Register(this);
 		armory.Register(this);
 		movement.Register(this);
+		inputs.Register(this);
 	}
-	
-	private void Update()
+
+	private void OnDestroy()
 	{
-		if (Input.GetKeyDown(KeyCode.E))
-			TakeDamage(20);
-		if (Input.GetKey(KeyCode.Space))
-			armory.Shoot();
-		if (Input.GetKeyDown(KeyCode.Q))
-			stats.ActivateSuperShield();
-		if (Input.GetKeyDown(KeyCode.Escape))
-			UIManager.Instance.UIPauseMenu.Open();
-		
+		SceneManager.activeSceneChanged -= SceneChangement;
+	}
+
+	private void SceneChangement(Scene _scene1, Scene _scene2)
+	{
+		movement.UpdateReference();
+		UIManager.Instance.HUD.Init();
 	}
 	
 	public void AddScore(ulong _score)
