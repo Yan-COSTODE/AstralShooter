@@ -111,7 +111,7 @@ MonoBehaviour:
   asteroids: {fileID: 5607253442865837970, guid: 5667a96bd36ae53cc8ff475167f95abd, type: 3}
   number:
     iMin: 1
-    iMax: 1
+    iMax: 10
   delay:
     fMin: 1
     fMax: 1.25

@@ -523,13 +523,13 @@ MonoBehaviour:
   visualRenderer: {fileID: 7705883872780086439}
   lifeSprite:
     entry:
-    - fPercent: 1
-      image: {fileID: 21300000, guid: 8dbb7fdf993dfc3508c876e71ef7d75a, type: 3}
     - fPercent: 0.75
-      image: {fileID: 21300000, guid: de93415edcd6a68cc8dfd2a8fd911e4c, type: 3}
+      image: {fileID: 21300000, guid: 8dbb7fdf993dfc3508c876e71ef7d75a, type: 3}
     - fPercent: 0.5
-      image: {fileID: 21300000, guid: cf158293e111e1e50b0560f105dbb268, type: 3}
+      image: {fileID: 21300000, guid: de93415edcd6a68cc8dfd2a8fd911e4c, type: 3}
     - fPercent: 0.25
+      image: {fileID: 21300000, guid: cf158293e111e1e50b0560f105dbb268, type: 3}
+    - fPercent: 0
       image: {fileID: 21300000, guid: ffb8e70883a91eb1591c1cef33012223, type: 3}
   health:
     fMax: 100
@@ -541,7 +541,7 @@ MonoBehaviour:
   bCanRegenHealth: 0
   fRegenHealth: 1
   fRegenShield: 10
-  fRegenDelay: 3
+  fRegenDelay: 5
 --- !u!114 &8873881955609937902
 MonoBehaviour:
   m_ObjectHideFlags: 0

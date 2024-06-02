@@ -35,7 +35,7 @@ public class Player : SingletonTemplate<Player>
 	#region Methods
 	private void Start()
 	{
-		SceneManager.activeSceneChanged += SceneChangement;
+		SceneManager.sceneLoaded += SceneChangement;
 		SceneChangement(default, default);
 		username = PlayerPrefs.GetString("PlayerName", "Player");
 		stats.Register(this);
@@ -47,10 +47,10 @@ public class Player : SingletonTemplate<Player>
 
 	private void OnDestroy()
 	{
-		SceneManager.activeSceneChanged -= SceneChangement;
+		SceneManager.sceneLoaded -= SceneChangement;
 	}
 
-	private void SceneChangement(Scene _scene1, Scene _scene2)
+	private void SceneChangement(Scene _scene, LoadSceneMode _sceneMode)
 	{
 		movement.UpdateReference();
 		UIManager.Instance.HUD.Init();

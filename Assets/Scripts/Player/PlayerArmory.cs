@@ -47,7 +47,7 @@ public class PlayerArmory : MonoBehaviour
 	    for (int _i = 0; _i < weaponSocket.childCount; _i++)
 		    Destroy(weaponSocket.GetChild(_i).gameObject);
 
-	    weapon = _weapon;
+	    weapon = ScriptableManager.Instance.Get<Weapon>(_weapon.Type);
 	    weapon.Setup(weaponSocket);
     }
     #endregion

@@ -46,7 +46,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerPosition: {x: 0, y: -3, z: 0}
-  nextScene: Kla'ed
+  nextScene: First
   rockets: {fileID: 0}
   bigSpaceGun: {fileID: 0}
   autoCannon: {fileID: 0}

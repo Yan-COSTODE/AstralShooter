@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6335992970393934415
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 883706950876555108}
+  - component: {fileID: 1486187107983244850}
+  m_Layer: 0
+  m_Name: Scriptable Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &883706950876555108
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6335992970393934415}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1486187107983244850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6335992970393934415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c17a06f79fbb02c44b8f9240274a7eda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rocket: {fileID: 11400000, guid: 6525a247e3dfb8e0cbbefafbe58377a2, type: 2}
+  autoCannon: {fileID: 11400000, guid: 943056203189bc208ba3f44cb5360b3c, type: 2}
+  bigSpaceGun: {fileID: 11400000, guid: c0d4d7b74b9f3c3509bef89b8200c6ef, type: 2}
+  movementCircular: {fileID: 11400000, guid: 97bc099da0e68c870bac0ca0d432bc1a, type: 2}
+  movementWave: {fileID: 11400000, guid: d5183d5f9df72d7b095542552ae0eecb, type: 2}
+  klaedFighter: {fileID: 11400000, guid: a9ed4a60574ad714192a0b3c9f244032, type: 2}

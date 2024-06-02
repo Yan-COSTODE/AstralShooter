@@ -12,7 +12,16 @@ EditorBuildSettings:
     path: Assets/Scenes/Tutorial.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
-    path: Assets/Scenes/Kla'ed.unity
+    path: Assets/Scenes/First.unity
     guid: b6590a0c59bcb2a44b7a77609ecc907b
+  - enabled: 1
+    path: Assets/Scenes/Second.unity
+    guid: b9af1d783de757d47ae4bab94aabdf6f
+  - enabled: 1
+    path: Assets/Scenes/Third.unity
+    guid: 2a3d4ead738b341498e5d5b6567cbe7f
+  - enabled: 1
+    path: Assets/Scenes/Endgame.unity
+    guid: 7cb5b656547614446923cc98b97ca5a3
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

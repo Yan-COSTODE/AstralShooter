@@ -133,7 +133,7 @@ public class Tutorial : MonoBehaviour
             rockets.SetActive(true);
             autoCannon.SetActive(true);
             bigSpaceGun.SetActive(true);
-            SetText($"Move to a pickUp to collect it, you can only choose one", 3.0f);
+            SetText($"Move to the loot to collect it, you can only choose one", 3.0f);
         }
         else
         {

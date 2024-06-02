@@ -7,6 +7,7 @@ public class Weapon : ScriptableObject
 {
 	#region Fields & Properties
 	#region Fields
+	[SerializeField] private EScriptable type;
 	[SerializeField] private string id;
     [SerializeField] private Stat damage;
     [SerializeField] private Stat reload;
@@ -14,6 +15,7 @@ public class Weapon : ScriptableObject
     [SerializeField] private Stat salveInitialDelay;
     [SerializeField] private WeaponComp visual;
     [SerializeField] private Projectiles projectile;
+    [SerializeField] private float fInitialDelay;
     private List<Transform> sockets = new();
     private Animator animator = null;
     private float fAnimationSpeed = 1.0f;
@@ -24,6 +26,7 @@ public class Weapon : ScriptableObject
 	#region Properties
 	public Stat Damage => damage;
 	public string Id => id;
+	public EScriptable Type => type;
 	#endregion
 	#endregion
 	
@@ -62,6 +65,13 @@ public class Weapon : ScriptableObject
 
     private IEnumerator ShootSalve()
     {
+	    bSalve = true;
+	    
+	    if (fInitialDelay != 0.0f)
+			yield return new WaitForSeconds(Random.Range(0.0f, fInitialDelay));
+	    
+	    fInitialDelay = 0.0f;
+	    
 	    if (animator)
 	    {
 		    animator.speed = fAnimationSpeed;
@@ -72,13 +82,19 @@ public class Weapon : ScriptableObject
 	    
 	    for (int _i = 0; _i < sockets.Count; _i++)
 	    {
-		    Projectiles _projectile = Instantiate(projectile, sockets[_i].position, sockets[_i].rotation);
-		    _projectile.Setup(this);
+		    if (sockets[_i])
+		    {
+			    Projectiles _projectile = Instantiate(projectile, sockets[_i].position, sockets[_i].rotation);
+			    _projectile.Setup(this);
+		    }
+
 		    yield return new WaitForSeconds(salveDelay.Current);
 	    }
 
 	    if (animator)
 		    animator.SetBool("bShoot", false);
+
+	    bSalve = false;
     }
     
     private void ChangeLevel(int _level)

@@ -50,6 +50,11 @@ public class PlayerMovement : MonoBehaviour
 			return;
 		
 		reference = Camera.current;
+
+		if (reference)
+			return;
+
+		reference = Camera.main;
 		Init();
 	}
 	

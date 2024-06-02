@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e0d5459dfedee2338c5c1ce6fea3922, type: 3}
   m_Name: Rockets
   m_EditorClassIdentifier: 
+  type: 1
   id: Rockets
   damage:
     fMax: 1
