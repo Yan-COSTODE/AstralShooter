@@ -14,6 +14,7 @@ public class PlayerStats : MonoBehaviour
 	[SerializeField] private Stat shield;
 	[SerializeField] private Stat luck;
 	[SerializeField] private float fSuperShieldDuration = 5.0f;
+	[SerializeField] private float fInvincibilityTime = 0.1f;
 	[Header("Regen")] 
 	[SerializeField] private bool bCanRegenHealth;
 	[SerializeField] private float fRegenHealth = 1.0f;
@@ -57,6 +58,9 @@ public class PlayerStats : MonoBehaviour
 
     public void TakeDamage(float _damage)
     {
+	    if (fLastDamage <= fInvincibilityTime)
+		    return;
+	    
 	    fLastDamage = 0;
 
 	    if (bSuperShield)

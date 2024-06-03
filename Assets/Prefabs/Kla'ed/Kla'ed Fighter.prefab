@@ -311,24 +311,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 4
   health:
-    fMax: 5
+    fMax: 25
   shield:
-    fMax: 2
+    fMax: 10
   damage:
-    fMax: 1
-  movement: {fileID: 11400000, guid: d5183d5f9df72d7b095542552ae0eecb, type: 2}
+    fMax: 4
+  movementPattern: 5
   iScore: 500
   lootTable:
     loots: []
+  bGoTo: 0
+  fGoToSpeed: 1
+  goToPosition: {x: 0, y: 0, z: 0}
   bCanRegenHealth: 0
   fRegenHealth: 1
   fRegenShield: 2
   fRegenDelay: 3
-  weapon: {fileID: 11400000, guid: a9ed4a60574ad714192a0b3c9f244032, type: 2}
-  projectiles: {fileID: 673163303891217963, guid: b2b028194b3c6a9f2bbb67b19b21e093, type: 3}
-  sockets:
-  - {fileID: 0}
-  - {fileID: 0}
+  weaponPattern: 6
   weaponSocket: {fileID: 1370671090495589782}
   animator: {fileID: 5745468914656600705}
   fDieDelay: 1

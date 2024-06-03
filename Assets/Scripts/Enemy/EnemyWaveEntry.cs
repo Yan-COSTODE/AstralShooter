@@ -5,11 +5,13 @@ public class EnemyWaveEntry : MonoBehaviour
 {
     #region Fields & Properties
     #region Fields
+    [SerializeField] private string waveName;
     [SerializeField] private ulong iScore;
     [SerializeField] private List<GameObject> enemies;
     #endregion
 
     #region Properties
+    public string WaveName => waveName;
     #endregion
     #endregion
 

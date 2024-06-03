@@ -68,7 +68,7 @@ public class Stat
 	
 	public void ChangeCurrent(float _current)
 	{
-		_current = Mathf.Clamp(_current, 0, fMax);
+		_current = Mathf.Clamp(_current, 0, Max);
 		fCurrent = _current;
 	}
 	
@@ -82,6 +82,9 @@ public class Stat
 
 	private void RefreshCurrent(float _oldMax)
 	{
+		if (_oldMax == 0.0f)
+			return;
+		
 		float _change = fMax / _oldMax;
 		fCurrent *= _change;
 	}

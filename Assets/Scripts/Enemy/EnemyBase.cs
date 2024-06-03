@@ -1,4 +1,3 @@
-using System.Collections.Generic;
 using UnityEngine;
 
 public enum EEnemy
@@ -22,10 +21,13 @@ public class EnemyBase : MonoBehaviour
 	[Header("Stat")]
 	[SerializeField] private Stat health;
 	[SerializeField] private Stat shield;
-	[SerializeField] private Stat damage;
 	[SerializeField] private EScriptable movementPattern = EScriptable.MOVEMENT_WAVE;
 	[SerializeField] private ulong iScore;
 	[SerializeField] private LootTable lootTable;
+	[Header("Go To")] 
+	[SerializeField] private bool bGoTo;
+	[SerializeField] private float fGoToSpeed = 1.0f;
+	[SerializeField] private Vector3 goToPosition;
 	[Header("Regen")] 
 	[SerializeField] private bool bCanRegenHealth;
 	[SerializeField] private float fRegenHealth = 1.0f;
@@ -63,7 +65,6 @@ public class EnemyBase : MonoBehaviour
     {
 	    health.Init();
 	    shield.Init();
-	    damage.Init();
 	    startPos = transform.position;
 	    movement = ScriptableManager.Instance.Get<MovementPattern>(movementPattern);
 	    weapon = ScriptableManager.Instance.Get<Weapon>(weaponPattern);
@@ -78,17 +79,39 @@ public class EnemyBase : MonoBehaviour
 		    return;
 	    
 	    Regen();
-	    
-	    if (movement)
-		    movement.SetNextPosition(this);
+	    Move();
 
-	    if (weapon)
+	    if (!bGoTo && weapon)
 	    {
 		    StartCoroutine(weapon.Shoot(0));
 		    weapon.Reload();
 	    }
     }
 
+    private void Move()
+    {
+	    if (bGoTo)
+	    {
+		    Vector3 _dir = goToPosition - transform.position;
+		    Vector3 _normalized = _dir.normalized;
+		    Vector3 _delta = _normalized * (fGoToSpeed * Time.deltaTime);
+
+		    if (_delta.magnitude >= _dir.magnitude)
+		    {
+			    transform.position = goToPosition;
+			    startPos = transform.position;
+			    bGoTo = false;
+		    }
+		    else
+			    transform.position += _delta;
+	    }
+	    else
+	    {
+		    if (movement)
+			    movement.SetNextPosition(this);
+	    }
+    }
+    
     private void OnCollisionEnter2D(Collision2D _other)
     {
 	    GameObject _gO = _other.gameObject;
@@ -116,13 +139,12 @@ public class EnemyBase : MonoBehaviour
     private void HitProjectile(Projectiles _projectiles)
     {
 	    TakeDamage(_projectiles.Damage.Current);
-	    _projectiles.Touch();
+	    _projectiles.Touch(false);
     }
 
     private void HitPlayer(Player _player)
     {
 	    _player.TakeDamage(health.Current + shield.Current);
-	    Die(false);
     }
     
     private void TakeDamage(float _damage)
@@ -160,6 +182,7 @@ public class EnemyBase : MonoBehaviour
 	    shieldVisual.SetActive(false);
 	    bDead = true;
 	    animator.SetTrigger("Die");
+	    SoundManager.Instance.Play(ESound.ENEMY_DIE, transform.position, 1.0f, false, false);
 	    Destroy(gameObject, fDieDelay);
     }
     #endregion

@@ -45,7 +45,7 @@ public class Asteroids : MonoBehaviour
 	private void HitProjectile(Projectiles _projectiles)
 	{
 		TakeDamage(_projectiles.Damage.Current);
-		_projectiles.Touch();
+		_projectiles.Touch(false);
 	}
 
 	private void HitPlayer(Player _player)

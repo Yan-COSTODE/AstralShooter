@@ -50,3 +50,4 @@ MonoBehaviour:
   movementCircular: {fileID: 11400000, guid: 97bc099da0e68c870bac0ca0d432bc1a, type: 2}
   movementWave: {fileID: 11400000, guid: d5183d5f9df72d7b095542552ae0eecb, type: 2}
   klaedFighter: {fileID: 11400000, guid: a9ed4a60574ad714192a0b3c9f244032, type: 2}
+  klaedDreadnought: {fileID: 11400000, guid: 32b5e781f51d3f14295a3ff5940f7a8e, type: 2}

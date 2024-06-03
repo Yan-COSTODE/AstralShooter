@@ -45,12 +45,12 @@ public class PlayerPickUp : MonoBehaviour
 		if (!_weapon)
 			return;
 		
-		if (!player.Armory.Weapon || player.Armory.Weapon.Id != _weapon.Id)
+		if (!player.Armory.Weapon || player.Armory.Weapon.Type != _weapon.Type)
 		{
 			weaponLevel = 0;
 			player.Armory.ChangeWeapon(_weapon);
 		}
-		else if (player.Armory.Weapon.Id == _weapon.Id)
+		else if (player.Armory.Weapon.Type == _weapon.Type)
 		{
 			if (weaponLevel < iMaxWeaponLevel)
 				weaponLevel++;

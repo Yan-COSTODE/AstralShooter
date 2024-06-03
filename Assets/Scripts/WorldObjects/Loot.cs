@@ -39,6 +39,7 @@ public class Loot : MonoBehaviour
 	private void PlayerPickup(Player _player)
 	{
 		_player.PickUpLoot(this);
+		SoundManager.Instance.Play(ESound.LOOT, transform.position, 2.0f, false, false);
 		Destroy(gameObject);
 	}
 	#endregion

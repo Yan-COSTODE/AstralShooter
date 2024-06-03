@@ -28,19 +28,30 @@ public class UIManager : SingletonTemplate<UIManager>
 		if (!uiPauseMenu)
 			uiPauseMenu = GetComponentInChildren<UIPauseMenu>();
 		
-		SetUI(bGameUI);
+		Invoke(nameof(Init), 0.1f);
 	}
 
+	private void Init()
+	{
+		SetUI(bGameUI);
+	}
+	
 	public void SetUI(bool _bGameUI)
 	{
 		bGameUI = _bGameUI;
 		uiMain.gameObject.SetActive(!bGameUI);
 		hud.gameObject.SetActive(bGameUI);
-		
+
 		if (bGameUI)
+		{
 			hud.Init();
+			SoundManager.Instance.Play(ESound.BACKGROUND, Vector3.zero, 0.0f, true, true);
+		}
 		else
-			uiMain.BackToMenu();
+		{
+			uiMain.BackToMenu(false);
+			SoundManager.Instance.Play(ESound.MAIN_MENU, Vector3.zero, 0.0f, true, true);
+		}
 	}
 
 	public FloatingDamage SpawnFloatingDamage(float _damage,  Color _color, Vector3 _position)

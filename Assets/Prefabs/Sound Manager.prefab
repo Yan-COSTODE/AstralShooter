@@ -44,4 +44,49 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5768aadcb98f4eafb6ea79b3f850da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sounds: []
+  sounds:
+  - sound: 0
+    audio: {fileID: 8300000, guid: 0658da7eb5c605445af3298c5f268590, type: 3}
+    fVolume: 0.4
+  - sound: 1
+    audio: {fileID: 8300000, guid: d79f19f76c9cf414abb2e663ab77ac5f, type: 3}
+    fVolume: 0.1
+  - sound: 8
+    audio: {fileID: 8300000, guid: 2dd20bed0a515f744a1795e76f2a6d00, type: 3}
+    fVolume: 0.5
+  - sound: 9
+    audio: {fileID: 8300000, guid: 2dd20bed0a515f744a1795e76f2a6d00, type: 3}
+    fVolume: 0.5
+  - sound: 7
+    audio: {fileID: 8300000, guid: 84a33d9bd8c2e1d4685fbb3789c4bcc7, type: 3}
+    fVolume: 1
+  - sound: 10
+    audio: {fileID: 8300000, guid: 25447fd4031304a468113cb8063f2106, type: 3}
+    fVolume: 0.2
+  - sound: 11
+    audio: {fileID: 8300000, guid: cee7c88abdc1834449b1a6b8959924b8, type: 3}
+    fVolume: 0.05
+  - sound: 16
+    audio: {fileID: 8300000, guid: 1cd62a57aff01404c9aa3c7e700d7180, type: 3}
+    fVolume: 1
+  - sound: 14
+    audio: {fileID: 8300000, guid: 5b8660ae77714f74d90e3b0dcece172f, type: 3}
+    fVolume: 1
+  - sound: 15
+    audio: {fileID: 8300000, guid: 1729e2ba7f250594d9616d2c2540a01b, type: 3}
+    fVolume: 1
+  - sound: 17
+    audio: {fileID: 8300000, guid: db97d8a7506a3db4c99fe13d282bb9c0, type: 3}
+    fVolume: 1
+  - sound: 18
+    audio: {fileID: 8300000, guid: 97519905a7bc4884aa640b565444e857, type: 3}
+    fVolume: 1
+  - sound: 19
+    audio: {fileID: 8300000, guid: 11ae4f9080a569a48850386cc4868a54, type: 3}
+    fVolume: 1
+  - sound: 12
+    audio: {fileID: 8300000, guid: 129f7903f9a9414419b49b1da56a475a, type: 3}
+    fVolume: 1
+  - sound: 3
+    audio: {fileID: 8300000, guid: 9b15e486f787ef64dab56ba256815fb4, type: 3}
+    fVolume: 0.5

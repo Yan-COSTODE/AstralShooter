@@ -146,6 +146,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fFlySpeed: 8
+  bDestructible: 0
 --- !u!95 &2710189699344576069
 Animator:
   serializedVersion: 7

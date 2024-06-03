@@ -49,7 +49,8 @@ public class UITweening : MonoBehaviour, IPointerEnterHandler, IPointerExitHandl
     {
         if (!bIsActive || bIsTweening)
             return;
-        
+
+        SoundManager.Instance.Play(ESound.UI_HOVER, transform.position, 1.0f, false, false);
         StartCoroutine(Tween(originalScale, originalScale * fScale, fDuration, easingUp));
         bIsScaledUp = true;
     }

@@ -10,18 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7e0d5459dfedee2338c5c1ce6fea3922, type: 3}
-  m_Name: Kla'ed Fighter Weapon
+  m_Name: Kla'ed Dreadnought Weapon
   m_EditorClassIdentifier: 
-  type: 0
-  id: Kla'ed Fighter Weapon
+  type: 7
   damage:
-    fMax: 5
+    fMax: 80
   reload:
     fMax: 2
   salveDelay:
-    fMax: 0.05
+    fMax: 0
   salveInitialDelay:
-    fMax: 2
-  visual: {fileID: 1520026177478925576, guid: 797d0bc4d294c504e9a34fa056e688ac, type: 3}
-  projectile: {fileID: 673163303891217963, guid: b2b028194b3c6a9f2bbb67b19b21e093, type: 3}
-  fInitialDelay: 2
+    fMax: 5
+  visual: {fileID: 8582106361005115152, guid: 96a9afc15d139064f87813ea5cfd7797, type: 3}
+  projectile: {fileID: 695072115592357991, guid: bb548383b4f2db44dbcbbadb1a56289a, type: 3}
+  fInitialDelay: 0

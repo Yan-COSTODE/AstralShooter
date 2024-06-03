@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 124444108967750507}
   - component: {fileID: 2719790599300287787}
   m_Layer: 0
-  m_Name: Kla'ed 1
+  m_Name: Kla'ed Fighter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31,11 +31,15 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1147108200074358389}
+  - {fileID: 8935644383517871923}
   - {fileID: 3678448896158108864}
   - {fileID: 6634298304559704369}
+  - {fileID: 4383926788536091798}
   - {fileID: 852449516368141711}
+  - {fileID: 9208865041194648988}
   - {fileID: 7804344663726421038}
   - {fileID: 6867617281944434403}
+  - {fileID: 6110600874560250314}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2719790599300287787
@@ -50,14 +54,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 939523f74dad11a458e280bc0c52839d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  iScore: 5000
+  waveName: fighter
+  iScore: 3000
   enemies:
   - {fileID: 6177125431547846740}
+  - {fileID: 2761585321868149010}
   - {fileID: 7592699289344721633}
   - {fileID: 451227643999659792}
+  - {fileID: 7387029431873505975}
   - {fileID: 5874475531692266414}
+  - {fileID: 2710784312961518525}
   - {fileID: 3899075017086777871}
   - {fileID: 368305087804602562}
+  - {fileID: 1053808296738467819}
 --- !u!1001 &236696142734430252
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -70,9 +79,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kla'ed Fighter (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 7337383104656305867, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+      propertyPath: bGoTo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337383104656305867, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+      propertyPath: fGoToSpeed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337383104656305867, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+      propertyPath: goToPosition.y
+      value: 1.5
+      objectReference: {fileID: 0}
     - target: {fileID: 8000209314663162882, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -12
       objectReference: {fileID: 0}
     - target: {fileID: 8000209314663162882, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
       propertyPath: m_LocalPosition.y
@@ -125,6 +146,172 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8000209314663162882, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
   m_PrefabInstance: {fileID: 236696142734430252}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1209786093238444446
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 124444108967750507}
+    m_Modifications:
+    - target: {fileID: 3842878843562666531, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+      propertyPath: m_Name
+      value: Kla'ed Fighter (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337383104656305867, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+      propertyPath: bGoTo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337383104656305867, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+      propertyPath: fGoToSpeed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337383104656305867, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+      propertyPath: goToPosition.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337383104656305867, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+      propertyPath: goToPosition.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000209314663162882, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000209314663162882, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000209314663162882, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000209314663162882, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000209314663162882, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000209314663162882, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000209314663162882, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000209314663162882, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000209314663162882, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000209314663162882, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 180
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+--- !u!1 &2710784312961518525 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3842878843562666531, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+  m_PrefabInstance: {fileID: 1209786093238444446}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &9208865041194648988 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8000209314663162882, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+  m_PrefabInstance: {fileID: 1209786093238444446}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1371269968431737649
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 124444108967750507}
+    m_Modifications:
+    - target: {fileID: 3842878843562666531, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+      propertyPath: m_Name
+      value: Kla'ed Fighter (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337383104656305867, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+      propertyPath: bGoTo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337383104656305867, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+      propertyPath: fGoToSpeed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337383104656305867, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+      propertyPath: goToPosition.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337383104656305867, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+      propertyPath: goToPosition.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000209314663162882, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000209314663162882, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000209314663162882, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000209314663162882, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000209314663162882, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000209314663162882, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000209314663162882, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000209314663162882, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000209314663162882, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000209314663162882, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 180
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+--- !u!1 &2761585321868149010 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3842878843562666531, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+  m_PrefabInstance: {fileID: 1371269968431737649}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &8935644383517871923 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8000209314663162882, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+  m_PrefabInstance: {fileID: 1371269968431737649}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3479275302056973025
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -137,9 +324,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kla'ed Fighter (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 7337383104656305867, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+      propertyPath: bGoTo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337383104656305867, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+      propertyPath: fGoToSpeed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337383104656305867, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+      propertyPath: goToPosition.x
+      value: -1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337383104656305867, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+      propertyPath: goToPosition.y
+      value: 1.5
+      objectReference: {fileID: 0}
     - target: {fileID: 8000209314663162882, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.5
+      value: -13.5
       objectReference: {fileID: 0}
     - target: {fileID: 8000209314663162882, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
       propertyPath: m_LocalPosition.y
@@ -204,9 +407,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kla'ed Fighter (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7337383104656305867, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+      propertyPath: bGoTo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337383104656305867, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+      propertyPath: fGoToSpeed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337383104656305867, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+      propertyPath: goToPosition.x
+      value: -1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337383104656305867, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+      propertyPath: goToPosition.y
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 8000209314663162882, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.5
+      value: 10.5
       objectReference: {fileID: 0}
     - target: {fileID: 8000209314663162882, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
       propertyPath: m_LocalPosition.y
@@ -259,6 +478,172 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8000209314663162882, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
   m_PrefabInstance: {fileID: 3681605646723386675}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4308613208733517256
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 124444108967750507}
+    m_Modifications:
+    - target: {fileID: 3842878843562666531, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+      propertyPath: m_Name
+      value: Kla'ed Fighter (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337383104656305867, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+      propertyPath: bGoTo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337383104656305867, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+      propertyPath: fGoToSpeed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337383104656305867, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+      propertyPath: goToPosition.x
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337383104656305867, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+      propertyPath: goToPosition.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000209314663162882, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000209314663162882, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000209314663162882, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000209314663162882, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000209314663162882, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000209314663162882, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000209314663162882, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000209314663162882, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000209314663162882, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000209314663162882, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 180
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+--- !u!1 &1053808296738467819 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3842878843562666531, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+  m_PrefabInstance: {fileID: 4308613208733517256}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &6110600874560250314 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8000209314663162882, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+  m_PrefabInstance: {fileID: 4308613208733517256}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6039509430008520852
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 124444108967750507}
+    m_Modifications:
+    - target: {fileID: 3842878843562666531, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+      propertyPath: m_Name
+      value: Kla'ed Fighter (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337383104656305867, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+      propertyPath: bGoTo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337383104656305867, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+      propertyPath: fGoToSpeed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337383104656305867, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+      propertyPath: goToPosition.x
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337383104656305867, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+      propertyPath: goToPosition.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000209314663162882, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000209314663162882, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000209314663162882, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000209314663162882, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000209314663162882, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000209314663162882, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000209314663162882, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000209314663162882, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000209314663162882, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000209314663162882, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 180
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+--- !u!4 &4383926788536091798 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8000209314663162882, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+  m_PrefabInstance: {fileID: 6039509430008520852}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7387029431873505975 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3842878843562666531, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+  m_PrefabInstance: {fileID: 6039509430008520852}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6632124620695300290
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -271,9 +656,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kla'ed Fighter (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7337383104656305867, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+      propertyPath: bGoTo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337383104656305867, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+      propertyPath: fGoToSpeed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337383104656305867, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+      propertyPath: goToPosition.y
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 8000209314663162882, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 8000209314663162882, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
       propertyPath: m_LocalPosition.y
@@ -338,9 +735,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kla'ed Fighter
       objectReference: {fileID: 0}
+    - target: {fileID: 7337383104656305867, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+      propertyPath: bGoTo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337383104656305867, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+      propertyPath: fGoToSpeed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337383104656305867, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+      propertyPath: goToPosition.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337383104656305867, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+      propertyPath: goToPosition.y
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 8000209314663162882, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.5
+      value: 13.5
       objectReference: {fileID: 0}
     - target: {fileID: 8000209314663162882, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
       propertyPath: m_LocalPosition.y
@@ -405,9 +818,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kla'ed Fighter (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7337383104656305867, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+      propertyPath: bGoTo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337383104656305867, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+      propertyPath: fGoToSpeed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337383104656305867, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+      propertyPath: goToPosition.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337383104656305867, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
+      propertyPath: goToPosition.y
+      value: 1.5
+      objectReference: {fileID: 0}
     - target: {fileID: 8000209314663162882, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.5
+      value: -10.5
       objectReference: {fileID: 0}
     - target: {fileID: 8000209314663162882, guid: 186ff196a64dc2c46ae4c1865e9de0b2, type: 3}
       propertyPath: m_LocalPosition.y

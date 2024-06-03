@@ -30,25 +30,44 @@ public class UIPauseMenu : MonoBehaviour
         foreach (UITweening _tween in gameObject.GetComponentsInChildren<UITweening>())
             _tween.Reset();
         
+        SoundManager.Instance.Play(ESound.UI_PAUSE, transform.position, 1.0f, false, false);
         menu.SetActive(true);
         resumeButton.interactable = _status;
         resumeButtonTween.SetActive(_status);
-        Time.timeScale = 0.0f;
+
+        if (!_status)
+            StartCoroutine(SetTimeScaleNoText(fDelay, 0.0f));
+        else  
+            Time.timeScale = 0.0f;
     }
 
     public void Close()
     {
+        SoundManager.Instance.Play(ESound.UI_UNPAUSE, transform.position, 1.0f, false, false);
         menu.SetActive(false);
         StartCoroutine(SetTimeScale(fDelay, 1.0f));
     }
 
     public void Quit()
     {
-        SoundManager.Instance.Stop();
+        SoundManager.Instance.Play(ESound.UI_ACCEPT, transform.position, 1.0f, false, false);
         Player.Instance.Die(false);
         menu.SetActive(false);
         UIManager.Instance.SetUI(false);
+        SoundManager.Instance.Stop();
         SceneManager.LoadScene(sceneName);
+    }
+    
+    private IEnumerator SetTimeScaleNoText(float _delay, float _timeScale)
+    {
+        bIsDoing = true;
+        float _start = Time.unscaledTime;
+        
+        while (Time.unscaledTime - _start < _delay)
+            yield return null;
+
+        Time.timeScale = _timeScale;
+        bIsDoing = false;
     }
     
     private IEnumerator SetTimeScale(float _delay, float _timeScale)

@@ -8,7 +8,6 @@ public class Weapon : ScriptableObject
 	#region Fields & Properties
 	#region Fields
 	[SerializeField] private EScriptable type;
-	[SerializeField] private string id;
     [SerializeField] private Stat damage;
     [SerializeField] private Stat reload;
     [SerializeField] private Stat salveDelay;
@@ -25,7 +24,6 @@ public class Weapon : ScriptableObject
 	
 	#region Properties
 	public Stat Damage => damage;
-	public string Id => id;
 	public EScriptable Type => type;
 	#endregion
 	#endregion
@@ -77,7 +75,7 @@ public class Weapon : ScriptableObject
 		    animator.speed = fAnimationSpeed;
 		    animator.SetBool("bShoot", true);
 	    }
-
+	    
 	    yield return new WaitForSeconds(salveInitialDelay.Current);
 	    
 	    for (int _i = 0; _i < sockets.Count; _i++)
@@ -87,7 +85,7 @@ public class Weapon : ScriptableObject
 			    Projectiles _projectile = Instantiate(projectile, sockets[_i].position, sockets[_i].rotation);
 			    _projectile.Setup(this);
 		    }
-
+		    
 		    yield return new WaitForSeconds(salveDelay.Current);
 	    }
 

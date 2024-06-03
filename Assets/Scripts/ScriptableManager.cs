@@ -8,7 +8,8 @@ public enum EScriptable
     BIG_SPACE_GUN,
     MOVEMENT_CIRCULAR,
     MOVEMENT_WAVE,
-    KLAED_FIGHTER
+    KLAED_FIGHTER,
+    KLAED_DREADNOUGHT
 }
 
 public class ScriptableManager : SingletonTemplate<ScriptableManager>
@@ -21,7 +22,7 @@ public class ScriptableManager : SingletonTemplate<ScriptableManager>
     [SerializeField] private ScriptableObject movementCircular;
     [SerializeField] private ScriptableObject movementWave;
     [SerializeField] private ScriptableObject klaedFighter;
-
+    [SerializeField] private ScriptableObject klaedDreadnought;
     #endregion
 
     #region Properties
@@ -47,6 +48,8 @@ public class ScriptableManager : SingletonTemplate<ScriptableManager>
             case EScriptable.MOVEMENT_WAVE: _result = movementWave;
                 break;
             case EScriptable.KLAED_FIGHTER: _result = klaedFighter;
+                break;
+            case EScriptable.KLAED_DREADNOUGHT: _result = klaedDreadnought;
                 break;
         }
 

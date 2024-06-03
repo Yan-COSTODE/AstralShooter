@@ -34,8 +34,9 @@ public class InputManager : SingletonTemplate<InputManager>
     #endregion
     
     #region Methods
-    private void Start()
+    protected override void Awake()
     {
+        base.Awake();
         LoadInput();
     }
 

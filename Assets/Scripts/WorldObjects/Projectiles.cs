@@ -5,6 +5,7 @@ public class Projectiles : MonoBehaviour
 	#region Fields & Properties
 	#region Fields
 	[SerializeField] private float fFlySpeed;
+	[SerializeField] private bool bDestructible = true;
 	private Stat damage;
 	#endregion
 	
@@ -25,13 +26,13 @@ public class Projectiles : MonoBehaviour
 
 		if (_gO.GetComponent<Projectiles>())
 		{
-			_gO.GetComponent<Projectiles>().Touch();
-			Touch();
+			_gO.GetComponent<Projectiles>().Touch(true);
+			Touch(true);
 		}
 		if (_gO.GetComponent<Player>())
 		{
 			_gO.GetComponent<Player>().TakeDamage(damage.Current);
-			Touch();
+			Touch(false);
 		}
 	}
 	
@@ -40,8 +41,11 @@ public class Projectiles : MonoBehaviour
 		damage = weapon.Damage;
 	}
 
-	public void Touch()
+	public void Touch(bool _projectile)
 	{
+		if (!bDestructible && _projectile)
+			return;
+		
 		Destroy(gameObject);
 	}
 	#endregion

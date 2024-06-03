@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class UIMain : MonoBehaviour
 {
@@ -28,8 +29,8 @@ public class UIMain : MonoBehaviour
 	#region Methods
     private void Start()
     {
-	    ClearScoreboard();
-	    BackToMenu();
+	    ClearScoreboard(false);
+	    BackToMenu(false);
     }
 
     private void DisableALl()
@@ -43,14 +44,18 @@ public class UIMain : MonoBehaviour
 	    quitScreen.SetActive(false);
     }
 
-    public void BackToMenu()
+    public void BackToMenu(bool _sound = true)
     {
+	    if (_sound)
+			SoundManager.Instance.Play(ESound.UI_DECLINE, transform.position, 1.0f, false, false);
+	    
 	    DisableALl();
 	    mainButton.SetActive(true);
     }
 
     public void GoToMenu(GameObject _object)
     {
+	    SoundManager.Instance.Play(ESound.UI_ACCEPT, transform.position, 1.0f, false, false);
 	    DisableALl();
 	    mainButton.SetActive(false);
 	    _object.SetActive(true);
@@ -58,6 +63,7 @@ public class UIMain : MonoBehaviour
     
     public void Play()
     {
+	    SoundManager.Instance.Play(ESound.UI_ACCEPT, transform.position, 1.0f, false, false);
 	    string _name = nameInput.text;
 	    PlayerPrefs.SetString("PlayerName", _name);
 	    PlayerPrefs.Save();
@@ -68,6 +74,7 @@ public class UIMain : MonoBehaviour
 
     public void Quit()
     {
+	    SoundManager.Instance.Play(ESound.UI_ACCEPT, transform.position, 1.0f, false, false);
 		#if UNITY_EDITOR
 			    UnityEditor.EditorApplication.isPlaying = false;
 		#else
@@ -79,9 +86,9 @@ public class UIMain : MonoBehaviour
     {
     }
     
-    public void ClearScoreboard()
+    public void ClearScoreboard(bool _sound = true)
     {
-	    BackToMenu();
+	    BackToMenu(_sound);
 	    
 	    for (int _i = 0; _i < highScoreSocket.childCount; _i++)
 		    Destroy(highScoreSocket.GetChild(_i).gameObject);

@@ -70,9 +70,12 @@ public class Player : SingletonTemplate<Player>
 		bDead = true;
 		GetComponent<Collider2D>().enabled = false;
 		Scoreboard.Instance.AddScore(iScore, username);
-		
+
 		if (_ui)
+		{
+			SoundManager.Instance.Play(ESound.ENEMY_DIE, transform.position, 1.0f, false, false);
 			UIManager.Instance.UIPauseMenu.Open(false);
+		}
 	}
 	#endregion
 }
