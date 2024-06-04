@@ -13,9 +13,8 @@ MonoBehaviour:
   m_Name: Rockets
   m_EditorClassIdentifier: 
   type: 1
-  id: Rockets
   damage:
-    fMax: 1
+    fMax: 2
   reload:
     fMax: 0.2
   salveDelay:
@@ -24,3 +23,4 @@ MonoBehaviour:
     fMax: 0
   visual: {fileID: 4456148086527623689, guid: 7a2de470794da1dbfa7bba480ee78562, type: 3}
   projectile: {fileID: 750494903846921823, guid: b751eac0a8a3337cb9a935d1e18e55bc, type: 3}
+  fInitialDelay: 0

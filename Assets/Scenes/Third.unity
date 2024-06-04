@@ -305,6 +305,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7903300903902723357, guid: cb9971b187dea564aa44ce851616c06c, type: 3}
+      propertyPath: nextLevel
+      value: Endgame
+      objectReference: {fileID: 0}
     - target: {fileID: 8350412353885953642, guid: cb9971b187dea564aa44ce851616c06c, type: 3}
       propertyPath: m_Name
       value: Kla'ed Wave

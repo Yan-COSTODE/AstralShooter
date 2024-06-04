@@ -36,8 +36,7 @@ public class HUD : MonoBehaviour
 		GetPlayer();
 	}
 
-	
-	private void GetPlayer()
+	public void GetPlayer()
 	{
 		player = Player.Instance;
 		

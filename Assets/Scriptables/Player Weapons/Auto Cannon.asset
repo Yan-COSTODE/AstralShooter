@@ -13,9 +13,8 @@ MonoBehaviour:
   m_Name: Auto Cannon
   m_EditorClassIdentifier: 
   type: 2
-  id: Auto Cannon
   damage:
-    fMax: 2
+    fMax: 4
   reload:
     fMax: 0.2
   salveDelay:
@@ -24,3 +23,4 @@ MonoBehaviour:
     fMax: 0
   visual: {fileID: 5182157090637775615, guid: b4c25339808165de8a1a46fa67ed4708, type: 3}
   projectile: {fileID: 6959022292437617969, guid: 877369c86b036acbe8bb2244133331cf, type: 3}
+  fInitialDelay: 0

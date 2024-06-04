@@ -35,6 +35,7 @@ public class Player : SingletonTemplate<Player>
 	#region Methods
 	private void Start()
 	{
+		UIManager.Instance.HUD.GetPlayer();
 		SceneManager.sceneLoaded += SceneChangement;
 		SceneChangement(default, default);
 		username = PlayerPrefs.GetString("PlayerName", "Player");
