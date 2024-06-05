@@ -12,12 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e0d5459dfedee2338c5c1ce6fea3922, type: 3}
   m_Name: Kla'ed Fighter Weapon
   m_EditorClassIdentifier: 
-  type: 6
-  id: Kla'ed Fighter Weapon
+  type: 7
   damage:
-    fMax: 5
+    fMax: 10
   reload:
-    fMax: 2
+    fMax: 1
   salveDelay:
     fMax: 0.05
   salveInitialDelay:

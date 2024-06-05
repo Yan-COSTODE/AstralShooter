@@ -20,6 +20,5 @@ public class CircularMovementPattern : MovementPattern
 		float _y = Mathf.Sin(_base.Angle) * fRadius;
 		_base.transform.position = _base.StartPos + new Vector3(_x, _y, 0);
 	}
-
 	#endregion
 }

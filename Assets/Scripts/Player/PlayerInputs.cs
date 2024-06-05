@@ -39,6 +39,9 @@ public class PlayerInputs : MonoBehaviour
 
     private void Update()
     {
+        if (player.Dead)
+            return;
+        
         if (bCanMove)
         {
             player.Movement.ResetMove();

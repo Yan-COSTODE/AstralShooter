@@ -26,6 +26,9 @@ public class PlayerArmory : MonoBehaviour
 
     private void Update()
     {
+	    if (player.Dead)
+		    return;
+	    
 	    if (!weapon)
 		    return;
 	    

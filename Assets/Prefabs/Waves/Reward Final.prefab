@@ -178,7 +178,7 @@ MonoBehaviour:
       weight: 100
   moveSpeed:
     fMin: 1
-    fMax: 5
+    fMax: 2
   rotateSpeed:
     fMin: 10
     fMax: 50
@@ -362,7 +362,7 @@ MonoBehaviour:
       weight: 100
   moveSpeed:
     fMin: 1
-    fMax: 5
+    fMax: 2
   rotateSpeed:
     fMin: 10
     fMax: 50
@@ -546,7 +546,7 @@ MonoBehaviour:
       weight: 100
   moveSpeed:
     fMin: 1
-    fMax: 5
+    fMax: 2
   rotateSpeed:
     fMin: 10
     fMax: 50
@@ -730,7 +730,7 @@ MonoBehaviour:
       weight: 100
   moveSpeed:
     fMin: 1
-    fMax: 5
+    fMax: 2
   rotateSpeed:
     fMin: 10
     fMax: 50
@@ -914,7 +914,7 @@ MonoBehaviour:
       weight: 100
   moveSpeed:
     fMin: 1
-    fMax: 5
+    fMax: 2
   rotateSpeed:
     fMin: 10
     fMax: 50
@@ -1098,7 +1098,7 @@ MonoBehaviour:
       weight: 100
   moveSpeed:
     fMin: 1
-    fMax: 5
+    fMax: 2
   rotateSpeed:
     fMin: 10
     fMax: 50
@@ -1282,7 +1282,7 @@ MonoBehaviour:
       weight: 100
   moveSpeed:
     fMin: 1
-    fMax: 5
+    fMax: 2
   rotateSpeed:
     fMin: 10
     fMax: 50
@@ -1466,7 +1466,7 @@ MonoBehaviour:
       weight: 100
   moveSpeed:
     fMin: 1
-    fMax: 5
+    fMax: 2
   rotateSpeed:
     fMin: 10
     fMax: 50
@@ -1650,7 +1650,7 @@ MonoBehaviour:
       weight: 100
   moveSpeed:
     fMin: 1
-    fMax: 5
+    fMax: 2
   rotateSpeed:
     fMin: 10
     fMax: 50
@@ -1834,7 +1834,7 @@ MonoBehaviour:
       weight: 100
   moveSpeed:
     fMin: 1
-    fMax: 5
+    fMax: 2
   rotateSpeed:
     fMin: 10
     fMax: 50
@@ -2018,7 +2018,7 @@ MonoBehaviour:
       weight: 100
   moveSpeed:
     fMin: 1
-    fMax: 5
+    fMax: 2
   rotateSpeed:
     fMin: 10
     fMax: 50
@@ -2202,7 +2202,7 @@ MonoBehaviour:
       weight: 100
   moveSpeed:
     fMin: 1
-    fMax: 5
+    fMax: 2
   rotateSpeed:
     fMin: 10
     fMax: 50
@@ -2386,7 +2386,7 @@ MonoBehaviour:
       weight: 100
   moveSpeed:
     fMin: 1
-    fMax: 5
+    fMax: 2
   rotateSpeed:
     fMin: 10
     fMax: 50
@@ -2570,7 +2570,7 @@ MonoBehaviour:
       weight: 100
   moveSpeed:
     fMin: 1
-    fMax: 5
+    fMax: 2
   rotateSpeed:
     fMin: 10
     fMax: 50
@@ -2754,7 +2754,7 @@ MonoBehaviour:
       weight: 100
   moveSpeed:
     fMin: 1
-    fMax: 5
+    fMax: 2
   rotateSpeed:
     fMin: 10
     fMax: 50
@@ -2938,7 +2938,7 @@ MonoBehaviour:
       weight: 100
   moveSpeed:
     fMin: 1
-    fMax: 5
+    fMax: 2
   rotateSpeed:
     fMin: 10
     fMax: 50
@@ -3122,7 +3122,7 @@ MonoBehaviour:
       weight: 100
   moveSpeed:
     fMin: 1
-    fMax: 5
+    fMax: 2
   rotateSpeed:
     fMin: 10
     fMax: 50
@@ -3306,7 +3306,7 @@ MonoBehaviour:
       weight: 100
   moveSpeed:
     fMin: 1
-    fMax: 5
+    fMax: 2
   rotateSpeed:
     fMin: 10
     fMax: 50
@@ -3490,7 +3490,7 @@ MonoBehaviour:
       weight: 100
   moveSpeed:
     fMin: 1
-    fMax: 5
+    fMax: 2
   rotateSpeed:
     fMin: 10
     fMax: 50
@@ -3761,7 +3761,7 @@ MonoBehaviour:
       weight: 100
   moveSpeed:
     fMin: 1
-    fMax: 5
+    fMax: 2
   rotateSpeed:
     fMin: 10
     fMax: 50

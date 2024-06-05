@@ -10,17 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7e0d5459dfedee2338c5c1ce6fea3922, type: 3}
-  m_Name: Kla'ed Dreadnought Weapon
+  m_Name: Kla'ed Scout Weapon
   m_EditorClassIdentifier: 
-  type: 8
+  type: 10
   damage:
-    fMax: 80
+    fMax: 5
   reload:
-    fMax: 2
+    fMax: 0.5
   salveDelay:
     fMax: 0
   salveInitialDelay:
-    fMax: 5
-  visual: {fileID: 8582106361005115152, guid: 96a9afc15d139064f87813ea5cfd7797, type: 3}
-  projectile: {fileID: 695072115592357991, guid: bb548383b4f2db44dbcbbadb1a56289a, type: 3}
-  fInitialDelay: 0
+    fMax: 1
+  visual: {fileID: 1520026177478925576, guid: 92d4991ca055d304abcb26f3d5d956a5, type: 3}
+  projectile: {fileID: 1211147392427651703, guid: 87e0664bfdc7e774ab2a6d9f1b7ae203, type: 3}
+  fInitialDelay: 1

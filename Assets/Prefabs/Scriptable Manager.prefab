@@ -49,5 +49,8 @@ MonoBehaviour:
   bigSpaceGun: {fileID: 11400000, guid: c0d4d7b74b9f3c3509bef89b8200c6ef, type: 2}
   movementCircular: {fileID: 11400000, guid: 97bc099da0e68c870bac0ca0d432bc1a, type: 2}
   movementWave: {fileID: 11400000, guid: d5183d5f9df72d7b095542552ae0eecb, type: 2}
+  movementHorizontal: {fileID: 11400000, guid: c1c331d23a1febb4fa1bbbe24a4f8ca5, type: 2}
+  movementKamikaze: {fileID: 11400000, guid: 5200e352e362d364eae43db5fa90e3c8, type: 2}
   klaedFighter: {fileID: 11400000, guid: a9ed4a60574ad714192a0b3c9f244032, type: 2}
   klaedDreadnought: {fileID: 11400000, guid: 32b5e781f51d3f14295a3ff5940f7a8e, type: 2}
+  klaedScout: {fileID: 11400000, guid: 54eb9fac8e5c1834d93bda1e21191648, type: 2}

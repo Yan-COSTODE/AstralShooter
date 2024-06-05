@@ -65,7 +65,6 @@ public class SoundManager : SingletonTemplate<SoundManager>
 		if (!_clip)
 			return -1;
 
-		Debug.Log($"Played {_sound}");
 		GameObject _gO = new GameObject($"Audio Source {_sound}");
 		_gO.transform.SetParent(transform);
 		_gO.transform.position = _position;

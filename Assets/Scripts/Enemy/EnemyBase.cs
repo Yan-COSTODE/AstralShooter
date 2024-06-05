@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public enum EEnemy
 {
@@ -18,6 +19,7 @@ public class EnemyBase : MonoBehaviour
 	#region Fields & Properties
 	#region Fields
 	[SerializeField] private EEnemy type;
+	[SerializeField] private EnemySpawner spawner;
 	[Header("Stat")]
 	[SerializeField] private Stat health;
 	[SerializeField] private Stat shield;
@@ -36,7 +38,9 @@ public class EnemyBase : MonoBehaviour
 	[Header("Weapon")] 
 	[SerializeField] private EScriptable weaponPattern = EScriptable.KLAED_FIGHTER;
 	[SerializeField] private Transform weaponSocket;
-	[Header("Visual")]
+	[Header("Visual")] 
+	[SerializeField] private Image shieldBar;
+	[SerializeField] private Image healthBar;
 	[SerializeField] private Animator animator;
 	[SerializeField] private float fDieDelay = 0.5f;
 	[SerializeField] private GameObject shieldVisual;
@@ -80,7 +84,8 @@ public class EnemyBase : MonoBehaviour
 	    
 	    Regen();
 	    Move();
-
+		UpdateBar();
+	    
 	    if (!bGoTo && weapon)
 	    {
 		    StartCoroutine(weapon.Shoot(0));
@@ -120,6 +125,15 @@ public class EnemyBase : MonoBehaviour
 		    HitProjectile(_gO.GetComponent<Projectiles>());
 	    if (_gO.GetComponent<Player>())
 		    HitPlayer(_gO.GetComponent<Player>());
+    }
+
+    private void UpdateBar()
+    {
+	    if (healthBar)
+			healthBar.fillAmount = health.Percent;
+	    
+	    if (shieldBar)
+			shieldBar.fillAmount = shield.Percent;
     }
     
     private void Regen()
@@ -168,7 +182,7 @@ public class EnemyBase : MonoBehaviour
 		    Die();
     }
 
-    private void Die(bool _score = true)
+    public void Die(bool _score = true)
     {
 	    if (_score)
 	    {
@@ -176,6 +190,9 @@ public class EnemyBase : MonoBehaviour
 		    Player.Instance.AddScore(iScore);
 	    }
 
+	    if (spawner)
+		    spawner.Destroy();
+	    
 	    GetComponent<Collider2D>().enabled = false;
 	    engineVisual.SetActive(false);
 	    weaponSocket.gameObject.SetActive(false);

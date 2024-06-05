@@ -804,8 +804,6 @@ MonoBehaviour:
     fMax: 25
   shield:
     fMax: 10
-  damage:
-    fMax: 1
   movementPattern: 4
   iScore: 500
   lootTable:
@@ -817,7 +815,7 @@ MonoBehaviour:
   fRegenHealth: 1
   fRegenShield: 2
   fRegenDelay: 3
-  weaponPattern: 6
+  weaponPattern: 7
   weaponSocket: {fileID: 3228228346269295971}
   animator: {fileID: 4882955180935433615}
   fDieDelay: 1
@@ -920,8 +918,6 @@ MonoBehaviour:
     fMax: 25
   shield:
     fMax: 10
-  damage:
-    fMax: 1
   movementPattern: 4
   iScore: 500
   lootTable:
@@ -933,7 +929,7 @@ MonoBehaviour:
   fRegenHealth: 1
   fRegenShield: 2
   fRegenDelay: 3
-  weaponPattern: 6
+  weaponPattern: 7
   weaponSocket: {fileID: 4102192955317183324}
   animator: {fileID: 2228990922166732703}
   fDieDelay: 1
@@ -1098,8 +1094,6 @@ MonoBehaviour:
     fMax: 25
   shield:
     fMax: 10
-  damage:
-    fMax: 1
   movementPattern: 4
   iScore: 500
   lootTable:
@@ -1111,7 +1105,7 @@ MonoBehaviour:
   fRegenHealth: 1
   fRegenShield: 2
   fRegenDelay: 3
-  weaponPattern: 6
+  weaponPattern: 7
   weaponSocket: {fileID: 1328417718320880701}
   animator: {fileID: 9096710070317215232}
   fDieDelay: 1
@@ -1324,8 +1318,6 @@ MonoBehaviour:
     fMax: 25
   shield:
     fMax: 10
-  damage:
-    fMax: 1
   movementPattern: 4
   iScore: 500
   lootTable:
@@ -1337,7 +1329,7 @@ MonoBehaviour:
   fRegenHealth: 1
   fRegenShield: 2
   fRegenDelay: 3
-  weaponPattern: 6
+  weaponPattern: 7
   weaponSocket: {fileID: 7898456078756103715}
   animator: {fileID: 2108054300935292657}
   fDieDelay: 1
@@ -2102,8 +2094,6 @@ MonoBehaviour:
     fMax: 25
   shield:
     fMax: 10
-  damage:
-    fMax: 1
   movementPattern: 4
   iScore: 500
   lootTable:
@@ -2115,7 +2105,7 @@ MonoBehaviour:
   fRegenHealth: 1
   fRegenShield: 2
   fRegenDelay: 3
-  weaponPattern: 6
+  weaponPattern: 7
   weaponSocket: {fileID: 695348622176877057}
   animator: {fileID: 4866385231774339540}
   fDieDelay: 1
@@ -3142,8 +3132,6 @@ MonoBehaviour:
     fMax: 25
   shield:
     fMax: 10
-  damage:
-    fMax: 1
   movementPattern: 4
   iScore: 500
   lootTable:
@@ -3155,7 +3143,7 @@ MonoBehaviour:
   fRegenHealth: 1
   fRegenShield: 2
   fRegenDelay: 3
-  weaponPattern: 6
+  weaponPattern: 7
   weaponSocket: {fileID: 6704545800585073594}
   animator: {fileID: 7380039033888646757}
   fDieDelay: 1
@@ -3582,8 +3570,6 @@ MonoBehaviour:
     fMax: 25
   shield:
     fMax: 10
-  damage:
-    fMax: 1
   movementPattern: 4
   iScore: 500
   lootTable:
@@ -3595,7 +3581,7 @@ MonoBehaviour:
   fRegenHealth: 1
   fRegenShield: 2
   fRegenDelay: 3
-  weaponPattern: 6
+  weaponPattern: 7
   weaponSocket: {fileID: 3320908821424900546}
   animator: {fileID: 6042383874178224936}
   fDieDelay: 1
@@ -3698,8 +3684,6 @@ MonoBehaviour:
     fMax: 25
   shield:
     fMax: 10
-  damage:
-    fMax: 1
   movementPattern: 4
   iScore: 500
   lootTable:
@@ -3711,7 +3695,7 @@ MonoBehaviour:
   fRegenHealth: 1
   fRegenShield: 2
   fRegenDelay: 3
-  weaponPattern: 6
+  weaponPattern: 7
   weaponSocket: {fileID: 6230789118028230145}
   animator: {fileID: 3129302400296789468}
   fDieDelay: 1
