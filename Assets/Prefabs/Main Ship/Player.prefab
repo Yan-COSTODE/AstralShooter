@@ -538,6 +538,7 @@ MonoBehaviour:
   luck:
     fMax: 1
   fSuperShieldDuration: 5
+  fInvincibilityTime: 0.1
   bCanRegenHealth: 0
   fRegenHealth: 1
   fRegenShield: 10

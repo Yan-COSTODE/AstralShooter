@@ -18,7 +18,7 @@ public class SingletonTemplate<T> : MonoBehaviour where T : MonoBehaviour
         if (instance)
         {
             Debug.LogWarning($"More than one {typeof(T)} instance found");
-            Destroy(this);
+            Destroy(gameObject);
             return;
         }
 

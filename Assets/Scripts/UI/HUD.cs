@@ -40,8 +40,10 @@ public class HUD : MonoBehaviour
 	{
 		player = Player.Instance;
 		
-		if (player)
-			playerText.text = player.Username;
+		if (!player)
+			return;
+		
+		playerText.text = player.Username;
 	}
 	
 	private void UpdateScore(ulong _score)
