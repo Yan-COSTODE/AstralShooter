@@ -113,19 +113,19 @@ TextureImporter:
       name: Nairan - Frigate - Weapons_0
       rect:
         serializedVersion: 2
-        x: 10
-        y: 12
-        width: 44
-        height: 44
+        x: 0
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 96583a7c8e1563280800000000000000
-      internalID: -9063967139812899479
+      spriteID: a9cdf2fec1fc93f4aa0fc2973754798b
+      internalID: 1120301151
       vertices: []
       indices: 
       edges: []
@@ -134,19 +134,19 @@ TextureImporter:
       name: Nairan - Frigate - Weapons_1
       rect:
         serializedVersion: 2
-        x: 74
-        y: 12
-        width: 44
-        height: 44
+        x: 64
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 897e67b91c663e9e0800000000000000
-      internalID: -1593316861436041320
+      spriteID: 794e7b96667222744836e00664e56aff
+      internalID: 1228856527
       vertices: []
       indices: 
       edges: []
@@ -155,19 +155,19 @@ TextureImporter:
       name: Nairan - Frigate - Weapons_2
       rect:
         serializedVersion: 2
-        x: 138
-        y: 12
-        width: 44
-        height: 44
+        x: 128
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 148c937e2bf0e2c40800000000000000
-      internalID: 5489342256869132353
+      spriteID: 7dbca4e1fc684294f95018167f49d19f
+      internalID: 2027298616
       vertices: []
       indices: 
       edges: []
@@ -176,19 +176,19 @@ TextureImporter:
       name: Nairan - Frigate - Weapons_3
       rect:
         serializedVersion: 2
-        x: 202
-        y: 12
-        width: 44
-        height: 44
+        x: 192
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: de4f2c2b68f9a9890800000000000000
-      internalID: -7450467232657509139
+      spriteID: 93e99d6ea81ea2e428310445846efe28
+      internalID: 273717093
       vertices: []
       indices: 
       edges: []
@@ -197,19 +197,19 @@ TextureImporter:
       name: Nairan - Frigate - Weapons_4
       rect:
         serializedVersion: 2
-        x: 266
-        y: 12
-        width: 44
-        height: 44
+        x: 256
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 538570772cb62c6e0800000000000000
-      internalID: -1818772816539461579
+      spriteID: 3e0ca5f4543049c489c0e62b9378b837
+      internalID: -145727773
       vertices: []
       indices: 
       edges: []
@@ -217,14 +217,19 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: b91eb570384503c47977b816008958de
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Nairan - Frigate - Weapons_0: 1120301151
+      Nairan - Frigate - Weapons_1: 1228856527
+      Nairan - Frigate - Weapons_2: 2027298616
+      Nairan - Frigate - Weapons_3: 273717093
+      Nairan - Frigate - Weapons_4: -145727773
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

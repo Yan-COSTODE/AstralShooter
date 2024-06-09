@@ -143,19 +143,19 @@ TextureImporter:
       name: Nairan - Scout -  Destruction_0
       rect:
         serializedVersion: 2
-        x: 19
-        y: 18
-        width: 26
-        height: 24
+        x: 0
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a827598de46b9ef70800000000000000
-      internalID: 9217098562147807882
+      spriteID: 31c2804b31aaacc4eab676b419ba4fc6
+      internalID: 622022371
       vertices: []
       indices: 
       edges: []
@@ -164,19 +164,19 @@ TextureImporter:
       name: Nairan - Scout -  Destruction_1
       rect:
         serializedVersion: 2
-        x: 83
-        y: 18
-        width: 26
-        height: 24
+        x: 64
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6fa18bc5b8ebbe9a0800000000000000
-      internalID: -6202654556007425290
+      spriteID: 000b8d669ab895e4f8be4b6c9d26daf5
+      internalID: 800925195
       vertices: []
       indices: 
       edges: []
@@ -185,19 +185,19 @@ TextureImporter:
       name: Nairan - Scout -  Destruction_2
       rect:
         serializedVersion: 2
-        x: 147
-        y: 17
-        width: 26
-        height: 26
+        x: 128
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 52a1da34544a4f1f0800000000000000
-      internalID: -1012003398856402395
+      spriteID: 3357459335479f34782a312c1cf256cd
+      internalID: -316967914
       vertices: []
       indices: 
       edges: []
@@ -206,19 +206,19 @@ TextureImporter:
       name: Nairan - Scout -  Destruction_3
       rect:
         serializedVersion: 2
-        x: 206
-        y: 12
-        width: 36
-        height: 36
+        x: 192
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a392d0abe0b5b0300800000000000000
-      internalID: 219369125666695482
+      spriteID: 815ac0598a52d7345940a00921e039a2
+      internalID: 85517715
       vertices: []
       indices: 
       edges: []
@@ -227,19 +227,19 @@ TextureImporter:
       name: Nairan - Scout -  Destruction_4
       rect:
         serializedVersion: 2
-        x: 265
-        y: 7
-        width: 46
-        height: 46
+        x: 256
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f0d2d3ec6b96cf140800000000000000
-      internalID: 4754791540461481231
+      spriteID: b37cb4586b6e89a46a88e936759b4465
+      internalID: 1759271200
       vertices: []
       indices: 
       edges: []
@@ -248,19 +248,19 @@ TextureImporter:
       name: Nairan - Scout -  Destruction_5
       rect:
         serializedVersion: 2
-        x: 329
-        y: 7
-        width: 46
-        height: 46
+        x: 320
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b5030be67c9b6d960800000000000000
-      internalID: 7626487285205184603
+      spriteID: 02adb2b71fe45b6469c75b3aced11970
+      internalID: -580239645
       vertices: []
       indices: 
       edges: []
@@ -269,19 +269,19 @@ TextureImporter:
       name: Nairan - Scout -  Destruction_6
       rect:
         serializedVersion: 2
-        x: 393
-        y: 7
-        width: 46
-        height: 46
+        x: 384
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 16ada9f7c8bd902c0800000000000000
-      internalID: -4464796159078376863
+      spriteID: 6e97624cff73d124eb92f4c6d51398e8
+      internalID: 1232734490
       vertices: []
       indices: 
       edges: []
@@ -290,19 +290,19 @@ TextureImporter:
       name: Nairan - Scout -  Destruction_7
       rect:
         serializedVersion: 2
-        x: 457
-        y: 7
-        width: 46
-        height: 46
+        x: 448
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3b5a98a4a76b77490800000000000000
-      internalID: -7748523997514848845
+      spriteID: 074efe9869d3ce04a8660d83a5cb3fa2
+      internalID: 1731151694
       vertices: []
       indices: 
       edges: []
@@ -311,19 +311,19 @@ TextureImporter:
       name: Nairan - Scout -  Destruction_8
       rect:
         serializedVersion: 2
-        x: 521
-        y: 7
-        width: 46
-        height: 46
+        x: 512
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5b3a7a5f9d45537d0800000000000000
-      internalID: -2939349886683339851
+      spriteID: f4c4b14b4c5fef548abbb511d1416711
+      internalID: 807296906
       vertices: []
       indices: 
       edges: []
@@ -332,19 +332,19 @@ TextureImporter:
       name: Nairan - Scout -  Destruction_9
       rect:
         serializedVersion: 2
-        x: 585
-        y: 7
-        width: 46
-        height: 46
+        x: 576
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f663411c10ed95ef0800000000000000
-      internalID: -118819816032946577
+      spriteID: 4a742b768a3b24a42ae96a5aae281fca
+      internalID: -1937675652
       vertices: []
       indices: 
       edges: []
@@ -353,19 +353,19 @@ TextureImporter:
       name: Nairan - Scout -  Destruction_10
       rect:
         serializedVersion: 2
-        x: 654
-        y: 12
-        width: 36
-        height: 36
+        x: 640
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4d30299f2131e8ad0800000000000000
-      internalID: -2698198154530913324
+      spriteID: 066ec4f6872b99c47bd2323cabc9a81d
+      internalID: -742176263
       vertices: []
       indices: 
       edges: []
@@ -374,19 +374,19 @@ TextureImporter:
       name: Nairan - Scout -  Destruction_11
       rect:
         serializedVersion: 2
-        x: 723
-        y: 17
-        width: 26
-        height: 26
+        x: 704
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 72764db9d708e3f90800000000000000
-      internalID: -6971993896149293273
+      spriteID: 2d003f831f282a64dbda24d1e1cbf19a
+      internalID: 774864932
       vertices: []
       indices: 
       edges: []
@@ -395,19 +395,19 @@ TextureImporter:
       name: Nairan - Scout -  Destruction_12
       rect:
         serializedVersion: 2
-        x: 792
-        y: 22
-        width: 16
-        height: 16
+        x: 768
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2d61a53712c6225b0800000000000000
-      internalID: -5394630512711428398
+      spriteID: 9bd486c8ac523ec4184c0eb375e7120a
+      internalID: 1585863597
       vertices: []
       indices: 
       edges: []
@@ -416,19 +416,19 @@ TextureImporter:
       name: Nairan - Scout -  Destruction_13
       rect:
         serializedVersion: 2
-        x: 859
-        y: 25
-        width: 10
-        height: 10
+        x: 832
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 15d914420bebbfd90800000000000000
-      internalID: -7062841926868689583
+      spriteID: d587237dd07214c46a02598f9b6b3bda
+      internalID: 828550307
       vertices: []
       indices: 
       edges: []
@@ -437,19 +437,40 @@ TextureImporter:
       name: Nairan - Scout -  Destruction_14
       rect:
         serializedVersion: 2
-        x: 924
-        y: 23
-        width: 75
-        height: 14
+        x: 896
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: bdc6250a060184a80800000000000000
-      internalID: -8482511890959668005
+      spriteID: 940bd74f287517941813bb31a5f55eca
+      internalID: -1590336104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nairan - Scout -  Destruction_15
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a324620f781f2f547adee79421a35833
+      internalID: -1559494708
       vertices: []
       indices: 
       edges: []
@@ -457,14 +478,30 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 852dd0810a77ecc46af7d0422ecb5a8e
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Nairan - Scout -  Destruction_0: 622022371
+      Nairan - Scout -  Destruction_1: 800925195
+      Nairan - Scout -  Destruction_10: -742176263
+      Nairan - Scout -  Destruction_11: 774864932
+      Nairan - Scout -  Destruction_12: 1585863597
+      Nairan - Scout -  Destruction_13: 828550307
+      Nairan - Scout -  Destruction_14: -1590336104
+      Nairan - Scout -  Destruction_15: -1559494708
+      Nairan - Scout -  Destruction_2: -316967914
+      Nairan - Scout -  Destruction_3: 85517715
+      Nairan - Scout -  Destruction_4: 1759271200
+      Nairan - Scout -  Destruction_5: -580239645
+      Nairan - Scout -  Destruction_6: 1232734490
+      Nairan - Scout -  Destruction_7: 1731151694
+      Nairan - Scout -  Destruction_8: 807296906
+      Nairan - Scout -  Destruction_9: -1937675652
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

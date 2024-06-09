@@ -122,19 +122,19 @@ TextureImporter:
       name: Nairan - Torpedo Ship - Shield_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 35
-        width: 58
-        height: 17
+        x: 0
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2a347dc0cafd357c0800000000000000
-      internalID: -4083674507052104798
+      spriteID: b19a9c9dbe60ab74c81481d2c0960857
+      internalID: -118523388
       vertices: []
       indices: 
       edges: []
@@ -143,19 +143,19 @@ TextureImporter:
       name: Nairan - Torpedo Ship - Shield_1
       rect:
         serializedVersion: 2
-        x: 87
-        y: 41
-        width: 18
-        height: 11
+        x: 64
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 17774da6e783292a0800000000000000
-      internalID: -6732256377356126351
+      spriteID: a1b12163b94761441877acd81dfdf503
+      internalID: -268260747
       vertices: []
       indices: 
       edges: []
@@ -164,19 +164,19 @@ TextureImporter:
       name: Nairan - Torpedo Ship - Shield_2
       rect:
         serializedVersion: 2
-        x: 144
-        y: 41
-        width: 32
-        height: 11
+        x: 128
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: fe5a15c1981d53340800000000000000
-      internalID: 4843007361122674159
+      spriteID: a9014562dc669ec4ba0ec317adca6bc2
+      internalID: 1611458946
       vertices: []
       indices: 
       edges: []
@@ -185,19 +185,19 @@ TextureImporter:
       name: Nairan - Torpedo Ship - Shield_3
       rect:
         serializedVersion: 2
-        x: 202
-        y: 41
-        width: 44
-        height: 11
+        x: 192
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: fb87585e244c0a5c0800000000000000
-      internalID: -4206146260366427969
+      spriteID: 4de6b54008ae1c445a84edf4228db4ed
+      internalID: -27681473
       vertices: []
       indices: 
       edges: []
@@ -206,19 +206,19 @@ TextureImporter:
       name: Nairan - Torpedo Ship - Shield_4
       rect:
         serializedVersion: 2
-        x: 261
-        y: 38
-        width: 54
-        height: 14
+        x: 256
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 095a707dc63c8e370800000000000000
-      internalID: 8352140381190071696
+      spriteID: 93a2b21b3f7067e4d9be0b023ab2530c
+      internalID: -1160508156
       vertices: []
       indices: 
       edges: []
@@ -227,19 +227,19 @@ TextureImporter:
       name: Nairan - Torpedo Ship - Shield_5
       rect:
         serializedVersion: 2
-        x: 323
-        y: 35
-        width: 58
-        height: 17
+        x: 320
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d317ee3bbf0f4e890800000000000000
-      internalID: -7429548521408270019
+      spriteID: 4ce7a753820a606438dd92177a67837a
+      internalID: 369645764
       vertices: []
       indices: 
       edges: []
@@ -248,19 +248,19 @@ TextureImporter:
       name: Nairan - Torpedo Ship - Shield_6
       rect:
         serializedVersion: 2
-        x: 387
-        y: 35
-        width: 58
-        height: 17
+        x: 384
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8abb94f8497a1cfb0800000000000000
-      internalID: -4629234685459186776
+      spriteID: b0fd868c74304524ab6de2d7077adb4e
+      internalID: 282640538
       vertices: []
       indices: 
       edges: []
@@ -269,19 +269,19 @@ TextureImporter:
       name: Nairan - Torpedo Ship - Shield_7
       rect:
         serializedVersion: 2
-        x: 451
-        y: 35
-        width: 58
-        height: 17
+        x: 448
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1c9d02288fd9380b0800000000000000
-      internalID: -5727560610424497727
+      spriteID: ff15e544fb7e02942aaf72d71809801a
+      internalID: -886072729
       vertices: []
       indices: 
       edges: []
@@ -289,14 +289,22 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 72de82940a9c57a46860265cb2f345b9
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Nairan - Torpedo Ship - Shield_0: -118523388
+      Nairan - Torpedo Ship - Shield_1: -268260747
+      Nairan - Torpedo Ship - Shield_2: 1611458946
+      Nairan - Torpedo Ship - Shield_3: -27681473
+      Nairan - Torpedo Ship - Shield_4: -1160508156
+      Nairan - Torpedo Ship - Shield_5: 369645764
+      Nairan - Torpedo Ship - Shield_6: 282640538
+      Nairan - Torpedo Ship - Shield_7: -886072729
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

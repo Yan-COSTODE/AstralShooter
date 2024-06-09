@@ -137,19 +137,19 @@ TextureImporter:
       name: Nautolan Ship - Scout - Shield_0
       rect:
         serializedVersion: 2
-        x: 14
-        y: 12
-        width: 36
-        height: 32
+        x: 0
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 78c192e7a74d01e00800000000000000
-      internalID: 1013543538726083719
+      spriteID: 033d702f4c7684345a40d3444127ee9c
+      internalID: -2026871015
       vertices: []
       indices: 
       edges: []
@@ -158,19 +158,19 @@ TextureImporter:
       name: Nautolan Ship - Scout - Shield_1
       rect:
         serializedVersion: 2
-        x: 78
-        y: 12
-        width: 36
-        height: 32
+        x: 64
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 26779369b3ac0da10800000000000000
-      internalID: 1932266597414172514
+      spriteID: 19e748a0088c965469295e7427549590
+      internalID: 1861621265
       vertices: []
       indices: 
       edges: []
@@ -179,19 +179,19 @@ TextureImporter:
       name: Nautolan Ship - Scout - Shield_2
       rect:
         serializedVersion: 2
-        x: 142
-        y: 12
-        width: 36
-        height: 32
+        x: 128
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 48b88097af1196db0800000000000000
-      internalID: -4798284160516453500
+      spriteID: a029844404ac0004f8e09781cb6b2c46
+      internalID: -899032467
       vertices: []
       indices: 
       edges: []
@@ -200,19 +200,19 @@ TextureImporter:
       name: Nautolan Ship - Scout - Shield_3
       rect:
         serializedVersion: 2
-        x: 206
-        y: 12
-        width: 36
-        height: 32
+        x: 192
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 16889abc6f4f42df0800000000000000
-      internalID: -205770342136182687
+      spriteID: d84a06a081982aa4c9ce57cc9851e5e9
+      internalID: -826778524
       vertices: []
       indices: 
       edges: []
@@ -221,19 +221,19 @@ TextureImporter:
       name: Nautolan Ship - Scout - Shield_4
       rect:
         serializedVersion: 2
-        x: 270
-        y: 12
-        width: 36
-        height: 32
+        x: 256
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 77072760757a0c5f0800000000000000
-      internalID: -738406346676604809
+      spriteID: 615b99fab298a2c4ca71d2ce97abee07
+      internalID: 1377202176
       vertices: []
       indices: 
       edges: []
@@ -242,19 +242,19 @@ TextureImporter:
       name: Nautolan Ship - Scout - Shield_5
       rect:
         serializedVersion: 2
-        x: 334
-        y: 12
-        width: 36
-        height: 32
+        x: 320
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b8f2a8c0bb50338c0800000000000000
-      internalID: -4020863741384314997
+      spriteID: 3438bc3d6332ce44184b74e1d45b8f0b
+      internalID: 248374177
       vertices: []
       indices: 
       edges: []
@@ -263,19 +263,19 @@ TextureImporter:
       name: Nautolan Ship - Scout - Shield_6
       rect:
         serializedVersion: 2
-        x: 398
-        y: 12
-        width: 36
-        height: 32
+        x: 384
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c900e32f2372d8f80800000000000000
-      internalID: -8102777054803656548
+      spriteID: afd0266fb7e52f0448805039293931cf
+      internalID: -779398289
       vertices: []
       indices: 
       edges: []
@@ -284,19 +284,19 @@ TextureImporter:
       name: Nautolan Ship - Scout - Shield_7
       rect:
         serializedVersion: 2
-        x: 462
-        y: 12
-        width: 36
-        height: 32
+        x: 448
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 02e7fa9eb5c7e07e0800000000000000
-      internalID: -1797362467069788640
+      spriteID: d96af4c03e8f7344796b87ece7e655c1
+      internalID: -1810120065
       vertices: []
       indices: 
       edges: []
@@ -305,19 +305,19 @@ TextureImporter:
       name: Nautolan Ship - Scout - Shield_8
       rect:
         serializedVersion: 2
-        x: 526
-        y: 12
-        width: 36
-        height: 32
+        x: 512
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d25704a83961adf90800000000000000
-      internalID: -6928200253820603091
+      spriteID: 4145ab868f296aa4a8a9642effb15d8b
+      internalID: -413209999
       vertices: []
       indices: 
       edges: []
@@ -326,19 +326,19 @@ TextureImporter:
       name: Nautolan Ship - Scout - Shield_9
       rect:
         serializedVersion: 2
-        x: 590
-        y: 12
-        width: 36
-        height: 32
+        x: 576
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 22f661728644a89c0800000000000000
-      internalID: -3924248911176896734
+      spriteID: 66885f35ded65c94f98a00919e87012f
+      internalID: -1089091215
       vertices: []
       indices: 
       edges: []
@@ -347,19 +347,19 @@ TextureImporter:
       name: Nautolan Ship - Scout - Shield_10
       rect:
         serializedVersion: 2
-        x: 654
-        y: 12
-        width: 36
-        height: 32
+        x: 640
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3b3f89ef541d8fb50800000000000000
-      internalID: 6627276950230070195
+      spriteID: a3febca17b8db5b4183065315fe990c6
+      internalID: -1417655179
       vertices: []
       indices: 
       edges: []
@@ -368,19 +368,19 @@ TextureImporter:
       name: Nautolan Ship - Scout - Shield_11
       rect:
         serializedVersion: 2
-        x: 718
-        y: 12
-        width: 36
-        height: 32
+        x: 704
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e3aa9a354d677f880800000000000000
-      internalID: -8577256310995047874
+      spriteID: b22b5946f337c124291ae70244b0737b
+      internalID: -771602274
       vertices: []
       indices: 
       edges: []
@@ -389,19 +389,19 @@ TextureImporter:
       name: Nautolan Ship - Scout - Shield_12
       rect:
         serializedVersion: 2
-        x: 782
-        y: 12
-        width: 36
-        height: 32
+        x: 768
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1d28e61d06766fc00800000000000000
-      internalID: 934047638254158545
+      spriteID: 40bbad02390e5794e86fe2801fbef25d
+      internalID: 343010688
       vertices: []
       indices: 
       edges: []
@@ -409,14 +409,27 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 086af8dc97026ca4ea9355c7bdc98687
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Nautolan Ship - Scout - Shield_0: -2026871015
+      Nautolan Ship - Scout - Shield_1: 1861621265
+      Nautolan Ship - Scout - Shield_10: -1417655179
+      Nautolan Ship - Scout - Shield_11: -771602274
+      Nautolan Ship - Scout - Shield_12: 343010688
+      Nautolan Ship - Scout - Shield_2: -899032467
+      Nautolan Ship - Scout - Shield_3: -826778524
+      Nautolan Ship - Scout - Shield_4: 1377202176
+      Nautolan Ship - Scout - Shield_5: 248374177
+      Nautolan Ship - Scout - Shield_6: -779398289
+      Nautolan Ship - Scout - Shield_7: -1810120065
+      Nautolan Ship - Scout - Shield_8: -413209999
+      Nautolan Ship - Scout - Shield_9: -1089091215
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

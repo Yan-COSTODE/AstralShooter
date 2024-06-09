@@ -182,19 +182,19 @@ TextureImporter:
       name: Nairan - Fighter - Weapons_0
       rect:
         serializedVersion: 2
-        x: 16
-        y: 16
-        width: 32
-        height: 29
+        x: 0
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e51a65eb7d8fe6090800000000000000
-      internalID: -8039214679314751138
+      spriteID: 706a22739b7fe6240835467488f7d776
+      internalID: 153144762
       vertices: []
       indices: 
       edges: []
@@ -203,19 +203,19 @@ TextureImporter:
       name: Nairan - Fighter - Weapons_1
       rect:
         serializedVersion: 2
-        x: 80
-        y: 16
-        width: 32
-        height: 29
+        x: 64
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 80a37057d4bc180c0800000000000000
-      internalID: -4575152212895385080
+      spriteID: bdf56f7a7ec70db409bbbc1a36e1e96d
+      internalID: -43367541
       vertices: []
       indices: 
       edges: []
@@ -224,19 +224,19 @@ TextureImporter:
       name: Nairan - Fighter - Weapons_2
       rect:
         serializedVersion: 2
-        x: 144
-        y: 16
-        width: 32
-        height: 29
+        x: 128
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 42f007359d0cdd580800000000000000
-      internalID: -8800666057171792092
+      spriteID: 333f7ae89f9302e409e5c1608a71f188
+      internalID: 205059686
       vertices: []
       indices: 
       edges: []
@@ -245,19 +245,19 @@ TextureImporter:
       name: Nairan - Fighter - Weapons_3
       rect:
         serializedVersion: 2
-        x: 208
-        y: 16
-        width: 32
-        height: 29
+        x: 192
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6cf71714b37985e60800000000000000
-      internalID: 7951271422879432646
+      spriteID: b20445855fe328f49a4559b61d3ebe1c
+      internalID: 1490264494
       vertices: []
       indices: 
       edges: []
@@ -266,19 +266,19 @@ TextureImporter:
       name: Nairan - Fighter - Weapons_4
       rect:
         serializedVersion: 2
-        x: 272
-        y: 16
-        width: 32
-        height: 29
+        x: 256
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4e6b44902f71deba0800000000000000
-      internalID: -6058159595438426396
+      spriteID: e7ea5882c97466143a981221a2807f28
+      internalID: 529617527
       vertices: []
       indices: 
       edges: []
@@ -287,19 +287,19 @@ TextureImporter:
       name: Nairan - Fighter - Weapons_5
       rect:
         serializedVersion: 2
-        x: 336
-        y: 16
-        width: 32
-        height: 29
+        x: 320
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: eac09766002ab1400800000000000000
-      internalID: 296008323125808302
+      spriteID: 52b5808385f8a41409558f960f8af386
+      internalID: 708686081
       vertices: []
       indices: 
       edges: []
@@ -308,19 +308,19 @@ TextureImporter:
       name: Nairan - Fighter - Weapons_6
       rect:
         serializedVersion: 2
-        x: 400
-        y: 16
-        width: 32
-        height: 29
+        x: 384
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 190101f72e5e1b270800000000000000
-      internalID: 8264639552158699665
+      spriteID: 406de80bc7e12294d8338c82f132e8ba
+      internalID: 919404670
       vertices: []
       indices: 
       edges: []
@@ -329,19 +329,19 @@ TextureImporter:
       name: Nairan - Fighter - Weapons_7
       rect:
         serializedVersion: 2
-        x: 464
-        y: 16
-        width: 32
-        height: 29
+        x: 448
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7eb29b73202a4e710800000000000000
-      internalID: 1721679087970888679
+      spriteID: 389a0d830263c4d48aac211a40dcf531
+      internalID: 1508352339
       vertices: []
       indices: 
       edges: []
@@ -350,19 +350,19 @@ TextureImporter:
       name: Nairan - Fighter - Weapons_8
       rect:
         serializedVersion: 2
-        x: 528
-        y: 16
-        width: 32
-        height: 29
+        x: 512
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: db91158d199e75720800000000000000
-      internalID: 2834991303061739965
+      spriteID: 1aa9dc15d31aeb64cb5284dc1b737070
+      internalID: 100447821
       vertices: []
       indices: 
       edges: []
@@ -371,19 +371,19 @@ TextureImporter:
       name: Nairan - Fighter - Weapons_9
       rect:
         serializedVersion: 2
-        x: 592
-        y: 16
-        width: 32
-        height: 29
+        x: 576
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8889c362b8a8d3920800000000000000
-      internalID: 2971683659380988040
+      spriteID: b9a46e8c81e6d9a4dbc7ddc4bf65ee13
+      internalID: 77592981
       vertices: []
       indices: 
       edges: []
@@ -392,19 +392,19 @@ TextureImporter:
       name: Nairan - Fighter - Weapons_10
       rect:
         serializedVersion: 2
-        x: 656
-        y: 16
-        width: 32
-        height: 29
+        x: 640
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 553b253d55424fb70800000000000000
-      internalID: 8931803912018768725
+      spriteID: da2bce60ebc617e4a852dcb74316b613
+      internalID: 502672697
       vertices: []
       indices: 
       edges: []
@@ -413,19 +413,19 @@ TextureImporter:
       name: Nairan - Fighter - Weapons_11
       rect:
         serializedVersion: 2
-        x: 720
-        y: 16
-        width: 32
-        height: 29
+        x: 704
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5a98c7a95572c9990800000000000000
-      internalID: -7377978840922158683
+      spriteID: ee8f434673187b1498ed681e82ecc3b7
+      internalID: 382513532
       vertices: []
       indices: 
       edges: []
@@ -434,19 +434,19 @@ TextureImporter:
       name: Nairan - Fighter - Weapons_12
       rect:
         serializedVersion: 2
-        x: 784
-        y: 16
-        width: 32
-        height: 29
+        x: 768
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a5dfef6baac888230800000000000000
-      internalID: 3641314963571539290
+      spriteID: 984fc5239090cce4eb76281dadca99be
+      internalID: 757147024
       vertices: []
       indices: 
       edges: []
@@ -455,19 +455,19 @@ TextureImporter:
       name: Nairan - Fighter - Weapons_13
       rect:
         serializedVersion: 2
-        x: 848
-        y: 16
-        width: 32
-        height: 29
+        x: 832
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7301d2711c25b4580800000000000000
-      internalID: -8841882454140841929
+      spriteID: 8564ad07d9b759a478b2a551f33b2ae0
+      internalID: -1796231343
       vertices: []
       indices: 
       edges: []
@@ -476,19 +476,19 @@ TextureImporter:
       name: Nairan - Fighter - Weapons_14
       rect:
         serializedVersion: 2
-        x: 912
-        y: 16
-        width: 32
-        height: 29
+        x: 896
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ebb88afe9e31eefd0800000000000000
-      internalID: -2310887663325377602
+      spriteID: 0c79c7574e072c5489dfd33104ffab92
+      internalID: 221973660
       vertices: []
       indices: 
       edges: []
@@ -497,19 +497,19 @@ TextureImporter:
       name: Nairan - Fighter - Weapons_15
       rect:
         serializedVersion: 2
-        x: 976
-        y: 16
-        width: 32
-        height: 29
+        x: 960
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 64d6cb01e85e491e0800000000000000
-      internalID: -2191874720293687994
+      spriteID: 90e37e20c99c76846b4eb50250a61f80
+      internalID: 1792140162
       vertices: []
       indices: 
       edges: []
@@ -518,19 +518,19 @@ TextureImporter:
       name: Nairan - Fighter - Weapons_16
       rect:
         serializedVersion: 2
-        x: 1040
-        y: 16
-        width: 32
-        height: 29
+        x: 1024
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: cff000ac29e9c91b0800000000000000
-      internalID: -5648465479338029060
+      spriteID: 1fa358113da2ad04f95d5c1be501eadf
+      internalID: 1161038763
       vertices: []
       indices: 
       edges: []
@@ -539,19 +539,19 @@ TextureImporter:
       name: Nairan - Fighter - Weapons_17
       rect:
         serializedVersion: 2
-        x: 1104
-        y: 16
-        width: 32
-        height: 29
+        x: 1088
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2bee0067586466b50800000000000000
-      internalID: 6586029044100296370
+      spriteID: 85ddad5f420e760498efe4539ce11b7e
+      internalID: -1717132120
       vertices: []
       indices: 
       edges: []
@@ -560,19 +560,19 @@ TextureImporter:
       name: Nairan - Fighter - Weapons_18
       rect:
         serializedVersion: 2
-        x: 1168
-        y: 16
-        width: 32
-        height: 29
+        x: 1152
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b807dd1471e506df0800000000000000
-      internalID: -189047730367270773
+      spriteID: d957f53a1e8121d4985eb6fc0ddf5a1c
+      internalID: 1454442541
       vertices: []
       indices: 
       edges: []
@@ -581,19 +581,19 @@ TextureImporter:
       name: Nairan - Fighter - Weapons_19
       rect:
         serializedVersion: 2
-        x: 1232
-        y: 16
-        width: 32
-        height: 29
+        x: 1216
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 642a0677f830d43f0800000000000000
-      internalID: -915071234568314298
+      spriteID: 29008d226aad4944c83cefba144d3519
+      internalID: -618432047
       vertices: []
       indices: 
       edges: []
@@ -602,19 +602,19 @@ TextureImporter:
       name: Nairan - Fighter - Weapons_20
       rect:
         serializedVersion: 2
-        x: 1296
-        y: 16
-        width: 32
-        height: 29
+        x: 1280
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 11070487c939fb400800000000000000
-      internalID: 342154396945117201
+      spriteID: c5f1ca8bf2bc06c4fb22c2a7f21e1d9f
+      internalID: -1183789161
       vertices: []
       indices: 
       edges: []
@@ -623,19 +623,19 @@ TextureImporter:
       name: Nairan - Fighter - Weapons_21
       rect:
         serializedVersion: 2
-        x: 1360
-        y: 16
-        width: 32
-        height: 29
+        x: 1344
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2d5e3030495a36cf0800000000000000
-      internalID: -260182298333026862
+      spriteID: efd56e22aeba4424dbd33040e62c9ed0
+      internalID: 1755678531
       vertices: []
       indices: 
       edges: []
@@ -644,19 +644,19 @@ TextureImporter:
       name: Nairan - Fighter - Weapons_22
       rect:
         serializedVersion: 2
-        x: 1424
-        y: 16
-        width: 32
-        height: 29
+        x: 1408
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5a6866dd3d15acea0800000000000000
-      internalID: -5851774795420105051
+      spriteID: 70b97d8f9fd50f841b3cd9882b8b3740
+      internalID: 1305495741
       vertices: []
       indices: 
       edges: []
@@ -665,19 +665,19 @@ TextureImporter:
       name: Nairan - Fighter - Weapons_23
       rect:
         serializedVersion: 2
-        x: 1488
-        y: 16
-        width: 32
-        height: 29
+        x: 1472
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f2186e252fb094850800000000000000
-      internalID: 6361629084038365487
+      spriteID: cc77e4c298c908f45a6fd6f3cf732166
+      internalID: 1182153368
       vertices: []
       indices: 
       edges: []
@@ -686,19 +686,19 @@ TextureImporter:
       name: Nairan - Fighter - Weapons_24
       rect:
         serializedVersion: 2
-        x: 1552
-        y: 16
-        width: 32
-        height: 29
+        x: 1536
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e7d4a9d98eb6658c0800000000000000
-      internalID: -4010899771306128002
+      spriteID: 9227ad0c37a2f19469f59b139841502e
+      internalID: -1232490927
       vertices: []
       indices: 
       edges: []
@@ -707,19 +707,19 @@ TextureImporter:
       name: Nairan - Fighter - Weapons_25
       rect:
         serializedVersion: 2
-        x: 1616
-        y: 16
-        width: 32
-        height: 29
+        x: 1600
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f0e5a7ad7f905ce40800000000000000
-      internalID: 5675953865497402895
+      spriteID: c5ea5318d940cdf46bddcadb43466b09
+      internalID: -1587833221
       vertices: []
       indices: 
       edges: []
@@ -728,19 +728,19 @@ TextureImporter:
       name: Nairan - Fighter - Weapons_26
       rect:
         serializedVersion: 2
-        x: 1680
-        y: 16
-        width: 32
-        height: 29
+        x: 1664
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2e9b54202733b68f0800000000000000
-      internalID: -546286365037970974
+      spriteID: e6a9d5db1f47e694b87e007615583011
+      internalID: -457625823
       vertices: []
       indices: 
       edges: []
@@ -749,19 +749,19 @@ TextureImporter:
       name: Nairan - Fighter - Weapons_27
       rect:
         serializedVersion: 2
-        x: 1744
-        y: 16
-        width: 32
-        height: 29
+        x: 1728
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a1df8fc78739ff980800000000000000
-      internalID: -8502915425750156006
+      spriteID: 60af95c7e6b743c43a7f7e5563416a68
+      internalID: -610974063
       vertices: []
       indices: 
       edges: []
@@ -769,14 +769,42 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: b413910b2cc28664990d516f3fc67ea7
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Nairan - Fighter - Weapons_0: 153144762
+      Nairan - Fighter - Weapons_1: -43367541
+      Nairan - Fighter - Weapons_10: 502672697
+      Nairan - Fighter - Weapons_11: 382513532
+      Nairan - Fighter - Weapons_12: 757147024
+      Nairan - Fighter - Weapons_13: -1796231343
+      Nairan - Fighter - Weapons_14: 221973660
+      Nairan - Fighter - Weapons_15: 1792140162
+      Nairan - Fighter - Weapons_16: 1161038763
+      Nairan - Fighter - Weapons_17: -1717132120
+      Nairan - Fighter - Weapons_18: 1454442541
+      Nairan - Fighter - Weapons_19: -618432047
+      Nairan - Fighter - Weapons_2: 205059686
+      Nairan - Fighter - Weapons_20: -1183789161
+      Nairan - Fighter - Weapons_21: 1755678531
+      Nairan - Fighter - Weapons_22: 1305495741
+      Nairan - Fighter - Weapons_23: 1182153368
+      Nairan - Fighter - Weapons_24: -1232490927
+      Nairan - Fighter - Weapons_25: -1587833221
+      Nairan - Fighter - Weapons_26: -457625823
+      Nairan - Fighter - Weapons_27: -610974063
+      Nairan - Fighter - Weapons_3: 1490264494
+      Nairan - Fighter - Weapons_4: 529617527
+      Nairan - Fighter - Weapons_5: 708686081
+      Nairan - Fighter - Weapons_6: 919404670
+      Nairan - Fighter - Weapons_7: 1508352339
+      Nairan - Fighter - Weapons_8: 100447821
+      Nairan - Fighter - Weapons_9: 77592981
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

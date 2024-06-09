@@ -116,19 +116,19 @@ TextureImporter:
       name: Nairan - Scout - Weapons_0
       rect:
         serializedVersion: 2
-        x: 19
-        y: 18
-        width: 26
-        height: 24
+        x: 0
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a16c8ad44333e3780800000000000000
-      internalID: -8701461130298997222
+      spriteID: b1095a542c735de49a84b070fececd1b
+      internalID: 2028811007
       vertices: []
       indices: 
       edges: []
@@ -137,19 +137,19 @@ TextureImporter:
       name: Nairan - Scout - Weapons_1
       rect:
         serializedVersion: 2
-        x: 83
-        y: 18
-        width: 26
-        height: 24
+        x: 64
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: eeae3c8e6e4cf8960800000000000000
-      internalID: 7606514791678733038
+      spriteID: 4db3ecfd6f052bf4485c8308bd2e0a69
+      internalID: -120599443
       vertices: []
       indices: 
       edges: []
@@ -158,19 +158,19 @@ TextureImporter:
       name: Nairan - Scout - Weapons_2
       rect:
         serializedVersion: 2
-        x: 147
-        y: 18
-        width: 26
-        height: 24
+        x: 128
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c0b0eb363c0c5f3e0800000000000000
-      internalID: -2020496912381244660
+      spriteID: f09ca7ff8856edc42bcdb34c1ff9c3f8
+      internalID: -402315480
       vertices: []
       indices: 
       edges: []
@@ -179,19 +179,19 @@ TextureImporter:
       name: Nairan - Scout - Weapons_3
       rect:
         serializedVersion: 2
-        x: 211
-        y: 18
-        width: 26
-        height: 24
+        x: 192
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2d7a407339f74ec80800000000000000
-      internalID: -8294364343449638958
+      spriteID: cc78cab684572bc4d8d54b6bed8efbf1
+      internalID: 1690902699
       vertices: []
       indices: 
       edges: []
@@ -200,19 +200,19 @@ TextureImporter:
       name: Nairan - Scout - Weapons_4
       rect:
         serializedVersion: 2
-        x: 275
-        y: 18
-        width: 26
-        height: 24
+        x: 256
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 44724224cee6bffd0800000000000000
-      internalID: -2307128423096244412
+      spriteID: 2c1416087ad714640ac70a662bcc4379
+      internalID: -1844020201
       vertices: []
       indices: 
       edges: []
@@ -221,19 +221,19 @@ TextureImporter:
       name: Nairan - Scout - Weapons_5
       rect:
         serializedVersion: 2
-        x: 339
-        y: 18
-        width: 26
-        height: 24
+        x: 320
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 848850e7461868880800000000000000
-      internalID: -8609051369061119928
+      spriteID: c160004a2ca6df4468197145d916736c
+      internalID: -1425707891
       vertices: []
       indices: 
       edges: []
@@ -241,14 +241,20 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 6874f613d6d1526418e1cc0edc42aee4
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Nairan - Scout - Weapons_0: 2028811007
+      Nairan - Scout - Weapons_1: -120599443
+      Nairan - Scout - Weapons_2: -402315480
+      Nairan - Scout - Weapons_3: 1690902699
+      Nairan - Scout - Weapons_4: -1844020201
+      Nairan - Scout - Weapons_5: -1425707891
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

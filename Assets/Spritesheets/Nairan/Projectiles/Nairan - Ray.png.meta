@@ -112,17 +112,17 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 17
+        width: 18
         height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f101f8eded45fde00800000000000000
-      internalID: 1071668552530858015
+      spriteID: b18c53b0f07318b4c9e8d16868793a80
+      internalID: -1053135078
       vertices: []
       indices: 
       edges: []
@@ -131,19 +131,19 @@ TextureImporter:
       name: Nairan - Ray_1
       rect:
         serializedVersion: 2
-        x: 19
+        x: 18
         y: 0
-        width: 17
+        width: 18
         height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 67dfbf04fef6ae500800000000000000
-      internalID: 426276188118056310
+      spriteID: b90c9b9c07e50754da3e51286fd30a5a
+      internalID: -1849512960
       vertices: []
       indices: 
       edges: []
@@ -161,10 +161,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b1daf612ee521bf80800000000000000
-      internalID: -8092645350714659557
+      spriteID: 07f3d9588741fcb48a4084e8276f1db8
+      internalID: -365053198
       vertices: []
       indices: 
       edges: []
@@ -182,10 +182,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 398b88920efa859f0800000000000000
-      internalID: -479439983010596717
+      spriteID: 48bac94b2f06fbf4c85551c574f0ba92
+      internalID: -27589027
       vertices: []
       indices: 
       edges: []
@@ -193,14 +193,18 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: e610ce3c64f48984f85d4fca35d085b0
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Nairan - Ray_0: -1053135078
+      Nairan - Ray_1: -1849512960
+      Nairan - Ray_2: -365053198
+      Nairan - Ray_3: -27589027
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -107,19 +107,19 @@ TextureImporter:
       name: Nairan - Bolt_0
       rect:
         serializedVersion: 2
-        x: 1
+        x: 0
         y: 0
-        width: 15
+        width: 9
         height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 64633810e6727f0a0800000000000000
-      internalID: -6847961354968287674
+      spriteID: f7939f2f3b8169f419b3fa54bc303953
+      internalID: 1360945366
       vertices: []
       indices: 
       edges: []
@@ -128,25 +128,67 @@ TextureImporter:
       name: Nairan - Bolt_1
       rect:
         serializedVersion: 2
-        x: 21
-        y: 1
-        width: 14
-        height: 8
+        x: 9
+        y: 0
+        width: 9
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1579a59a156eb7d30800000000000000
-      internalID: 4430387896857040721
+      spriteID: 59f3e933dac0f694a9c93fa443d37140
+      internalID: -406034902
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
       name: Nairan - Bolt_2
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 0
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 839b25845a171244e93fbbdf695af82b
+      internalID: -769541235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nairan - Bolt_3
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 0
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 851ccd7d1937b4d4ba8717681e73e956
+      internalID: -1027745017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nairan - Bolt_4
       rect:
         serializedVersion: 2
         x: 36
@@ -158,10 +200,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f88b4ae274edcdc90800000000000000
-      internalID: -7143590511609857905
+      spriteID: f1471b83b485e59488cede7b994bb89c
+      internalID: -1741428567
       vertices: []
       indices: 
       edges: []
@@ -169,14 +211,19 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 1f37006ed68519e4aa2c8e0d3c430d1a
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Nairan - Bolt_0: 1360945366
+      Nairan - Bolt_1: -406034902
+      Nairan - Bolt_2: -769541235
+      Nairan - Bolt_3: -1027745017
+      Nairan - Bolt_4: -1741428567
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

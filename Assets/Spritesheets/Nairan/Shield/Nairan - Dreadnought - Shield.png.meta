@@ -122,19 +122,19 @@ TextureImporter:
       name: Nairan - Dreadnought - Shield_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 1
-        width: 126
-        height: 126
+        x: 0
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 09068ec2e947d4c60800000000000000
-      internalID: 7804021952010018960
+      spriteID: fb89c5966628d7d46844104770545672
+      internalID: 517320428
       vertices: []
       indices: 
       edges: []
@@ -143,19 +143,19 @@ TextureImporter:
       name: Nairan - Dreadnought - Shield_1
       rect:
         serializedVersion: 2
-        x: 129
-        y: 1
-        width: 126
-        height: 126
+        x: 128
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b92b7de90ff0939b0800000000000000
-      internalID: -5100027576888872293
+      spriteID: 5055a3983a2809f439bcd2b948101093
+      internalID: -421651119
       vertices: []
       indices: 
       edges: []
@@ -164,19 +164,19 @@ TextureImporter:
       name: Nairan - Dreadnought - Shield_2
       rect:
         serializedVersion: 2
-        x: 257
-        y: 1
-        width: 126
-        height: 126
+        x: 256
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 053a1ddc92d52cd50800000000000000
-      internalID: 6756064825137275728
+      spriteID: 6651da7f4012e194d9156afda2181451
+      internalID: 387192601
       vertices: []
       indices: 
       edges: []
@@ -185,19 +185,19 @@ TextureImporter:
       name: Nairan - Dreadnought - Shield_3
       rect:
         serializedVersion: 2
-        x: 385
-        y: 1
-        width: 126
-        height: 126
+        x: 384
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9d89b1b61f35cae10800000000000000
-      internalID: 2210233813481265369
+      spriteID: df58a57a995b73b49a724c360e983b19
+      internalID: -257080011
       vertices: []
       indices: 
       edges: []
@@ -206,19 +206,19 @@ TextureImporter:
       name: Nairan - Dreadnought - Shield_4
       rect:
         serializedVersion: 2
-        x: 513
-        y: 1
-        width: 126
-        height: 126
+        x: 512
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 900f989a5eebd69a0800000000000000
-      internalID: -6238120015237091319
+      spriteID: 592deb34692644d4a94136d91aa06dd4
+      internalID: 80264684
       vertices: []
       indices: 
       edges: []
@@ -227,19 +227,19 @@ TextureImporter:
       name: Nairan - Dreadnought - Shield_5
       rect:
         serializedVersion: 2
-        x: 641
-        y: 1
-        width: 126
-        height: 126
+        x: 640
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5f0caa7bfef917590800000000000000
-      internalID: -7678180037762563851
+      spriteID: cb0ec4f6b61775448a608244a69e3dc5
+      internalID: -1117665123
       vertices: []
       indices: 
       edges: []
@@ -248,19 +248,19 @@ TextureImporter:
       name: Nairan - Dreadnought - Shield_6
       rect:
         serializedVersion: 2
-        x: 769
-        y: 1
-        width: 126
-        height: 126
+        x: 768
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3a4259600b65b9800800000000000000
-      internalID: 620184687718245539
+      spriteID: 9bdf187a56d1c28458f3d271562f8be8
+      internalID: -223526748
       vertices: []
       indices: 
       edges: []
@@ -269,19 +269,19 @@ TextureImporter:
       name: Nairan - Dreadnought - Shield_7
       rect:
         serializedVersion: 2
-        x: 897
-        y: 1
-        width: 126
-        height: 126
+        x: 896
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ff405a9ec7d14ca90800000000000000
-      internalID: -7294673074100304641
+      spriteID: 45dfa03df067d7341b0c646b8ee7ed35
+      internalID: -113370098
       vertices: []
       indices: 
       edges: []
@@ -289,14 +289,22 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: e38c6e8fa3be3704ea93622c3823612b
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Nairan - Dreadnought - Shield_0: 517320428
+      Nairan - Dreadnought - Shield_1: -421651119
+      Nairan - Dreadnought - Shield_2: 387192601
+      Nairan - Dreadnought - Shield_3: -257080011
+      Nairan - Dreadnought - Shield_4: 80264684
+      Nairan - Dreadnought - Shield_5: -1117665123
+      Nairan - Dreadnought - Shield_6: -223526748
+      Nairan - Dreadnought - Shield_7: -113370098
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -116,19 +116,19 @@ TextureImporter:
       name: Nautolan - Rocket_0
       rect:
         serializedVersion: 2
-        x: 4
+        x: 0
         y: 0
-        width: 8
-        height: 24
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8bb0929d3f07e11f0800000000000000
-      internalID: -1072295468644889672
+      spriteID: a8fc0b2e49d5cf642b69b765842c167d
+      internalID: -862387084
       vertices: []
       indices: 
       edges: []
@@ -137,19 +137,19 @@ TextureImporter:
       name: Nautolan - Rocket_1
       rect:
         serializedVersion: 2
-        x: 21
+        x: 16
         y: 0
-        width: 6
-        height: 24
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 58735bee44a9ee1b0800000000000000
-      internalID: -5625389263685863547
+      spriteID: b504567da6e47df43a732d85262ab1c4
+      internalID: -1897523512
       vertices: []
       indices: 
       edges: []
@@ -158,19 +158,19 @@ TextureImporter:
       name: Nautolan - Rocket_2
       rect:
         serializedVersion: 2
-        x: 37
+        x: 32
         y: 0
-        width: 6
-        height: 24
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e7b989955903b2c60800000000000000
-      internalID: 7794376998106209150
+      spriteID: 08bb1044dd5656e459aaec6466641b15
+      internalID: -281273638
       vertices: []
       indices: 
       edges: []
@@ -179,19 +179,19 @@ TextureImporter:
       name: Nautolan - Rocket_3
       rect:
         serializedVersion: 2
-        x: 52
+        x: 48
         y: 0
-        width: 8
-        height: 24
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: efae0c40af8f3bd60800000000000000
-      internalID: 7904935523670616830
+      spriteID: ae778474f87500d4d97c86b1f587d941
+      internalID: -1297759781
       vertices: []
       indices: 
       edges: []
@@ -200,19 +200,19 @@ TextureImporter:
       name: Nautolan - Rocket_4
       rect:
         serializedVersion: 2
-        x: 69
+        x: 64
         y: 0
-        width: 6
-        height: 24
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: aca5b390f24cf7c80800000000000000
-      internalID: -8322717880059995446
+      spriteID: a2673ff64dde2a1408265ecb43636fb2
+      internalID: -747848494
       vertices: []
       indices: 
       edges: []
@@ -221,19 +221,19 @@ TextureImporter:
       name: Nautolan - Rocket_5
       rect:
         serializedVersion: 2
-        x: 85
+        x: 80
         y: 0
-        width: 6
-        height: 24
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 402acab343fcecb30800000000000000
-      internalID: 4309609716686561796
+      spriteID: 55e9045450d2e72448a8b79c88143e0e
+      internalID: 1471201480
       vertices: []
       indices: 
       edges: []
@@ -241,14 +241,20 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 8408e63e1895ca44cbcee05af31e0eed
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Nautolan - Rocket_0: -862387084
+      Nautolan - Rocket_1: -1897523512
+      Nautolan - Rocket_2: -281273638
+      Nautolan - Rocket_3: -1297759781
+      Nautolan - Rocket_4: -747848494
+      Nautolan - Rocket_5: 1471201480
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

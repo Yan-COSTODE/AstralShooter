@@ -143,19 +143,19 @@ TextureImporter:
       name: Nairan - Support Ship -  Destruction_0
       rect:
         serializedVersion: 2
-        x: 15
-        y: 16
-        width: 34
-        height: 29
+        x: 0
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 112062c1727dc9d60800000000000000
-      internalID: 7898424409476956689
+      spriteID: 630e78659dd315b488b6250d9d6e35e4
+      internalID: -1535896626
       vertices: []
       indices: 
       edges: []
@@ -164,19 +164,19 @@ TextureImporter:
       name: Nairan - Support Ship -  Destruction_1
       rect:
         serializedVersion: 2
-        x: 79
-        y: 16
-        width: 34
-        height: 29
+        x: 64
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 03afbd0576ab3f970800000000000000
-      internalID: 8787572250830961200
+      spriteID: b824307f3edb0c844b69677b4f9760ed
+      internalID: 1173126876
       vertices: []
       indices: 
       edges: []
@@ -185,19 +185,19 @@ TextureImporter:
       name: Nairan - Support Ship -  Destruction_2
       rect:
         serializedVersion: 2
-        x: 143
-        y: 16
-        width: 34
-        height: 29
+        x: 128
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 829e8e53af16a9410800000000000000
-      internalID: 1484606754446174504
+      spriteID: 26b37f8c9262601469becedde3c60a02
+      internalID: -411842157
       vertices: []
       indices: 
       edges: []
@@ -206,19 +206,19 @@ TextureImporter:
       name: Nairan - Support Ship -  Destruction_3
       rect:
         serializedVersion: 2
-        x: 206
-        y: 12
-        width: 36
-        height: 36
+        x: 192
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a6d5ec746c28738a0800000000000000
-      internalID: -6325443363498730134
+      spriteID: b7db72ae665d3684c8c56c8cbebcc311
+      internalID: 950009886
       vertices: []
       indices: 
       edges: []
@@ -227,19 +227,19 @@ TextureImporter:
       name: Nairan - Support Ship -  Destruction_4
       rect:
         serializedVersion: 2
-        x: 265
-        y: 7
-        width: 46
-        height: 46
+        x: 256
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a01ff7c95915ff900800000000000000
-      internalID: 720384168420176138
+      spriteID: b0b447b1df81be14384d0899f79af919
+      internalID: -626524214
       vertices: []
       indices: 
       edges: []
@@ -248,19 +248,19 @@ TextureImporter:
       name: Nairan - Support Ship -  Destruction_5
       rect:
         serializedVersion: 2
-        x: 329
-        y: 7
-        width: 46
-        height: 46
+        x: 320
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9639dea8a9226be00800000000000000
-      internalID: 1060072809443464041
+      spriteID: f2ab350a4cfe3ba4b83048055ee1a4f7
+      internalID: -1027001131
       vertices: []
       indices: 
       edges: []
@@ -269,19 +269,19 @@ TextureImporter:
       name: Nairan - Support Ship -  Destruction_6
       rect:
         serializedVersion: 2
-        x: 393
-        y: 7
-        width: 46
-        height: 46
+        x: 384
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2bc3fc7ee68387c60800000000000000
-      internalID: 7816059202288172210
+      spriteID: 9354096bd99531548a5bc921724f8404
+      internalID: -156528809
       vertices: []
       indices: 
       edges: []
@@ -290,19 +290,19 @@ TextureImporter:
       name: Nairan - Support Ship -  Destruction_7
       rect:
         serializedVersion: 2
-        x: 457
-        y: 7
-        width: 46
-        height: 46
+        x: 448
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0fc7c8a564271fe50800000000000000
-      internalID: 6841374955444927728
+      spriteID: e8a4dd0fcb7411e4d94d93b39596d432
+      internalID: 140038346
       vertices: []
       indices: 
       edges: []
@@ -311,19 +311,19 @@ TextureImporter:
       name: Nairan - Support Ship -  Destruction_8
       rect:
         serializedVersion: 2
-        x: 521
-        y: 7
-        width: 46
-        height: 46
+        x: 512
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a32feeebbfc78ab30800000000000000
-      internalID: 4298823265007104570
+      spriteID: 2b1ee7a139d4fff4099f7e2f1ff19a58
+      internalID: 60597664
       vertices: []
       indices: 
       edges: []
@@ -332,19 +332,19 @@ TextureImporter:
       name: Nairan - Support Ship -  Destruction_9
       rect:
         serializedVersion: 2
-        x: 585
-        y: 7
-        width: 46
-        height: 46
+        x: 576
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 01f254796b014e290800000000000000
-      internalID: -7862140673074057456
+      spriteID: 71f8cd9c625704c4180b920be7f846f7
+      internalID: -1688066954
       vertices: []
       indices: 
       edges: []
@@ -353,19 +353,19 @@ TextureImporter:
       name: Nairan - Support Ship -  Destruction_10
       rect:
         serializedVersion: 2
-        x: 654
-        y: 12
-        width: 36
-        height: 36
+        x: 640
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 63ec7456c8e1b88c0800000000000000
-      internalID: -3996066656017723850
+      spriteID: 58bb9ddfea19470458957d34e0b08eee
+      internalID: -1781113120
       vertices: []
       indices: 
       edges: []
@@ -374,19 +374,19 @@ TextureImporter:
       name: Nairan - Support Ship -  Destruction_11
       rect:
         serializedVersion: 2
-        x: 723
-        y: 17
-        width: 26
-        height: 26
+        x: 704
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: be7d4b8953a3f5eb0800000000000000
-      internalID: -4728997081846065173
+      spriteID: 20e2eaf71caaf1c4c941995f9baf2bd0
+      internalID: -1053044706
       vertices: []
       indices: 
       edges: []
@@ -395,19 +395,19 @@ TextureImporter:
       name: Nairan - Support Ship -  Destruction_12
       rect:
         serializedVersion: 2
-        x: 792
-        y: 22
-        width: 16
-        height: 16
+        x: 768
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ac1fa71a949fc7230800000000000000
-      internalID: 3638056693645636042
+      spriteID: c5444665d473fcb4f951d15eaad441bf
+      internalID: -1732172448
       vertices: []
       indices: 
       edges: []
@@ -416,19 +416,19 @@ TextureImporter:
       name: Nairan - Support Ship -  Destruction_13
       rect:
         serializedVersion: 2
-        x: 859
-        y: 25
-        width: 10
-        height: 10
+        x: 832
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: aa9fca37af1f45140800000000000000
-      internalID: 4707653568493844906
+      spriteID: cdd2672fde03ca5409ace8bd34d70944
+      internalID: 796711162
       vertices: []
       indices: 
       edges: []
@@ -437,19 +437,40 @@ TextureImporter:
       name: Nairan - Support Ship -  Destruction_14
       rect:
         serializedVersion: 2
-        x: 924
-        y: 23
-        width: 75
-        height: 14
+        x: 896
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f41100d252fee0800800000000000000
-      internalID: 580664344925180239
+      spriteID: 1bab93a385c591d4d82c1f9924705ba0
+      internalID: 1078215614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nairan - Support Ship -  Destruction_15
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d95a4791517bae41ae800f5f0b3a1b7
+      internalID: -922760183
       vertices: []
       indices: 
       edges: []
@@ -457,14 +478,30 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 60386ea252b9ea248b679e7035fd8085
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Nairan - Support Ship -  Destruction_0: -1535896626
+      Nairan - Support Ship -  Destruction_1: 1173126876
+      Nairan - Support Ship -  Destruction_10: -1781113120
+      Nairan - Support Ship -  Destruction_11: -1053044706
+      Nairan - Support Ship -  Destruction_12: -1732172448
+      Nairan - Support Ship -  Destruction_13: 796711162
+      Nairan - Support Ship -  Destruction_14: 1078215614
+      Nairan - Support Ship -  Destruction_15: -922760183
+      Nairan - Support Ship -  Destruction_2: -411842157
+      Nairan - Support Ship -  Destruction_3: 950009886
+      Nairan - Support Ship -  Destruction_4: -626524214
+      Nairan - Support Ship -  Destruction_5: -1027001131
+      Nairan - Support Ship -  Destruction_6: -156528809
+      Nairan - Support Ship -  Destruction_7: 140038346
+      Nairan - Support Ship -  Destruction_8: 60597664
+      Nairan - Support Ship -  Destruction_9: -1688066954
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

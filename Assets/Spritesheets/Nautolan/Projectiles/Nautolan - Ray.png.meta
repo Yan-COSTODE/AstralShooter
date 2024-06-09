@@ -112,17 +112,17 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 17
+        width: 18
         height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: dfde1615647114540800000000000000
-      internalID: 4990295452883742205
+      spriteID: f1e8c1f0516d71d469aab7f16b172db8
+      internalID: 1231582286
       vertices: []
       indices: 
       edges: []
@@ -131,19 +131,19 @@ TextureImporter:
       name: Nautolan - Ray_1
       rect:
         serializedVersion: 2
-        x: 19
+        x: 18
         y: 0
-        width: 17
+        width: 18
         height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9163884ee9800cf00800000000000000
-      internalID: 1134916584629351961
+      spriteID: b9e4c448007fb094797c63ca7e15f0b8
+      internalID: -80008429
       vertices: []
       indices: 
       edges: []
@@ -161,10 +161,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2384c6e882f013300800000000000000
-      internalID: 229981722835175474
+      spriteID: dcccf44dba5fc2e458e4f4dd6117a59a
+      internalID: -1001233211
       vertices: []
       indices: 
       edges: []
@@ -182,10 +182,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 34347246a0a8e7910800000000000000
-      internalID: 1837057475248341827
+      spriteID: def030304c52aea4d8149dc5a58c8a9e
+      internalID: -1946967858
       vertices: []
       indices: 
       edges: []
@@ -193,14 +193,18 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: cf862099e5ca5f14ebae76968b18ba89
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Nautolan - Ray_0: 1231582286
+      Nautolan - Ray_1: -80008429
+      Nautolan - Ray_2: -1001233211
+      Nautolan - Ray_3: -1946967858
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

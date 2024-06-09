@@ -122,19 +122,19 @@ TextureImporter:
       name: Nairan - Bomber - Engine_0
       rect:
         serializedVersion: 2
-        x: 22
-        y: 4
-        width: 20
-        height: 19
+        x: 0
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a50971a4568047e30800000000000000
-      internalID: 4500231158777745498
+      spriteID: ca8add2c113151346b4dbb9baa5e0ea9
+      internalID: 1371967961
       vertices: []
       indices: 
       edges: []
@@ -143,19 +143,19 @@ TextureImporter:
       name: Nairan - Bomber - Engine_1
       rect:
         serializedVersion: 2
-        x: 86
-        y: 6
-        width: 20
-        height: 17
+        x: 64
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d0cd7ca116e1e0580800000000000000
-      internalID: -8859110014581220339
+      spriteID: 65601bcc0f61048438a8ee414de7cb84
+      internalID: -2090809083
       vertices: []
       indices: 
       edges: []
@@ -164,19 +164,19 @@ TextureImporter:
       name: Nairan - Bomber - Engine_2
       rect:
         serializedVersion: 2
-        x: 150
-        y: 5
-        width: 20
-        height: 18
+        x: 128
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0d7b12f91b4be0c90800000000000000
-      internalID: -7201620079146846256
+      spriteID: 8d45afc156ca8964fad604e3ace7f902
+      internalID: 1862816020
       vertices: []
       indices: 
       edges: []
@@ -185,19 +185,19 @@ TextureImporter:
       name: Nairan - Bomber - Engine_3
       rect:
         serializedVersion: 2
-        x: 214
-        y: 4
-        width: 20
-        height: 19
+        x: 192
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 51727364c6a01bf30800000000000000
-      internalID: 4589460955418011413
+      spriteID: 01a5cd17c2357924b93c7ffa9d5ce6d7
+      internalID: -1207235790
       vertices: []
       indices: 
       edges: []
@@ -206,19 +206,19 @@ TextureImporter:
       name: Nairan - Bomber - Engine_4
       rect:
         serializedVersion: 2
-        x: 278
-        y: 3
-        width: 20
-        height: 20
+        x: 256
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 92746c1060a3cbb80800000000000000
-      internalID: -8377757409341978839
+      spriteID: 9f636d206abb264429492ec98836cb8f
+      internalID: -167805639
       vertices: []
       indices: 
       edges: []
@@ -227,19 +227,19 @@ TextureImporter:
       name: Nairan - Bomber - Engine_5
       rect:
         serializedVersion: 2
-        x: 342
-        y: 5
-        width: 20
-        height: 18
+        x: 320
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 649f15c505cc521f0800000000000000
-      internalID: -1070224690912298682
+      spriteID: 911dbedcdfe56f1409e9a8289fbef43b
+      internalID: 819423057
       vertices: []
       indices: 
       edges: []
@@ -248,19 +248,19 @@ TextureImporter:
       name: Nairan - Bomber - Engine_6
       rect:
         serializedVersion: 2
-        x: 406
-        y: 5
-        width: 20
-        height: 18
+        x: 384
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2b828ea09159666f0800000000000000
-      internalID: -691701557965084494
+      spriteID: 2c5e6cd9ffd3e324fa7dad479e88e034
+      internalID: -921244257
       vertices: []
       indices: 
       edges: []
@@ -269,19 +269,19 @@ TextureImporter:
       name: Nairan - Bomber - Engine_7
       rect:
         serializedVersion: 2
-        x: 470
-        y: 5
-        width: 20
-        height: 18
+        x: 448
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f2b865e8a0173f4e0800000000000000
-      internalID: -1949089923569644753
+      spriteID: b88eda879d6b4d9438681b7d16dc08b0
+      internalID: -1954312232
       vertices: []
       indices: 
       edges: []
@@ -289,14 +289,22 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 14bd71212a7496c42a70f230acfd0f90
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Nairan - Bomber - Engine_0: 1371967961
+      Nairan - Bomber - Engine_1: -2090809083
+      Nairan - Bomber - Engine_2: 1862816020
+      Nairan - Bomber - Engine_3: -1207235790
+      Nairan - Bomber - Engine_4: -167805639
+      Nairan - Bomber - Engine_5: 819423057
+      Nairan - Bomber - Engine_6: -921244257
+      Nairan - Bomber - Engine_7: -1954312232
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -108,18 +108,18 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1
+        y: 0
         width: 9
-        height: 19
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: bfb3a3028511f8b50800000000000000
-      internalID: 6597511049316547579
+      spriteID: f15b8400e2239d34ba5e8273d854687c
+      internalID: 1728559111
       vertices: []
       indices: 
       edges: []
@@ -131,16 +131,16 @@ TextureImporter:
         x: 9
         y: 0
         width: 9
-        height: 20
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f2edfeabd70046550800000000000000
-      internalID: 6153043530902134319
+      spriteID: 386adc2caa7b3134fa83263ecba160c1
+      internalID: 384764914
       vertices: []
       indices: 
       edges: []
@@ -150,18 +150,18 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 18
-        y: 2
+        y: 0
         width: 9
-        height: 18
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: bb684b69dd712acc0800000000000000
-      internalID: -3701369703261501765
+      spriteID: 7736916232a8fcf4d853a690a7db1d9d
+      internalID: 498875067
       vertices: []
       indices: 
       edges: []
@@ -169,14 +169,17 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 653d71d77fc1d5247b8eda25974478c8
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Nairan - Torpedo_0: 1728559111
+      Nairan - Torpedo_1: 384764914
+      Nairan - Torpedo_2: 498875067
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

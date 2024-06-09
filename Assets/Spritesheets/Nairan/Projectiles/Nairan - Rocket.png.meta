@@ -108,18 +108,18 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1
+        y: 0
         width: 9
-        height: 12
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 13d9fdf7d0c369670800000000000000
-      internalID: 8545083371659697457
+      spriteID: 59e0c76a0e041dd438e80056c14a7a6b
+      internalID: -1120132038
       vertices: []
       indices: 
       edges: []
@@ -128,19 +128,19 @@ TextureImporter:
       name: Nairan - Rocket_1
       rect:
         serializedVersion: 2
-        x: 10
+        x: 9
         y: 0
-        width: 15
-        height: 13
+        width: 9
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: cab9a41819c898050800000000000000
-      internalID: 5803324151410891692
+      spriteID: 51ad9fe47fbe4f443a2e2b8c6af7ae47
+      internalID: -142321649
       vertices: []
       indices: 
       edges: []
@@ -149,19 +149,40 @@ TextureImporter:
       name: Nairan - Rocket_2
       rect:
         serializedVersion: 2
-        x: 28
-        y: 2
-        width: 7
-        height: 11
+        x: 18
+        y: 0
+        width: 9
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a6c27e250f60312d0800000000000000
-      internalID: -3309293671934382998
+      spriteID: c0922ce98272d034d85b0a7fe7c14183
+      internalID: 1177607275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nairan - Rocket_3
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 0
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9296454f6dcfd9542a5762edf4856d60
+      internalID: 1170318670
       vertices: []
       indices: 
       edges: []
@@ -169,14 +190,18 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5ec7ea7b874bedc4aba08875cbd5a520
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Nairan - Rocket_0: -1120132038
+      Nairan - Rocket_1: -142321649
+      Nairan - Rocket_2: 1177607275
+      Nairan - Rocket_3: 1170318670
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

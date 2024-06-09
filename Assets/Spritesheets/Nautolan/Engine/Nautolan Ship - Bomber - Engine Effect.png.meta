@@ -146,19 +146,19 @@ TextureImporter:
       name: Nautolan Ship - Bomber - Engine Effect_0
       rect:
         serializedVersion: 2
-        x: 21
-        y: 8
-        width: 9
-        height: 15
+        x: 0
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f95ac46b85eeb6ce0800000000000000
-      internalID: -1410771993467509345
+      spriteID: 4f18fdcfde512fc49b8700857dcfac52
+      internalID: -1462225269
       vertices: []
       indices: 
       edges: []
@@ -167,19 +167,19 @@ TextureImporter:
       name: Nautolan Ship - Bomber - Engine Effect_1
       rect:
         serializedVersion: 2
-        x: 34
-        y: 8
-        width: 9
-        height: 15
+        x: 64
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 988eaf538f943c9b0800000000000000
-      internalID: -5061120225827952503
+      spriteID: cfb22724b394a854d916848f2b8d84a6
+      internalID: -1259777492
       vertices: []
       indices: 
       edges: []
@@ -188,19 +188,19 @@ TextureImporter:
       name: Nautolan Ship - Bomber - Engine Effect_2
       rect:
         serializedVersion: 2
-        x: 85
-        y: 6
-        width: 9
-        height: 17
+        x: 128
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a6f7537e5a8a81fd0800000000000000
-      internalID: -2370959773308453014
+      spriteID: 9c5bbfe2c246d4644b3bb0fd2157de07
+      internalID: -1561554257
       vertices: []
       indices: 
       edges: []
@@ -209,19 +209,19 @@ TextureImporter:
       name: Nautolan Ship - Bomber - Engine Effect_3
       rect:
         serializedVersion: 2
-        x: 98
-        y: 6
-        width: 9
-        height: 17
+        x: 192
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b13b613e87f6ab910800000000000000
-      internalID: 1853916761613054747
+      spriteID: 35b0e0ba227776b4189571b648a8199a
+      internalID: -1394063404
       vertices: []
       indices: 
       edges: []
@@ -230,19 +230,19 @@ TextureImporter:
       name: Nautolan Ship - Bomber - Engine Effect_4
       rect:
         serializedVersion: 2
-        x: 149
-        y: 5
-        width: 9
-        height: 18
+        x: 256
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b14a46a307777c460800000000000000
-      internalID: 7261904248057930779
+      spriteID: 941d06097419cbf41acfacb1124d12cf
+      internalID: -398619442
       vertices: []
       indices: 
       edges: []
@@ -251,19 +251,19 @@ TextureImporter:
       name: Nautolan Ship - Bomber - Engine Effect_5
       rect:
         serializedVersion: 2
-        x: 162
-        y: 5
-        width: 9
-        height: 18
+        x: 320
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f567a9ab7ced15710800000000000000
-      internalID: 1680369085396448863
+      spriteID: 966d30d789ccabb4e92f5dd9ab6a6892
+      internalID: -18380111
       vertices: []
       indices: 
       edges: []
@@ -272,19 +272,19 @@ TextureImporter:
       name: Nautolan Ship - Bomber - Engine Effect_6
       rect:
         serializedVersion: 2
-        x: 213
-        y: 9
-        width: 9
-        height: 14
+        x: 384
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2dd74add065d2b710800000000000000
-      internalID: 1707661820738960850
+      spriteID: e97d02c177cd57d45a105b4461265e45
+      internalID: -2063745106
       vertices: []
       indices: 
       edges: []
@@ -293,187 +293,19 @@ TextureImporter:
       name: Nautolan Ship - Bomber - Engine Effect_7
       rect:
         serializedVersion: 2
-        x: 226
-        y: 9
-        width: 9
-        height: 14
+        x: 448
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 154440f7cb7cd9660800000000000000
-      internalID: 7394285775610987601
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Nautolan Ship - Bomber - Engine Effect_8
-      rect:
-        serializedVersion: 2
-        x: 277
-        y: 8
-        width: 9
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d3b467a7d3e764150800000000000000
-      internalID: 5856507167954586429
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Nautolan Ship - Bomber - Engine Effect_9
-      rect:
-        serializedVersion: 2
-        x: 290
-        y: 8
-        width: 9
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2c29867dee6e77c10800000000000000
-      internalID: 2051362068781109954
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Nautolan Ship - Bomber - Engine Effect_10
-      rect:
-        serializedVersion: 2
-        x: 341
-        y: 6
-        width: 9
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6437a2cd3dd4dac40800000000000000
-      internalID: 5525157890180674374
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Nautolan Ship - Bomber - Engine Effect_11
-      rect:
-        serializedVersion: 2
-        x: 354
-        y: 6
-        width: 9
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 15936a023f31c7390800000000000000
-      internalID: -7819352918076278447
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Nautolan Ship - Bomber - Engine Effect_12
-      rect:
-        serializedVersion: 2
-        x: 405
-        y: 5
-        width: 9
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1013e1b05fbe036d0800000000000000
-      internalID: -3012648713024818943
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Nautolan Ship - Bomber - Engine Effect_13
-      rect:
-        serializedVersion: 2
-        x: 418
-        y: 5
-        width: 9
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a7a930c8824e567f0800000000000000
-      internalID: -619838510894704006
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Nautolan Ship - Bomber - Engine Effect_14
-      rect:
-        serializedVersion: 2
-        x: 469
-        y: 6
-        width: 9
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 281d9bccc3969be20800000000000000
-      internalID: 3366837906289840514
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Nautolan Ship - Bomber - Engine Effect_15
-      rect:
-        serializedVersion: 2
-        x: 482
-        y: 6
-        width: 9
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 443b0f033228b34b0800000000000000
-      internalID: -5459627035600047292
+      spriteID: e2618e109c51570478dc9810d10ddc30
+      internalID: -1962680807
       vertices: []
       indices: 
       edges: []
@@ -481,14 +313,22 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: da786b65dde9b3f4e97836ab7f994399
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Nautolan Ship - Bomber - Engine Effect_0: -1462225269
+      Nautolan Ship - Bomber - Engine Effect_1: -1259777492
+      Nautolan Ship - Bomber - Engine Effect_2: -1561554257
+      Nautolan Ship - Bomber - Engine Effect_3: -1394063404
+      Nautolan Ship - Bomber - Engine Effect_4: -398619442
+      Nautolan Ship - Bomber - Engine Effect_5: -18380111
+      Nautolan Ship - Bomber - Engine Effect_6: -2063745106
+      Nautolan Ship - Bomber - Engine Effect_7: -1962680807
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

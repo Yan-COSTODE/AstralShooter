@@ -128,19 +128,19 @@ TextureImporter:
       name: Nautolan Ship - Fighter - Shield_0
       rect:
         serializedVersion: 2
-        x: 14
-        y: 17
-        width: 36
-        height: 31
+        x: 0
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 781fd9b69cb1f99a0800000000000000
-      internalID: -6224225608094846585
+      spriteID: 797322a33fe95bf4e927a8415ebf6adc
+      internalID: -1893590325
       vertices: []
       indices: 
       edges: []
@@ -149,19 +149,19 @@ TextureImporter:
       name: Nautolan Ship - Fighter - Shield_1
       rect:
         serializedVersion: 2
-        x: 78
-        y: 17
-        width: 36
-        height: 31
+        x: 64
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f4e83b579ecab1320800000000000000
-      internalID: 2529805734400724559
+      spriteID: 043c20c727b190f4b9b273ca5c60b49a
+      internalID: 622453144
       vertices: []
       indices: 
       edges: []
@@ -170,19 +170,19 @@ TextureImporter:
       name: Nautolan Ship - Fighter - Shield_2
       rect:
         serializedVersion: 2
-        x: 142
-        y: 17
-        width: 36
-        height: 31
+        x: 128
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 19f34e296ae450e80800000000000000
-      internalID: -8213071868104261743
+      spriteID: 59c89bae8c61ac8409f9ab84a3419dc6
+      internalID: 336761515
       vertices: []
       indices: 
       edges: []
@@ -191,19 +191,19 @@ TextureImporter:
       name: Nautolan Ship - Fighter - Shield_3
       rect:
         serializedVersion: 2
-        x: 206
-        y: 17
-        width: 36
-        height: 31
+        x: 192
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9e31049b2cedb9ba0800000000000000
-      internalID: -6081021943920716823
+      spriteID: f793e0e0bbfdbc946bade6328e27a888
+      internalID: 1172441966
       vertices: []
       indices: 
       edges: []
@@ -212,19 +212,19 @@ TextureImporter:
       name: Nautolan Ship - Fighter - Shield_4
       rect:
         serializedVersion: 2
-        x: 270
-        y: 17
-        width: 36
-        height: 31
+        x: 256
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f7b4e5a38a8e2a170800000000000000
-      internalID: 8188362881744391039
+      spriteID: e0957a7a6b426a64e83d410510f96323
+      internalID: 1864716855
       vertices: []
       indices: 
       edges: []
@@ -233,19 +233,19 @@ TextureImporter:
       name: Nautolan Ship - Fighter - Shield_5
       rect:
         serializedVersion: 2
-        x: 334
-        y: 17
-        width: 36
-        height: 31
+        x: 320
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b81ee992d4c6fec20800000000000000
-      internalID: 3237925735769235851
+      spriteID: 02e5c5a4bba9e96408f4f3c80eeb8924
+      internalID: 232641203
       vertices: []
       indices: 
       edges: []
@@ -254,19 +254,19 @@ TextureImporter:
       name: Nautolan Ship - Fighter - Shield_6
       rect:
         serializedVersion: 2
-        x: 398
-        y: 17
-        width: 36
-        height: 31
+        x: 384
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4c6bc00ce0ccecbe0800000000000000
-      internalID: -1455001265870424380
+      spriteID: 1ca6ceb6dc3a559498d42b9bd3025224
+      internalID: -2010740024
       vertices: []
       indices: 
       edges: []
@@ -275,19 +275,19 @@ TextureImporter:
       name: Nautolan Ship - Fighter - Shield_7
       rect:
         serializedVersion: 2
-        x: 462
-        y: 17
-        width: 36
-        height: 31
+        x: 448
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4d28c3a6773ad5e30800000000000000
-      internalID: 4493927736464409300
+      spriteID: 024225acbb785a342b036ba18e00f207
+      internalID: -401833759
       vertices: []
       indices: 
       edges: []
@@ -296,19 +296,19 @@ TextureImporter:
       name: Nautolan Ship - Fighter - Shield_8
       rect:
         serializedVersion: 2
-        x: 526
-        y: 17
-        width: 36
-        height: 31
+        x: 512
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5c80b43a0f3aecc40800000000000000
-      internalID: 5534541246012000453
+      spriteID: 9b3a68e459e6f7b41ae540f1d6fb1041
+      internalID: 1076996912
       vertices: []
       indices: 
       edges: []
@@ -317,19 +317,19 @@ TextureImporter:
       name: Nautolan Ship - Fighter - Shield_9
       rect:
         serializedVersion: 2
-        x: 590
-        y: 17
-        width: 36
-        height: 31
+        x: 576
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6f340d2c6be474080800000000000000
-      internalID: -9203300766648876042
+      spriteID: bf7af1e2107422a4ab09d7a4987dd036
+      internalID: 1087584101
       vertices: []
       indices: 
       edges: []
@@ -337,14 +337,24 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 51fac2a0b7fbc774986144fffd39f258
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Nautolan Ship - Fighter - Shield_0: -1893590325
+      Nautolan Ship - Fighter - Shield_1: 622453144
+      Nautolan Ship - Fighter - Shield_2: 336761515
+      Nautolan Ship - Fighter - Shield_3: 1172441966
+      Nautolan Ship - Fighter - Shield_4: 1864716855
+      Nautolan Ship - Fighter - Shield_5: 232641203
+      Nautolan Ship - Fighter - Shield_6: -2010740024
+      Nautolan Ship - Fighter - Shield_7: -401833759
+      Nautolan Ship - Fighter - Shield_8: 1076996912
+      Nautolan Ship - Fighter - Shield_9: 1087584101
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

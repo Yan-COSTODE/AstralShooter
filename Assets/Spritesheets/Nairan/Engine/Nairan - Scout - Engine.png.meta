@@ -122,19 +122,19 @@ TextureImporter:
       name: Nairan - Scout - Engine_0
       rect:
         serializedVersion: 2
-        x: 25
-        y: 7
-        width: 14
-        height: 14
+        x: 0
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d1426e1725cc2aae0800000000000000
-      internalID: -1539443468136995811
+      spriteID: 7ebb663be00bcb840be7e19aa30b3638
+      internalID: -1323093705
       vertices: []
       indices: 
       edges: []
@@ -143,19 +143,19 @@ TextureImporter:
       name: Nairan - Scout - Engine_1
       rect:
         serializedVersion: 2
-        x: 89
-        y: 9
-        width: 14
-        height: 12
+        x: 64
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b5f1b5d4a7b54e9c0800000000000000
-      internalID: -3898890796554051749
+      spriteID: 1a6ffea45c1d9394b83370a8fc35deb4
+      internalID: 505047464
       vertices: []
       indices: 
       edges: []
@@ -164,19 +164,19 @@ TextureImporter:
       name: Nairan - Scout - Engine_2
       rect:
         serializedVersion: 2
-        x: 153
-        y: 8
-        width: 14
-        height: 13
+        x: 128
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a7d9aa22666e52780800000000000000
-      internalID: -8708300978108326534
+      spriteID: 147766013af57f249af42d92ca6dd6af
+      internalID: 1891329055
       vertices: []
       indices: 
       edges: []
@@ -185,19 +185,19 @@ TextureImporter:
       name: Nairan - Scout - Engine_3
       rect:
         serializedVersion: 2
-        x: 216
-        y: 7
-        width: 15
-        height: 15
+        x: 192
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5eb013d7b3ba53f10800000000000000
-      internalID: 2248891860933217253
+      spriteID: a1a0c478d6eb6b44b863b18976b8184c
+      internalID: 1089046207
       vertices: []
       indices: 
       edges: []
@@ -206,19 +206,19 @@ TextureImporter:
       name: Nairan - Scout - Engine_4
       rect:
         serializedVersion: 2
-        x: 280
-        y: 6
-        width: 15
-        height: 15
+        x: 256
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4f36c377ee835d590800000000000000
-      internalID: -7650145795165101068
+      spriteID: 6bbee10d60e61fb49bfb79bc9ef9effd
+      internalID: 890008452
       vertices: []
       indices: 
       edges: []
@@ -227,19 +227,19 @@ TextureImporter:
       name: Nairan - Scout - Engine_5
       rect:
         serializedVersion: 2
-        x: 345
-        y: 8
-        width: 14
-        height: 13
+        x: 320
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f2c5430cb63e87b10800000000000000
-      internalID: 1979582088154995759
+      spriteID: 335e029d658fb73448208c079c1a2b00
+      internalID: -1418541316
       vertices: []
       indices: 
       edges: []
@@ -248,19 +248,19 @@ TextureImporter:
       name: Nairan - Scout - Engine_6
       rect:
         serializedVersion: 2
-        x: 409
-        y: 8
-        width: 14
-        height: 13
+        x: 384
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9f6195afdc10a5a70800000000000000
-      internalID: 8816361204711233273
+      spriteID: a4da33bf176386c4a9487636716a7a4a
+      internalID: 241475646
       vertices: []
       indices: 
       edges: []
@@ -269,19 +269,19 @@ TextureImporter:
       name: Nairan - Scout - Engine_7
       rect:
         serializedVersion: 2
-        x: 473
-        y: 8
-        width: 14
-        height: 14
+        x: 448
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: dada33d3d0197c3b0800000000000000
-      internalID: -5492261734507631187
+      spriteID: 3c737b448075ab04cb98a85b5c98b759
+      internalID: -489026474
       vertices: []
       indices: 
       edges: []
@@ -289,14 +289,22 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 10091eed5809ace478373fcb156b1502
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Nairan - Scout - Engine_0: -1323093705
+      Nairan - Scout - Engine_1: 505047464
+      Nairan - Scout - Engine_2: 1891329055
+      Nairan - Scout - Engine_3: 1089046207
+      Nairan - Scout - Engine_4: 890008452
+      Nairan - Scout - Engine_5: -1418541316
+      Nairan - Scout - Engine_6: 241475646
+      Nairan - Scout - Engine_7: -489026474
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

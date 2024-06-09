@@ -122,19 +122,19 @@ TextureImporter:
       name: Nautolan Ship - Fighter - Engine Effect_0
       rect:
         serializedVersion: 2
-        x: 25
-        y: 2
-        width: 14
-        height: 18
+        x: 0
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c847cbba8cc186dc0800000000000000
-      internalID: -3645632250156125044
+      spriteID: a67b764a5194d8c4cba51a02b161c5ad
+      internalID: -899729584
       vertices: []
       indices: 
       edges: []
@@ -143,19 +143,19 @@ TextureImporter:
       name: Nautolan Ship - Fighter - Engine Effect_1
       rect:
         serializedVersion: 2
-        x: 89
-        y: 2
-        width: 14
-        height: 18
+        x: 64
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b3ed2b31c6d54aa30800000000000000
-      internalID: 4225605069148708411
+      spriteID: 4668d2cc219e17c4f9a367954e00f87c
+      internalID: 992074745
       vertices: []
       indices: 
       edges: []
@@ -164,19 +164,19 @@ TextureImporter:
       name: Nautolan Ship - Fighter - Engine Effect_2
       rect:
         serializedVersion: 2
-        x: 153
-        y: 1
-        width: 14
-        height: 19
+        x: 128
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c2ce97e1d6afe6bf0800000000000000
-      internalID: -329050376181781460
+      spriteID: 69aa0111bcb3ade498a85547e53047db
+      internalID: -6649562
       vertices: []
       indices: 
       edges: []
@@ -185,19 +185,19 @@ TextureImporter:
       name: Nautolan Ship - Fighter - Engine Effect_3
       rect:
         serializedVersion: 2
-        x: 217
-        y: 2
-        width: 14
-        height: 18
+        x: 192
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c95572ffb114d8e60800000000000000
-      internalID: 7966094904388965788
+      spriteID: b500e2a9f2114814397a01df3bc3d26c
+      internalID: 114491828
       vertices: []
       indices: 
       edges: []
@@ -206,19 +206,19 @@ TextureImporter:
       name: Nautolan Ship - Fighter - Engine Effect_4
       rect:
         serializedVersion: 2
-        x: 281
-        y: 2
-        width: 14
-        height: 18
+        x: 256
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 014ee4c820eee4e10800000000000000
-      internalID: 2183944564032594960
+      spriteID: f19c6382c2324ce49b874a8b3b804bfe
+      internalID: 1192473137
       vertices: []
       indices: 
       edges: []
@@ -227,19 +227,19 @@ TextureImporter:
       name: Nautolan Ship - Fighter - Engine Effect_5
       rect:
         serializedVersion: 2
-        x: 345
-        y: 2
-        width: 14
-        height: 18
+        x: 320
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1a9515e1fc8b722a0800000000000000
-      internalID: -6762233115767121503
+      spriteID: 1d7f6edbdb862f248abb3e327d1ec87a
+      internalID: 1739856703
       vertices: []
       indices: 
       edges: []
@@ -248,19 +248,19 @@ TextureImporter:
       name: Nautolan Ship - Fighter - Engine Effect_6
       rect:
         serializedVersion: 2
-        x: 409
-        y: 1
-        width: 14
-        height: 19
+        x: 384
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3b9b0abeedd3a7680800000000000000
-      internalID: -8756618497823295053
+      spriteID: 5d8a3ddffd0c82d4886c0868cbc8f1d5
+      internalID: 742304282
       vertices: []
       indices: 
       edges: []
@@ -269,19 +269,19 @@ TextureImporter:
       name: Nautolan Ship - Fighter - Engine Effect_7
       rect:
         serializedVersion: 2
-        x: 473
-        y: 2
-        width: 14
-        height: 18
+        x: 448
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0e3c69e9013630000800000000000000
-      internalID: 953347961439200
+      spriteID: b5caed612ee1c6542978b3cbaa7d88bc
+      internalID: 826624357
       vertices: []
       indices: 
       edges: []
@@ -289,14 +289,22 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 054fb07977a2db24685d7886fac9c891
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Nautolan Ship - Fighter - Engine Effect_0: -899729584
+      Nautolan Ship - Fighter - Engine Effect_1: 992074745
+      Nautolan Ship - Fighter - Engine Effect_2: -6649562
+      Nautolan Ship - Fighter - Engine Effect_3: 114491828
+      Nautolan Ship - Fighter - Engine Effect_4: 1192473137
+      Nautolan Ship - Fighter - Engine Effect_5: 1739856703
+      Nautolan Ship - Fighter - Engine Effect_6: 742304282
+      Nautolan Ship - Fighter - Engine Effect_7: 826624357
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

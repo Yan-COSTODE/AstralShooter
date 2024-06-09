@@ -125,19 +125,19 @@ TextureImporter:
       name: Nautolan Ship - Frigate - Weapons_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 15
-        width: 48
-        height: 38
+        x: 0
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7a069f68f44884ff0800000000000000
-      internalID: -51645918612987737
+      spriteID: 80339ca1b72a5e44c844cec87d8a4bbb
+      internalID: 1711649768
       vertices: []
       indices: 
       edges: []
@@ -146,19 +146,19 @@ TextureImporter:
       name: Nautolan Ship - Frigate - Weapons_1
       rect:
         serializedVersion: 2
-        x: 72
-        y: 15
-        width: 48
-        height: 38
+        x: 64
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2b986dd4a7c42f210800000000000000
-      internalID: 1365237725222308274
+      spriteID: 4b2e716dbcdf70a41b37609ef6101b19
+      internalID: -1075835
       vertices: []
       indices: 
       edges: []
@@ -167,19 +167,19 @@ TextureImporter:
       name: Nautolan Ship - Frigate - Weapons_2
       rect:
         serializedVersion: 2
-        x: 136
-        y: 15
-        width: 48
-        height: 38
+        x: 128
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 04c1f088e4018b370800000000000000
-      internalID: 8338432639552658496
+      spriteID: 37dbbe1a84970ae4f977373cc7d6fc2b
+      internalID: 730345312
       vertices: []
       indices: 
       edges: []
@@ -188,19 +188,19 @@ TextureImporter:
       name: Nautolan Ship - Frigate - Weapons_3
       rect:
         serializedVersion: 2
-        x: 200
-        y: 15
-        width: 48
-        height: 38
+        x: 192
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 82cb40d63693d2010800000000000000
-      internalID: 1165650977752398888
+      spriteID: 1e3225b2b01a7cd41b73ed52b882001d
+      internalID: -2060628584
       vertices: []
       indices: 
       edges: []
@@ -209,19 +209,19 @@ TextureImporter:
       name: Nautolan Ship - Frigate - Weapons_4
       rect:
         serializedVersion: 2
-        x: 264
-        y: 15
-        width: 48
-        height: 38
+        x: 256
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2a8a1e15b8def4bc0800000000000000
-      internalID: -3796554778220058462
+      spriteID: 7d6035cecfc9146418862122d2e26dd6
+      internalID: -1383825777
       vertices: []
       indices: 
       edges: []
@@ -230,19 +230,19 @@ TextureImporter:
       name: Nautolan Ship - Frigate - Weapons_5
       rect:
         serializedVersion: 2
-        x: 328
-        y: 15
-        width: 48
-        height: 38
+        x: 320
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5a322ebfcf06d8200800000000000000
-      internalID: 183909799465984933
+      spriteID: ede0560974d579c48a4a2e9b0996cd16
+      internalID: 971295985
       vertices: []
       indices: 
       edges: []
@@ -251,19 +251,19 @@ TextureImporter:
       name: Nautolan Ship - Frigate - Weapons_6
       rect:
         serializedVersion: 2
-        x: 392
-        y: 15
-        width: 48
-        height: 38
+        x: 384
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 504237a8a11f35260800000000000000
-      internalID: 7085271735078167557
+      spriteID: 8183a0e128f13424da035d8b2e7fbed2
+      internalID: 387714097
       vertices: []
       indices: 
       edges: []
@@ -272,19 +272,19 @@ TextureImporter:
       name: Nautolan Ship - Frigate - Weapons_7
       rect:
         serializedVersion: 2
-        x: 456
-        y: 15
-        width: 48
-        height: 38
+        x: 448
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 555e2ef5753a32fa0800000000000000
-      internalID: -5826633897221102251
+      spriteID: dc270b14e6ecf614aa10a040f860b9c8
+      internalID: -1390750158
       vertices: []
       indices: 
       edges: []
@@ -293,19 +293,19 @@ TextureImporter:
       name: Nautolan Ship - Frigate - Weapons_8
       rect:
         serializedVersion: 2
-        x: 520
-        y: 15
-        width: 48
-        height: 38
+        x: 512
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a0223be1d2d686cd0800000000000000
-      internalID: -2564679947231485430
+      spriteID: 55dae49083c478144b6dfeaf822cc7ba
+      internalID: -1830629947
       vertices: []
       indices: 
       edges: []
@@ -313,14 +313,23 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 1f8fdd1cf9065a34eb4ca0b02734a106
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Nautolan Ship - Frigate - Weapons_0: 1711649768
+      Nautolan Ship - Frigate - Weapons_1: -1075835
+      Nautolan Ship - Frigate - Weapons_2: 730345312
+      Nautolan Ship - Frigate - Weapons_3: -2060628584
+      Nautolan Ship - Frigate - Weapons_4: -1383825777
+      Nautolan Ship - Frigate - Weapons_5: 971295985
+      Nautolan Ship - Frigate - Weapons_6: 387714097
+      Nautolan Ship - Frigate - Weapons_7: -1390750158
+      Nautolan Ship - Frigate - Weapons_8: -1830629947
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

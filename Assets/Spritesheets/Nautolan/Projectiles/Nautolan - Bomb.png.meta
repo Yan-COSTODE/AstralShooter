@@ -146,19 +146,19 @@ TextureImporter:
       name: Nautolan - Bomb_0
       rect:
         serializedVersion: 2
-        x: 4
-        y: 2
-        width: 8
-        height: 12
+        x: 0
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d9c1c01a4c53d2710800000000000000
-      internalID: 1670050155456109725
+      spriteID: e105f647793f3564aaa2d2b2e75cc95e
+      internalID: 1771098485
       vertices: []
       indices: 
       edges: []
@@ -167,19 +167,19 @@ TextureImporter:
       name: Nautolan - Bomb_1
       rect:
         serializedVersion: 2
-        x: 18
-        y: 4
-        width: 12
-        height: 8
+        x: 16
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: bcd75db33c1dca170800000000000000
-      internalID: 8191152458732764619
+      spriteID: 51085bdd672247441a027eec18c634ef
+      internalID: 234938963
       vertices: []
       indices: 
       edges: []
@@ -188,19 +188,19 @@ TextureImporter:
       name: Nautolan - Bomb_2
       rect:
         serializedVersion: 2
-        x: 34
-        y: 4
-        width: 12
-        height: 8
+        x: 32
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b58022a17c91467b0800000000000000
-      internalID: -5232028524170049445
+      spriteID: 298a42f90e3fc7843bf1af43c1ca651f
+      internalID: 946793057
       vertices: []
       indices: 
       edges: []
@@ -209,19 +209,19 @@ TextureImporter:
       name: Nautolan - Bomb_3
       rect:
         serializedVersion: 2
-        x: 52
-        y: 2
-        width: 8
-        height: 12
+        x: 48
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: bd7edce45d8e92620800000000000000
-      internalID: 2749985050334193627
+      spriteID: bb9e49a079d6b8c42a12f5d6632ef650
+      internalID: -636422700
       vertices: []
       indices: 
       edges: []
@@ -230,19 +230,19 @@ TextureImporter:
       name: Nautolan - Bomb_4
       rect:
         serializedVersion: 2
-        x: 68
-        y: 2
-        width: 8
-        height: 12
+        x: 64
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: fbb60f2a9ca53ac50800000000000000
-      internalID: 6675278894761798591
+      spriteID: e35c0c0ede3e6964286d443b4a29a0a9
+      internalID: -1274838067
       vertices: []
       indices: 
       edges: []
@@ -251,19 +251,19 @@ TextureImporter:
       name: Nautolan - Bomb_5
       rect:
         serializedVersion: 2
-        x: 82
-        y: 4
-        width: 12
-        height: 8
+        x: 80
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a2d0915ac5c5f1210800000000000000
-      internalID: 1305863969937362218
+      spriteID: 43f61da4c7fafaf43829c665f1bdd69c
+      internalID: -899850848
       vertices: []
       indices: 
       edges: []
@@ -272,19 +272,19 @@ TextureImporter:
       name: Nautolan - Bomb_6
       rect:
         serializedVersion: 2
-        x: 98
-        y: 4
-        width: 12
-        height: 8
+        x: 96
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b1d91a911d51f6930800000000000000
-      internalID: 4138550570399145243
+      spriteID: 76793477e65fb3d42b02172ad7ba87e2
+      internalID: -990793094
       vertices: []
       indices: 
       edges: []
@@ -293,19 +293,19 @@ TextureImporter:
       name: Nautolan - Bomb_7
       rect:
         serializedVersion: 2
-        x: 116
-        y: 2
-        width: 8
-        height: 12
+        x: 112
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: cb084ca8f27cadda0800000000000000
-      internalID: -5919199753219571524
+      spriteID: a74b334448b14124ab7497b2588e5ba9
+      internalID: -1464945871
       vertices: []
       indices: 
       edges: []
@@ -314,19 +314,19 @@ TextureImporter:
       name: Nautolan - Bomb_8
       rect:
         serializedVersion: 2
-        x: 132
-        y: 2
-        width: 8
-        height: 12
+        x: 128
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8e1a88622ec5ee7c0800000000000000
-      internalID: -4040189689325903384
+      spriteID: b78e34c7b44b7fa47b7f09b35a439a89
+      internalID: 493628050
       vertices: []
       indices: 
       edges: []
@@ -335,19 +335,19 @@ TextureImporter:
       name: Nautolan - Bomb_9
       rect:
         serializedVersion: 2
-        x: 146
-        y: 4
-        width: 12
-        height: 8
+        x: 144
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7acd13039768b3ad0800000000000000
-      internalID: -2721433694757593945
+      spriteID: 00d45f7380c055f448f905d31ae99e54
+      internalID: -1962514083
       vertices: []
       indices: 
       edges: []
@@ -356,19 +356,19 @@ TextureImporter:
       name: Nautolan - Bomb_10
       rect:
         serializedVersion: 2
-        x: 162
-        y: 4
-        width: 12
-        height: 8
+        x: 160
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: cf86262f826ea1310800000000000000
-      internalID: 1376665699654723836
+      spriteID: e02e3e94b74f6854e8f95a710810b6ad
+      internalID: -1068882117
       vertices: []
       indices: 
       edges: []
@@ -377,19 +377,19 @@ TextureImporter:
       name: Nautolan - Bomb_11
       rect:
         serializedVersion: 2
-        x: 180
-        y: 2
-        width: 8
-        height: 12
+        x: 176
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6853d02f9e43843f0800000000000000
-      internalID: -916424344776919674
+      spriteID: 3654983d801c1334b955f8e75142b58d
+      internalID: 2084354413
       vertices: []
       indices: 
       edges: []
@@ -398,19 +398,19 @@ TextureImporter:
       name: Nautolan - Bomb_12
       rect:
         serializedVersion: 2
-        x: 196
-        y: 2
-        width: 8
-        height: 12
+        x: 192
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3224d220ab29e4c50800000000000000
-      internalID: 6651415027270894115
+      spriteID: 3980707ca8e98f1439825d246c1f5b9f
+      internalID: -1033530108
       vertices: []
       indices: 
       edges: []
@@ -419,19 +419,19 @@ TextureImporter:
       name: Nautolan - Bomb_13
       rect:
         serializedVersion: 2
-        x: 210
-        y: 4
-        width: 12
-        height: 8
+        x: 208
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: eee537464f1acd5d0800000000000000
-      internalID: -3036373977725182226
+      spriteID: 430ac71ced0ac864eb585bf7be4be9ad
+      internalID: -1545357833
       vertices: []
       indices: 
       edges: []
@@ -440,19 +440,19 @@ TextureImporter:
       name: Nautolan - Bomb_14
       rect:
         serializedVersion: 2
-        x: 226
-        y: 4
-        width: 12
-        height: 8
+        x: 224
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 53c3a890d5b7c2620800000000000000
-      internalID: 2750709111938759733
+      spriteID: 70dcb2069b915814a8a72597bd6d20fc
+      internalID: -1712487829
       vertices: []
       indices: 
       edges: []
@@ -461,19 +461,19 @@ TextureImporter:
       name: Nautolan - Bomb_15
       rect:
         serializedVersion: 2
-        x: 244
-        y: 2
-        width: 8
-        height: 12
+        x: 240
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 064212a3fa42aa610800000000000000
-      internalID: 1633158149888353376
+      spriteID: ce275083f4c65814d89433925c08af47
+      internalID: 143622551
       vertices: []
       indices: 
       edges: []
@@ -481,14 +481,30 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 7dbf8bdabe9c2e240ab554870f065814
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Nautolan - Bomb_0: 1771098485
+      Nautolan - Bomb_1: 234938963
+      Nautolan - Bomb_10: -1068882117
+      Nautolan - Bomb_11: 2084354413
+      Nautolan - Bomb_12: -1033530108
+      Nautolan - Bomb_13: -1545357833
+      Nautolan - Bomb_14: -1712487829
+      Nautolan - Bomb_15: 143622551
+      Nautolan - Bomb_2: 946793057
+      Nautolan - Bomb_3: -636422700
+      Nautolan - Bomb_4: -1274838067
+      Nautolan - Bomb_5: -899850848
+      Nautolan - Bomb_6: -990793094
+      Nautolan - Bomb_7: -1464945871
+      Nautolan - Bomb_8: 493628050
+      Nautolan - Bomb_9: -1962514083
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
