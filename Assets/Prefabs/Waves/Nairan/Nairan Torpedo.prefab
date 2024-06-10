@@ -1,0 +1,357 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4254899431413375733
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 124444108967750507}
+  - component: {fileID: 2719790599300287787}
+  m_Layer: 0
+  m_Name: Nairan Torpedo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &124444108967750507
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4254899431413375733}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 53670843695257638}
+  - {fileID: 2066301750481297919}
+  - {fileID: 4918970122112713093}
+  - {fileID: 6029933636229096644}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2719790599300287787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4254899431413375733}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 939523f74dad11a458e280bc0c52839d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waveName: torpedo
+  iScore: 4500
+  enemies:
+  - {fileID: 6551747174419273223}
+  - {fileID: 5115575087161602014}
+  - {fileID: 2166626476645388196}
+  - {fileID: 719580603429890789}
+--- !u!1001 &3118112445773456775
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 124444108967750507}
+    m_Modifications:
+    - target: {fileID: 3842878843562666531, guid: c96470db0c21375409baac22daa49f63, type: 3}
+      propertyPath: m_Name
+      value: Nairan Torpedo (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337383104656305867, guid: c96470db0c21375409baac22daa49f63, type: 3}
+      propertyPath: bGoTo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337383104656305867, guid: c96470db0c21375409baac22daa49f63, type: 3}
+      propertyPath: goToPosition.y
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000209314663162882, guid: c96470db0c21375409baac22daa49f63, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -18
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000209314663162882, guid: c96470db0c21375409baac22daa49f63, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000209314663162882, guid: c96470db0c21375409baac22daa49f63, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000209314663162882, guid: c96470db0c21375409baac22daa49f63, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000209314663162882, guid: c96470db0c21375409baac22daa49f63, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000209314663162882, guid: c96470db0c21375409baac22daa49f63, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000209314663162882, guid: c96470db0c21375409baac22daa49f63, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000209314663162882, guid: c96470db0c21375409baac22daa49f63, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000209314663162882, guid: c96470db0c21375409baac22daa49f63, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000209314663162882, guid: c96470db0c21375409baac22daa49f63, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 270
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c96470db0c21375409baac22daa49f63, type: 3}
+--- !u!1 &2166626476645388196 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3842878843562666531, guid: c96470db0c21375409baac22daa49f63, type: 3}
+  m_PrefabInstance: {fileID: 3118112445773456775}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &4918970122112713093 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8000209314663162882, guid: c96470db0c21375409baac22daa49f63, type: 3}
+  m_PrefabInstance: {fileID: 3118112445773456775}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4370975768979275974
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 124444108967750507}
+    m_Modifications:
+    - target: {fileID: 3842878843562666531, guid: c96470db0c21375409baac22daa49f63, type: 3}
+      propertyPath: m_Name
+      value: Nairan Torpedo (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337383104656305867, guid: c96470db0c21375409baac22daa49f63, type: 3}
+      propertyPath: bGoTo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337383104656305867, guid: c96470db0c21375409baac22daa49f63, type: 3}
+      propertyPath: goToPosition.y
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000209314663162882, guid: c96470db0c21375409baac22daa49f63, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -22
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000209314663162882, guid: c96470db0c21375409baac22daa49f63, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000209314663162882, guid: c96470db0c21375409baac22daa49f63, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000209314663162882, guid: c96470db0c21375409baac22daa49f63, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000209314663162882, guid: c96470db0c21375409baac22daa49f63, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000209314663162882, guid: c96470db0c21375409baac22daa49f63, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000209314663162882, guid: c96470db0c21375409baac22daa49f63, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000209314663162882, guid: c96470db0c21375409baac22daa49f63, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000209314663162882, guid: c96470db0c21375409baac22daa49f63, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000209314663162882, guid: c96470db0c21375409baac22daa49f63, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 270
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c96470db0c21375409baac22daa49f63, type: 3}
+--- !u!1 &719580603429890789 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3842878843562666531, guid: c96470db0c21375409baac22daa49f63, type: 3}
+  m_PrefabInstance: {fileID: 4370975768979275974}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &6029933636229096644 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8000209314663162882, guid: c96470db0c21375409baac22daa49f63, type: 3}
+  m_PrefabInstance: {fileID: 4370975768979275974}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8050429134377368612
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 124444108967750507}
+    m_Modifications:
+    - target: {fileID: 3842878843562666531, guid: c96470db0c21375409baac22daa49f63, type: 3}
+      propertyPath: m_Name
+      value: Nairan Torpedo (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337383104656305867, guid: c96470db0c21375409baac22daa49f63, type: 3}
+      propertyPath: bGoTo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337383104656305867, guid: c96470db0c21375409baac22daa49f63, type: 3}
+      propertyPath: goToPosition.y
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000209314663162882, guid: c96470db0c21375409baac22daa49f63, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000209314663162882, guid: c96470db0c21375409baac22daa49f63, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000209314663162882, guid: c96470db0c21375409baac22daa49f63, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000209314663162882, guid: c96470db0c21375409baac22daa49f63, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000209314663162882, guid: c96470db0c21375409baac22daa49f63, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000209314663162882, guid: c96470db0c21375409baac22daa49f63, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000209314663162882, guid: c96470db0c21375409baac22daa49f63, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000209314663162882, guid: c96470db0c21375409baac22daa49f63, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000209314663162882, guid: c96470db0c21375409baac22daa49f63, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000209314663162882, guid: c96470db0c21375409baac22daa49f63, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 270
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c96470db0c21375409baac22daa49f63, type: 3}
+--- !u!4 &53670843695257638 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8000209314663162882, guid: c96470db0c21375409baac22daa49f63, type: 3}
+  m_PrefabInstance: {fileID: 8050429134377368612}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6551747174419273223 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3842878843562666531, guid: c96470db0c21375409baac22daa49f63, type: 3}
+  m_PrefabInstance: {fileID: 8050429134377368612}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8334625254348441085
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 124444108967750507}
+    m_Modifications:
+    - target: {fileID: 3842878843562666531, guid: c96470db0c21375409baac22daa49f63, type: 3}
+      propertyPath: m_Name
+      value: Nairan Torpedo (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337383104656305867, guid: c96470db0c21375409baac22daa49f63, type: 3}
+      propertyPath: bGoTo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337383104656305867, guid: c96470db0c21375409baac22daa49f63, type: 3}
+      propertyPath: goToPosition.y
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000209314663162882, guid: c96470db0c21375409baac22daa49f63, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -14
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000209314663162882, guid: c96470db0c21375409baac22daa49f63, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000209314663162882, guid: c96470db0c21375409baac22daa49f63, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000209314663162882, guid: c96470db0c21375409baac22daa49f63, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000209314663162882, guid: c96470db0c21375409baac22daa49f63, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000209314663162882, guid: c96470db0c21375409baac22daa49f63, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000209314663162882, guid: c96470db0c21375409baac22daa49f63, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000209314663162882, guid: c96470db0c21375409baac22daa49f63, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000209314663162882, guid: c96470db0c21375409baac22daa49f63, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000209314663162882, guid: c96470db0c21375409baac22daa49f63, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 270
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c96470db0c21375409baac22daa49f63, type: 3}
+--- !u!4 &2066301750481297919 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8000209314663162882, guid: c96470db0c21375409baac22daa49f63, type: 3}
+  m_PrefabInstance: {fileID: 8334625254348441085}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5115575087161602014 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3842878843562666531, guid: c96470db0c21375409baac22daa49f63, type: 3}
+  m_PrefabInstance: {fileID: 8334625254348441085}
+  m_PrefabAsset: {fileID: 0}

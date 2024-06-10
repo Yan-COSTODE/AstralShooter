@@ -10,6 +10,9 @@ public class AsteroidSpawner : MonoBehaviour
 	[SerializeField] private FloatRange delay;
 	[SerializeField] private Transform topLeft;
 	[SerializeField] private Transform botRight;
+	[SerializeField] private int iNumberPerSpawnAugment;
+	[SerializeField] private float fDelayPerSpawnAugment;
+
 	private float fDelay = 0.0f;
 	private float fSpawnDelay = 0.0f;
 	#endregion
@@ -51,11 +54,14 @@ public class AsteroidSpawner : MonoBehaviour
 		    return;
 
 	    fDelay = 0.0f;
+	    delay.AddToRange(fDelayPerSpawnAugment);
 	    fSpawnDelay = delay.Value;
 	    int _number = number.Value;
 	    
 	    for (int _i = 0; _i < _number; _i++)
 		    Instantiate(asteroids, SpawnPosition(), SpawnRotation());
+	    
+	    number.AddToRange(iNumberPerSpawnAugment);
     }
 
     private Vector3 SpawnPosition()

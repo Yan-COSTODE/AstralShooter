@@ -22,6 +22,12 @@ public struct FloatRange
 		fMin = _min;
 		fMax = _max;
 	}
+
+	public void AddToRange(float _add)
+	{
+		fMin += _add;
+		fMax += _add;
+	}
 	#endregion
 }
 
@@ -44,6 +50,12 @@ public struct IntRange
 	{
 		iMin = _min;
 		iMax = _max;
+	}
+	
+	public void AddToRange(int _add)
+	{
+		iMin += _add;
+		iMax += _add;
 	}
 	#endregion
 }

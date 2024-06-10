@@ -120,63 +120,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &866735091
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4526158845363295874, guid: 76cb44df8bb63f180b3f22e857b4a7e8, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4526158845363295874, guid: 76cb44df8bb63f180b3f22e857b4a7e8, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 4526158845363295874, guid: 76cb44df8bb63f180b3f22e857b4a7e8, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4526158845363295874, guid: 76cb44df8bb63f180b3f22e857b4a7e8, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4526158845363295874, guid: 76cb44df8bb63f180b3f22e857b4a7e8, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4526158845363295874, guid: 76cb44df8bb63f180b3f22e857b4a7e8, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4526158845363295874, guid: 76cb44df8bb63f180b3f22e857b4a7e8, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4526158845363295874, guid: 76cb44df8bb63f180b3f22e857b4a7e8, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4526158845363295874, guid: 76cb44df8bb63f180b3f22e857b4a7e8, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4526158845363295874, guid: 76cb44df8bb63f180b3f22e857b4a7e8, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4595509060317364751, guid: 76cb44df8bb63f180b3f22e857b4a7e8, type: 3}
-      propertyPath: m_Name
-      value: Asteroid Spawner
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 76cb44df8bb63f180b3f22e857b4a7e8, type: 3}
 --- !u!1 &1110112762
 GameObject:
   m_ObjectHideFlags: 0
@@ -377,4 +320,3 @@ SceneRoots:
   m_Roots:
   - {fileID: 1110112765}
   - {fileID: 5551075021076053355}
-  - {fileID: 866735091}
