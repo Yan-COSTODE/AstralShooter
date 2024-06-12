@@ -33,8 +33,11 @@ public class EnemySpawner : MonoBehaviour
     public void Destroy()
     {
         foreach (EnemyBase _enemy in currentEnemy)
-            _enemy.Die(false);
-        
+        {
+            if (_enemy)
+                _enemy.Die(false);
+        }
+
         currentEnemy.Clear();
     }
 

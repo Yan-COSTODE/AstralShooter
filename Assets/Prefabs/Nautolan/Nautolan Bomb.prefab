@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4548934512704072098}
   - component: {fileID: 6879960562386176404}
   - component: {fileID: 673163303891217963}
-  - component: {fileID: 2710189699344576069}
+  - component: {fileID: 9104618674783163919}
   m_Layer: 10
   m_Name: Nautolan Bomb
   m_TagString: Untagged
@@ -145,9 +145,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1a8cb7a9d45a834faee510d3ca31c2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fFlySpeed: 8
+  fFlySpeed: 2
+  fRotationSpeed: 0
   bDestructible: 0
---- !u!95 &2710189699344576069
+  type: 3
+  fRayLifetime: 2
+--- !u!95 &9104618674783163919
 Animator:
   serializedVersion: 7
   m_ObjectHideFlags: 0
@@ -157,7 +160,7 @@ Animator:
   m_GameObject: {fileID: 4620063645429127834}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 98e29f9c9961d0c44b76daf1d9789545, type: 2}
+  m_Controller: {fileID: 9100000, guid: b3d389df33e17bc44ba7441b1f60e27f, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

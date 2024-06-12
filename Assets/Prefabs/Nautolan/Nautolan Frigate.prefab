@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2424401742255857736}
   - component: {fileID: 7776312048878423126}
-  - component: {fileID: 5745468914656600705}
+  - component: {fileID: 4196159657866947017}
   m_Layer: 8
   m_Name: Visual
   m_TagString: Untagged
@@ -88,7 +88,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &5745468914656600705
+--- !u!95 &4196159657866947017
 Animator:
   serializedVersion: 7
   m_ObjectHideFlags: 0
@@ -98,7 +98,7 @@ Animator:
   m_GameObject: {fileID: 661934509878419801}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: eb2519c154692894caee86b8b9935860, type: 2}
+  m_Controller: {fileID: 9100000, guid: 5384bbbde0a068249b11dad7b1c3e22f, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -120,7 +120,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5631575331397137859}
   - component: {fileID: 996736973830922665}
-  - component: {fileID: 8322208875208573474}
+  - component: {fileID: 8518662222150994471}
   m_Layer: 8
   m_Name: Engine
   m_TagString: Untagged
@@ -195,7 +195,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &8322208875208573474
+--- !u!95 &8518662222150994471
 Animator:
   serializedVersion: 7
   m_ObjectHideFlags: 0
@@ -205,7 +205,7 @@ Animator:
   m_GameObject: {fileID: 2302600856478643473}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 41ea8ba6f2cda6a468a7886c46d3ed2a, type: 2}
+  m_Controller: {fileID: 9100000, guid: 0d52fbf9afa6268408454ee219aa282b, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -312,10 +312,10 @@ MonoBehaviour:
   type: 5
   spawner: {fileID: 0}
   health:
-    fMax: 25
+    fMax: 50
   shield:
-    fMax: 10
-  movementPattern: 5
+    fMax: 20
+  movementPattern: 0
   iScore: 1000
   lootTable:
     loots: []
@@ -326,11 +326,11 @@ MonoBehaviour:
   fRegenHealth: 1
   fRegenShield: 2
   fRegenDelay: 3
-  weaponPattern: 7
+  weaponPattern: 16
   weaponSocket: {fileID: 1370671090495589782}
   shieldBar: {fileID: 0}
   healthBar: {fileID: 0}
-  animator: {fileID: 5745468914656600705}
+  animator: {fileID: 0}
   fDieDelay: 1
   shieldVisual: {fileID: 6853435219232375880}
   engineVisual: {fileID: 2302600856478643473}
@@ -344,7 +344,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8140409151591006369}
   - component: {fileID: 7139027957038754100}
-  - component: {fileID: 9158219131117774331}
+  - component: {fileID: 91231503977602658}
   m_Layer: 8
   m_Name: Shield
   m_TagString: Untagged
@@ -419,7 +419,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &9158219131117774331
+--- !u!95 &91231503977602658
 Animator:
   serializedVersion: 7
   m_ObjectHideFlags: 0
@@ -429,7 +429,7 @@ Animator:
   m_GameObject: {fileID: 6853435219232375880}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 208045916310d364faf2522202297931, type: 2}
+  m_Controller: {fileID: 9100000, guid: e9b565ee70640cf43adb3dce83030684, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

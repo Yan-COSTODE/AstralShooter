@@ -175,7 +175,7 @@ MonoBehaviour:
     - loot: {fileID: 6510087765091009371, guid: 888b33c1c69ed3a128dc3b415dbdf8c5, type: 3}
       weight: 1
     - loot: {fileID: 0}
-      weight: 100
+      weight: 50
   moveSpeed:
     fMin: 1
     fMax: 2
@@ -359,7 +359,7 @@ MonoBehaviour:
     - loot: {fileID: 6510087765091009371, guid: 888b33c1c69ed3a128dc3b415dbdf8c5, type: 3}
       weight: 1
     - loot: {fileID: 0}
-      weight: 100
+      weight: 50
   moveSpeed:
     fMin: 1
     fMax: 2
@@ -543,7 +543,7 @@ MonoBehaviour:
     - loot: {fileID: 6510087765091009371, guid: 888b33c1c69ed3a128dc3b415dbdf8c5, type: 3}
       weight: 1
     - loot: {fileID: 0}
-      weight: 100
+      weight: 50
   moveSpeed:
     fMin: 1
     fMax: 2
@@ -727,7 +727,7 @@ MonoBehaviour:
     - loot: {fileID: 6510087765091009371, guid: 888b33c1c69ed3a128dc3b415dbdf8c5, type: 3}
       weight: 1
     - loot: {fileID: 0}
-      weight: 100
+      weight: 50
   moveSpeed:
     fMin: 1
     fMax: 2
@@ -911,7 +911,7 @@ MonoBehaviour:
     - loot: {fileID: 6510087765091009371, guid: 888b33c1c69ed3a128dc3b415dbdf8c5, type: 3}
       weight: 1
     - loot: {fileID: 0}
-      weight: 100
+      weight: 50
   moveSpeed:
     fMin: 1
     fMax: 2
@@ -1095,7 +1095,7 @@ MonoBehaviour:
     - loot: {fileID: 6510087765091009371, guid: 888b33c1c69ed3a128dc3b415dbdf8c5, type: 3}
       weight: 1
     - loot: {fileID: 0}
-      weight: 100
+      weight: 50
   moveSpeed:
     fMin: 1
     fMax: 2
@@ -1279,7 +1279,7 @@ MonoBehaviour:
     - loot: {fileID: 6510087765091009371, guid: 888b33c1c69ed3a128dc3b415dbdf8c5, type: 3}
       weight: 1
     - loot: {fileID: 0}
-      weight: 100
+      weight: 50
   moveSpeed:
     fMin: 1
     fMax: 2
@@ -1463,7 +1463,7 @@ MonoBehaviour:
     - loot: {fileID: 6510087765091009371, guid: 888b33c1c69ed3a128dc3b415dbdf8c5, type: 3}
       weight: 1
     - loot: {fileID: 0}
-      weight: 100
+      weight: 50
   moveSpeed:
     fMin: 1
     fMax: 2
@@ -1647,7 +1647,7 @@ MonoBehaviour:
     - loot: {fileID: 6510087765091009371, guid: 888b33c1c69ed3a128dc3b415dbdf8c5, type: 3}
       weight: 1
     - loot: {fileID: 0}
-      weight: 100
+      weight: 50
   moveSpeed:
     fMin: 1
     fMax: 2
@@ -1831,7 +1831,7 @@ MonoBehaviour:
     - loot: {fileID: 6510087765091009371, guid: 888b33c1c69ed3a128dc3b415dbdf8c5, type: 3}
       weight: 1
     - loot: {fileID: 0}
-      weight: 100
+      weight: 50
   moveSpeed:
     fMin: 1
     fMax: 2
@@ -2015,7 +2015,7 @@ MonoBehaviour:
     - loot: {fileID: 6510087765091009371, guid: 888b33c1c69ed3a128dc3b415dbdf8c5, type: 3}
       weight: 1
     - loot: {fileID: 0}
-      weight: 100
+      weight: 50
   moveSpeed:
     fMin: 1
     fMax: 2
@@ -2199,7 +2199,7 @@ MonoBehaviour:
     - loot: {fileID: 6510087765091009371, guid: 888b33c1c69ed3a128dc3b415dbdf8c5, type: 3}
       weight: 1
     - loot: {fileID: 0}
-      weight: 100
+      weight: 50
   moveSpeed:
     fMin: 1
     fMax: 2
@@ -2383,7 +2383,7 @@ MonoBehaviour:
     - loot: {fileID: 6510087765091009371, guid: 888b33c1c69ed3a128dc3b415dbdf8c5, type: 3}
       weight: 1
     - loot: {fileID: 0}
-      weight: 100
+      weight: 50
   moveSpeed:
     fMin: 1
     fMax: 2
@@ -2567,7 +2567,7 @@ MonoBehaviour:
     - loot: {fileID: 6510087765091009371, guid: 888b33c1c69ed3a128dc3b415dbdf8c5, type: 3}
       weight: 1
     - loot: {fileID: 0}
-      weight: 100
+      weight: 50
   moveSpeed:
     fMin: 1
     fMax: 2
@@ -2751,7 +2751,7 @@ MonoBehaviour:
     - loot: {fileID: 6510087765091009371, guid: 888b33c1c69ed3a128dc3b415dbdf8c5, type: 3}
       weight: 1
     - loot: {fileID: 0}
-      weight: 100
+      weight: 50
   moveSpeed:
     fMin: 1
     fMax: 2
@@ -2935,7 +2935,7 @@ MonoBehaviour:
     - loot: {fileID: 6510087765091009371, guid: 888b33c1c69ed3a128dc3b415dbdf8c5, type: 3}
       weight: 1
     - loot: {fileID: 0}
-      weight: 100
+      weight: 50
   moveSpeed:
     fMin: 1
     fMax: 2
@@ -3119,7 +3119,7 @@ MonoBehaviour:
     - loot: {fileID: 6510087765091009371, guid: 888b33c1c69ed3a128dc3b415dbdf8c5, type: 3}
       weight: 1
     - loot: {fileID: 0}
-      weight: 100
+      weight: 50
   moveSpeed:
     fMin: 1
     fMax: 2
@@ -3303,7 +3303,7 @@ MonoBehaviour:
     - loot: {fileID: 6510087765091009371, guid: 888b33c1c69ed3a128dc3b415dbdf8c5, type: 3}
       weight: 1
     - loot: {fileID: 0}
-      weight: 100
+      weight: 50
   moveSpeed:
     fMin: 1
     fMax: 2
@@ -3487,7 +3487,7 @@ MonoBehaviour:
     - loot: {fileID: 6510087765091009371, guid: 888b33c1c69ed3a128dc3b415dbdf8c5, type: 3}
       weight: 1
     - loot: {fileID: 0}
-      weight: 100
+      weight: 50
   moveSpeed:
     fMin: 1
     fMax: 2
@@ -3758,7 +3758,7 @@ MonoBehaviour:
     - loot: {fileID: 6510087765091009371, guid: 888b33c1c69ed3a128dc3b415dbdf8c5, type: 3}
       weight: 1
     - loot: {fileID: 0}
-      weight: 100
+      weight: 50
   moveSpeed:
     fMin: 1
     fMax: 2

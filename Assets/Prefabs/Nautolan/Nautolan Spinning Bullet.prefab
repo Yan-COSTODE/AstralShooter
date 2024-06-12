@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1513357487542167684}
   - component: {fileID: 5730213940356155116}
   - component: {fileID: 1211147392427651703}
-  - component: {fileID: 1285671357947230073}
+  - component: {fileID: 2287529948374754536}
   m_Layer: 10
   m_Name: Nautolan Spinning Bullet
   m_TagString: Untagged
@@ -146,8 +146,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fFlySpeed: 6
+  fRotationSpeed: 5
   bDestructible: 0
---- !u!95 &1285671357947230073
+  type: 1
+  fRayLifetime: 2
+--- !u!95 &2287529948374754536
 Animator:
   serializedVersion: 7
   m_ObjectHideFlags: 0
@@ -157,7 +160,7 @@ Animator:
   m_GameObject: {fileID: 3070468666335331847}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 3d3631003f665a443af23a7991551b9f, type: 2}
+  m_Controller: {fileID: 9100000, guid: 18b0ebde1fd6d834191b47525a9913c5, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

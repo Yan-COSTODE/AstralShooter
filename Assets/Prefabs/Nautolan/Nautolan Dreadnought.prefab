@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2424401742255857736}
   - component: {fileID: 7776312048878423126}
-  - component: {fileID: 5745468914656600705}
+  - component: {fileID: 4410227165224065793}
   m_Layer: 8
   m_Name: Visual
   m_TagString: Untagged
@@ -88,7 +88,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &5745468914656600705
+--- !u!95 &4410227165224065793
 Animator:
   serializedVersion: 7
   m_ObjectHideFlags: 0
@@ -98,7 +98,7 @@ Animator:
   m_GameObject: {fileID: 661934509878419801}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: a8f9244837846554bbbe294557574851, type: 2}
+  m_Controller: {fileID: 9100000, guid: 02b0680f45e470a489ee019f7fd728db, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -135,7 +135,7 @@ Transform:
   m_GameObject: {fileID: 924068556833316840}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1, y: -0.85, z: 0}
+  m_LocalPosition: {x: -1.03, y: 0.197, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -151,7 +151,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5631575331397137859}
   - component: {fileID: 996736973830922665}
-  - component: {fileID: 8322208875208573474}
+  - component: {fileID: 8566335630521313515}
   m_Layer: 8
   m_Name: Engine
   m_TagString: Untagged
@@ -226,7 +226,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &8322208875208573474
+--- !u!95 &8566335630521313515
 Animator:
   serializedVersion: 7
   m_ObjectHideFlags: 0
@@ -236,7 +236,7 @@ Animator:
   m_GameObject: {fileID: 2302600856478643473}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 3fb28973704ec384baf29c1994369ecf, type: 2}
+  m_Controller: {fileID: 9100000, guid: 1230f58398a73764d819a1c52c5d3fe5, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -427,7 +427,7 @@ GameObject:
   - component: {fileID: 8000209314663162882}
   - component: {fileID: 2623578160626085214}
   - component: {fileID: 7337383104656305867}
-  - component: {fileID: 5137029062280768728}
+  - component: {fileID: 4878244531383696}
   m_Layer: 8
   m_Name: Nautolan Dreadnought
   m_TagString: Untagged
@@ -512,12 +512,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 3
-  spawner: {fileID: 5137029062280768728}
+  spawner: {fileID: 0}
+  objectSpawner: {fileID: 4878244531383696}
   health:
-    fMax: 500
+    fMax: 1000
   shield:
-    fMax: 200
-  movementPattern: 6
+    fMax: 400
+  movementPattern: 11
   iScore: 20000
   lootTable:
     loots: []
@@ -528,15 +529,15 @@ MonoBehaviour:
   fRegenHealth: 1
   fRegenShield: 2
   fRegenDelay: 3
-  weaponPattern: 8
+  weaponPattern: 17
   weaponSocket: {fileID: 1370671090495589782}
   shieldBar: {fileID: 5335560108732931620}
   healthBar: {fileID: 8792068275108306351}
-  animator: {fileID: 5745468914656600705}
+  animator: {fileID: 0}
   fDieDelay: 3
   shieldVisual: {fileID: 6853435219232375880}
   engineVisual: {fileID: 2302600856478643473}
---- !u!114 &5137029062280768728
+--- !u!114 &4878244531383696
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -545,18 +546,51 @@ MonoBehaviour:
   m_GameObject: {fileID: 3842878843562666531}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0dedaeba4a1e9784cb12742107f77731, type: 3}
+  m_Script: {fileID: 11500000, guid: 318e8987f436c6644ae05ac32f10b74d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 883668658066024951, guid: 0992fd9dc9533f64fad85be2ef4a2073, type: 3}
-  iMax: 4
-  fDelay: 5
-  iSpawnCount: 4
+  objectPrefab: {fileID: 3070468666335331847, guid: 82990720fc7f43c47949657c1bfcc8c8, type: 3}
+  iMax: 12
+  fDelay: 3
+  iSpawnCount: 6
   sockets:
   - {fileID: 6735708917211318561}
   - {fileID: 3242401644330246497}
   - {fileID: 7227450350766734052}
   - {fileID: 7570678666878114473}
+  - {fileID: 5877955958909678453}
+  - {fileID: 7364052611217275706}
+--- !u!1 &4148388830784434939
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5877955958909678453}
+  m_Layer: 8
+  m_Name: Socket 4 (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5877955958909678453
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4148388830784434939}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.939, y: -0.785, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8035137909111220533}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4401523643216252196
 GameObject:
   m_ObjectHideFlags: 0
@@ -642,7 +676,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8140409151591006369}
   - component: {fileID: 7139027957038754100}
-  - component: {fileID: 9158219131117774331}
+  - component: {fileID: 1553676159657540810}
   m_Layer: 8
   m_Name: Shield
   m_TagString: Untagged
@@ -717,7 +751,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &9158219131117774331
+--- !u!95 &1553676159657540810
 Animator:
   serializedVersion: 7
   m_ObjectHideFlags: 0
@@ -727,7 +761,7 @@ Animator:
   m_GameObject: {fileID: 6853435219232375880}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 57b44e56a05aa854b94572367967f57d, type: 2}
+  m_Controller: {fileID: 9100000, guid: 4a683c0f2b8e8d74ab672fe2a0bf9ae7, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -795,7 +829,7 @@ Transform:
   m_GameObject: {fileID: 7930684753629568505}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1, y: -0.85, z: 0}
+  m_LocalPosition: {x: 1.005, y: 0.202, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -936,6 +970,8 @@ Transform:
   - {fileID: 3242401644330246497}
   - {fileID: 7227450350766734052}
   - {fileID: 7570678666878114473}
+  - {fileID: 5877955958909678453}
+  - {fileID: 7364052611217275706}
   m_Father: {fileID: 8000209314663162882}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8937491955834258615
@@ -963,7 +999,7 @@ Transform:
   m_GameObject: {fileID: 8937491955834258615}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1, y: 0.2, z: 0}
+  m_LocalPosition: {x: 0.694, y: 1.042, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -994,7 +1030,38 @@ Transform:
   m_GameObject: {fileID: 9080596257285118186}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1, y: 0.2, z: 0}
+  m_LocalPosition: {x: -0.699, y: 1.022, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8035137909111220533}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &9215734047674300297
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7364052611217275706}
+  m_Layer: 8
+  m_Name: Socket 4 (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7364052611217275706
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9215734047674300297}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.92, y: -0.785, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

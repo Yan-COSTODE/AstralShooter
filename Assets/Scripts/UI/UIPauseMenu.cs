@@ -37,8 +37,6 @@ public class UIPauseMenu : MonoBehaviour
 
         if (!_status)
             StartCoroutine(SetTimeScaleNoText(fDelay, 0.0f));
-        else  
-            Time.timeScale = 0.0f;
     }
 
     public void Close()
@@ -51,7 +49,10 @@ public class UIPauseMenu : MonoBehaviour
     public void Quit()
     {
         SoundManager.Instance.Play(ESound.UI_ACCEPT, transform.position, 1.0f, false, false);
-        Player.Instance.Die(false);
+        
+        if (Player.Instance)
+            Player.Instance.Die(false);
+        
         menu.SetActive(false);
         UIManager.Instance.SetUI(false);
         SoundManager.Instance.Stop();

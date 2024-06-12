@@ -12,7 +12,14 @@ public enum EScriptable
     KLAED_FIGHTER,
     KLAED_DREADNOUGHT,
     MOVEMENT_KAMIKAZE,
-    KLAED_SCOUT
+    KLAED_SCOUT,
+    MOVEMENT_CIRCUIT_TOP,
+    MOVEMENT_CIRCUIT_LEFT,
+    MOVEMENT_CIRCUIT_RIGHT,
+    NAIRAN_TORPEDO,
+    NAIRAN_DREADNOUGHT,
+    NAUTOLAN_FRIGATE,
+    NAUTOLAN_DREADNOUGHT
 }
 
 public class ScriptableManager : SingletonTemplate<ScriptableManager>
@@ -29,6 +36,13 @@ public class ScriptableManager : SingletonTemplate<ScriptableManager>
     [SerializeField] private ScriptableObject klaedFighter;
     [SerializeField] private ScriptableObject klaedDreadnought;
     [SerializeField] private ScriptableObject klaedScout;
+    [SerializeField] private ScriptableObject movementCircuitTop;
+    [SerializeField] private ScriptableObject movementCircuitLeft;
+    [SerializeField] private ScriptableObject movementCircuitRight;
+    [SerializeField] private ScriptableObject nairanTorpedo;
+    [SerializeField] private ScriptableObject nairanDreadnought;
+    [SerializeField] private ScriptableObject nautolanFrigate;
+    [SerializeField] private ScriptableObject nautolanDreadnought;
     #endregion
 
     #region Properties
@@ -62,6 +76,20 @@ public class ScriptableManager : SingletonTemplate<ScriptableManager>
             case EScriptable.KLAED_DREADNOUGHT: _result = klaedDreadnought;
                 break;
             case EScriptable.KLAED_SCOUT: _result = klaedScout;
+                break;
+            case EScriptable.MOVEMENT_CIRCUIT_TOP: _result = movementCircuitTop;
+                break;
+            case EScriptable.MOVEMENT_CIRCUIT_LEFT: _result = movementCircuitLeft;
+                break;
+            case EScriptable.MOVEMENT_CIRCUIT_RIGHT: _result = movementCircuitRight;
+                break;
+            case EScriptable.NAIRAN_TORPEDO: _result = nairanTorpedo;
+                break;
+            case EScriptable.NAIRAN_DREADNOUGHT: _result = nairanDreadnought;
+                break;
+            case EScriptable.NAUTOLAN_FRIGATE: _result = nautolanFrigate;
+                break;
+            case EScriptable.NAUTOLAN_DREADNOUGHT: _result = nautolanDreadnought;
                 break;
         }
 

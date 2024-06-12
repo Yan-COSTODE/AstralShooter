@@ -14,7 +14,10 @@ public class Destroyer : MonoBehaviour
 	private void OnTriggerEnter2D(Collider2D _other)
 	{
 		if (_other.GetComponent<Projectiles>() != null)
-			Destroy(_other.gameObject);
+		{
+			if (_other.GetComponent<Projectiles>().Type != EProjectileType.RAY)
+				Destroy(_other.gameObject);
+		}
 		else if (_other.GetComponent<Loot>() != null)
 			Destroy(_other.gameObject);
 		else if (_other.GetComponent<Asteroids>() != null)

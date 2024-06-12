@@ -72,8 +72,16 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7337383104656305867, guid: c96470db0c21375409baac22daa49f63, type: 3}
+      propertyPath: fGoToSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337383104656305867, guid: c96470db0c21375409baac22daa49f63, type: 3}
       propertyPath: goToPosition.y
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337383104656305867, guid: c96470db0c21375409baac22daa49f63, type: 3}
+      propertyPath: movementPattern
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 8000209314663162882, guid: c96470db0c21375409baac22daa49f63, type: 3}
       propertyPath: m_LocalPosition.x
@@ -147,8 +155,16 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7337383104656305867, guid: c96470db0c21375409baac22daa49f63, type: 3}
+      propertyPath: fGoToSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337383104656305867, guid: c96470db0c21375409baac22daa49f63, type: 3}
       propertyPath: goToPosition.y
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337383104656305867, guid: c96470db0c21375409baac22daa49f63, type: 3}
+      propertyPath: movementPattern
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 8000209314663162882, guid: c96470db0c21375409baac22daa49f63, type: 3}
       propertyPath: m_LocalPosition.x
@@ -222,8 +238,16 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7337383104656305867, guid: c96470db0c21375409baac22daa49f63, type: 3}
+      propertyPath: fGoToSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337383104656305867, guid: c96470db0c21375409baac22daa49f63, type: 3}
       propertyPath: goToPosition.y
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337383104656305867, guid: c96470db0c21375409baac22daa49f63, type: 3}
+      propertyPath: movementPattern
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 8000209314663162882, guid: c96470db0c21375409baac22daa49f63, type: 3}
       propertyPath: m_LocalPosition.x
@@ -297,8 +321,16 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7337383104656305867, guid: c96470db0c21375409baac22daa49f63, type: 3}
+      propertyPath: fGoToSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337383104656305867, guid: c96470db0c21375409baac22daa49f63, type: 3}
       propertyPath: goToPosition.y
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337383104656305867, guid: c96470db0c21375409baac22daa49f63, type: 3}
+      propertyPath: movementPattern
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 8000209314663162882, guid: c96470db0c21375409baac22daa49f63, type: 3}
       propertyPath: m_LocalPosition.x

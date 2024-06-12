@@ -20,6 +20,7 @@ public class EnemyBase : MonoBehaviour
 	#region Fields
 	[SerializeField] private EEnemy type;
 	[SerializeField] private EnemySpawner spawner;
+	[SerializeField] private EnemyObjectSpawner objectSpawner;
 	[Header("Stat")]
 	[SerializeField] private Stat health;
 	[SerializeField] private Stat shield;
@@ -56,6 +57,7 @@ public class EnemyBase : MonoBehaviour
 	
 	#region Properties
 	public Vector3 StartPos => startPos;
+	public Weapon Weapon => weapon;
 	public float Angle
 	{
 		get => fAngle;
@@ -192,6 +194,9 @@ public class EnemyBase : MonoBehaviour
 
 	    if (spawner)
 		    spawner.Destroy();
+	    if (objectSpawner)
+		    objectSpawner.Destroy();
+	    
 	    
 	    GetComponent<Collider2D>().enabled = false;
 	    engineVisual.SetActive(false);

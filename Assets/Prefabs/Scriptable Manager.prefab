@@ -54,3 +54,10 @@ MonoBehaviour:
   klaedFighter: {fileID: 11400000, guid: a9ed4a60574ad714192a0b3c9f244032, type: 2}
   klaedDreadnought: {fileID: 11400000, guid: 32b5e781f51d3f14295a3ff5940f7a8e, type: 2}
   klaedScout: {fileID: 11400000, guid: 54eb9fac8e5c1834d93bda1e21191648, type: 2}
+  movementCircuitTop: {fileID: 11400000, guid: caad6a362bce2894a819d0d7ff99dd92, type: 2}
+  movementCircuitLeft: {fileID: 11400000, guid: 1e111581ff0790440bffdee8d7383b15, type: 2}
+  movementCircuitRight: {fileID: 11400000, guid: 6989c57430ef4d94f9621788ddf72fa7, type: 2}
+  nairanTorpedo: {fileID: 11400000, guid: 40c334fb85a15134594051a15c454511, type: 2}
+  nairanDreadnought: {fileID: 11400000, guid: f461ea23be7d8614a81bb8e6e4028842, type: 2}
+  nautolanFrigate: {fileID: 11400000, guid: cc948eda35b652843adfc4fec0bea36e, type: 2}
+  nautolanDreadnought: {fileID: 11400000, guid: d2e0b235f5167d643a1ad5ee392d30ac, type: 2}

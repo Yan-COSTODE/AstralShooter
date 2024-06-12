@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1513357487542167684}
   - component: {fileID: 5730213940356155116}
   - component: {fileID: 1211147392427651703}
-  - component: {fileID: 1285671357947230073}
+  - component: {fileID: 6996501225254290111}
   m_Layer: 10
   m_Name: Nairan Rocket
   m_TagString: Untagged
@@ -145,9 +145,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1a8cb7a9d45a834faee510d3ca31c2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fFlySpeed: 6
+  fFlySpeed: 9
+  fRotationSpeed: 7.5
   bDestructible: 0
---- !u!95 &1285671357947230073
+  type: 1
+  fRayLifetime: 2
+--- !u!95 &6996501225254290111
 Animator:
   serializedVersion: 7
   m_ObjectHideFlags: 0
@@ -157,7 +160,7 @@ Animator:
   m_GameObject: {fileID: 3070468666335331847}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 3d3631003f665a443af23a7991551b9f, type: 2}
+  m_Controller: {fileID: 9100000, guid: 5a7e06fa369a6524b9f7a03ceac1a556, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

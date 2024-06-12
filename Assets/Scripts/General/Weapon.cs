@@ -100,7 +100,7 @@ public class Weapon : ScriptableObject
 	    if (iLevel == _level)
 		    return;
 
-	    int _diff = iLevel - _level;
+	    int _diff = _level - iLevel;
 	    iLevel = _level;
 	    if (_diff > 0)
 	    {
