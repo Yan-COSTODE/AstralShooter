@@ -18,7 +18,7 @@ __Astral Shooter__ is an exciting 2D space shooter game where players navigate t
 - __Multiple Levels:__ Progress through increasingly difficult levels.
 
 ## Installation
-To install the Unity Recorder, follow these steps:
+To install Astral Shooter, follow these steps:
 
 - __Clone the repository:__ `git clone https://github.com/yourusername/AstralShooter.git`
 - __Navigate to the project direction:__ `cd AstralShooter`
