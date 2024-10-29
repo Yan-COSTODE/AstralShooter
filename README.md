@@ -35,19 +35,17 @@ To install Astral Shooter, follow these steps:
 In Astral Shooter, you control a spaceship navigating through space, shooting down enemy ships, and dodging obstacles. Your objective is to survive as long as possible and achieve a high score.
 
 ## Controls
-
 - __Movement:__ Use WASD to move the spaceship.
 - __Shoot:__ Press the Spacebar to shoot.
 - __Pause:__ Press the Escape key to pause the game
 
 ## Configuration
-
 For the moment the options is disabled and will be implemented later on.
 
 ## Future Plans
 - __New Enemy Types:__ Introduce more challenging enemies with advanced behaviors.
-- __Multiplayer Mode:__ Inmplement a local co-op or online multiplayer mode.
+- __Multiplayer Mode:__ Implement a local co-op or online multiplayer mode.
 - __Story Mode:__ Develop a campaign mode with a storyline and missions.
 - __Additional Power-ups:__ Create more power-ups with unique abilites.
-- __Achievemens and Leaderbpard:__ Integrate achievements and online leaderboards.
+- __Achievements and Leaderboard:__ Integrate achievements and online leaderboards.
 - __Improved Graphics and Animations:__ Enhance the visual effects and animations.
